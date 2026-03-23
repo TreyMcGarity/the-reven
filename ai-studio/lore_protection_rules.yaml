@@ -1,0 +1,51 @@
+# lore_protection_rules.yaml
+# These rules override all agent behavior when lore is involved.
+
+rules:
+  rule_1_no_invention:
+    text: "No agent may invent, fabricate, or assume lore details."
+    applies_to: "all agents"
+    enforcement: >
+      If an agent needs a lore detail that doesn't exist in the canon store,
+      it must flag it as "[NEEDS_LORE]" and continue without it, or halt
+      and ask the human.
+
+  rule_2_no_gap_filling:
+    text: "Gaps in lore must be flagged, not filled."
+    applies_to: "all agents"
+    enforcement: >
+      When a gap is detected (e.g., "we don't know what magic system exists"),
+      the agent produces: "GAP: {description}. IMPACT: {what needs this info}.
+      DECISION NEEDED: {what the human should decide}."
+
+  rule_3_no_autonomous_canon:
+    text: "Only the human can promote information to canon status."
+    applies_to: "all agents, especially lore_organizer"
+    enforcement: >
+      The approval gate 'canon_promotion' must be passed. No agent may
+      write to docs/canon/ without human review.
+
+  rule_4_cite_sources:
+    text: "All lore references must cite the specific canon claim ID."
+    applies_to: "all agents that reference lore"
+    enforcement: >
+      When referencing lore, agents must include the claim_id from the
+      canon store. If they cannot find a claim_id, the information is
+      not canon and must not be treated as fact.
+
+  rule_5_contradictions_block:
+    text: "Contradictions with canon are blocking issues."
+    applies_to: "canon_verifier, all agents"
+    enforcement: >
+      If any output contradicts established canon, it cannot be approved
+      until the contradiction is resolved by the human. The human may
+      choose to update canon, update the output, or flag it for later.
+
+  rule_6_human_is_author:
+    text: "The human is the sole author of the game world."
+    applies_to: "all agents"
+    enforcement: >
+      Agents may ORGANIZE, CATEGORIZE, CHECK, and PRESENT lore.
+      Agents may NOT write, extend, interpret, or resolve lore.
+      When asked for creative input, agents may offer OPTIONS but must
+      frame them as "possibilities for your consideration" not facts.

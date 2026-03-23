@@ -1,0 +1,164 @@
+# master_orchestrator.yaml
+# Root orchestration file for the AI Game Development Studio.
+# This file defines the overall system, team registry, and phase management.
+# Agents read this file to understand their place in the system.
+
+system:
+  name: "AI Game Dev Studio"
+  version: "0.1.0"
+  owner: "solo-developer"
+  workflow: "repo-first"
+  description: >
+    Multi-agent orchestration system for a solo developer building a
+    3D fantasy game with AI assistance. All outputs are file-based
+    and reviewed through GitHub.
+
+# Current project state — updated as phases progress
+project_state:
+  current_phase: "phase_0_studio_setup"
+  engine: "undecided"  # Set after Phase 1 research
+  active_teams:
+    - research
+    - management
+  dormant_teams:
+    - development
+    - testing
+    - multiplayer_security
+  paused_teams: []
+
+# Phase definitions with entry/exit criteria
+phases:
+  phase_0_studio_setup:
+    name: "Studio Setup"
+    description: "Build the AI management system. No game work."
+    entry_criteria: "None — starting point"
+    exit_criteria:
+      - "All orchestration files created and reviewed"
+      - "Document ingestion pipeline tested with one sample doc"
+      - "Agent definitions reviewed and approved"
+    active_teams: [research, management]
+    human_approval_to_exit: true
+
+  phase_1_research:
+    name: "Research & Decisions"
+    description: "Lock engine, scope, and technical constraints."
+    entry_criteria: "Phase 0 approved"
+    exit_criteria:
+      - "Engine decision document approved"
+      - "Scope boundary document approved"
+      - "Vertical slice specification drafted"
+    active_teams: [research, management, verification]
+    human_approval_to_exit: true
+
+  phase_2_core_design:
+    name: "Core Design"
+    description: "Define the core gameplay loop and organize lore."
+    entry_criteria: "Engine decided. Phase 1 approved."
+    exit_criteria:
+      - "Core loop specification approved"
+      - "Vertical slice design document approved"
+      - "Initial lore canon established (at least world + 1 faction)"
+    active_teams: [research, management, verification, design]
+    human_approval_to_exit: true
+
+  phase_3_vertical_slice:
+    name: "Vertical Slice"
+    description: "Build one playable area with one loop."
+    entry_criteria: "Core design approved. Phase 2 approved."
+    exit_criteria:
+      - "Player can move in one region"
+      - "One combat encounter works"
+      - "One progression step works"
+      - "Human has playtested and approved the feel"
+    active_teams: [research, management, verification, design, development, testing]
+    human_approval_to_exit: true
+
+  phase_4_core_systems:
+    name: "Core Systems"
+    description: "Build all core gameplay systems."
+    entry_criteria: "Vertical slice approved. Phase 3 approved."
+    exit_criteria:
+      - "All core systems functional and tested"
+      - "Save/load working"
+      - "UI framework in place"
+    active_teams: [management, verification, design, development, testing]
+    human_approval_to_exit: true
+
+  phase_5_content:
+    name: "Content Expansion"
+    description: "Build out the world."
+    entry_criteria: "Core systems approved. Phase 4 approved."
+    exit_criteria:
+      - "Target content volume reached"
+      - "All lore delivered through gameplay"
+      - "Balance pass complete"
+    active_teams: [management, verification, design, development, testing]
+    human_approval_to_exit: true
+
+  phase_6_multiplayer:
+    name: "Multiplayer & Backend"
+    description: "Add networking and backend services."
+    entry_criteria: "Single-player content stable. Phase 5 approved."
+    exit_criteria:
+      - "Multiplayer functional at target player count"
+      - "Backend services deployed and tested"
+      - "Security audit passed"
+    active_teams: [all]
+    human_approval_to_exit: true
+
+  phase_7_polish:
+    name: "Testing & Polish"
+    description: "QA, performance, balance, UX polish."
+    entry_criteria: "Multiplayer stable. Phase 6 approved."
+    exit_criteria:
+      - "All critical bugs resolved"
+      - "Performance targets met"
+      - "Balance approved"
+      - "Release candidate build exists"
+    active_teams: [management, verification, development, testing]
+    human_approval_to_exit: true
+
+  phase_8_release:
+    name: "Release"
+    description: "Ship and support."
+    entry_criteria: "Release candidate approved. Phase 7 approved."
+    exit_criteria:
+      - "Game released"
+      - "Analytics active"
+      - "Post-launch plan exists"
+    active_teams: [all]
+    human_approval_to_exit: true
+
+# Team registry — points to team-specific pipeline files
+teams:
+  research:
+    pipeline: "pipelines/research_pipeline.yaml"
+    lead_agent: "engine_evaluator"
+  management:
+    pipeline: "pipelines/management_pipeline.yaml"
+    lead_agent: "scope_guardian"
+  verification:
+    pipeline: "pipelines/verification_pipeline.yaml"
+    lead_agent: "canon_verifier"
+  design:
+    pipeline: "pipelines/design_pipeline.yaml"
+    lead_agent: "mechanics_designer"
+  development:
+    pipeline: "pipelines/development_pipeline.yaml"
+    lead_agent: "code_generator"
+  testing:
+    pipeline: "pipelines/testing_pipeline.yaml"
+    lead_agent: "bug_hunter"
+  multiplayer_security:
+    pipeline: "pipelines/multiplayer_security_pipeline.yaml"
+    lead_agent: "network_architect"
+
+# Global rules all agents must follow
+global_rules:
+  - "Never invent or assume lore details. Use only canon-status documents."
+  - "Never increase project scope without Scope Guardian approval AND human approval."
+  - "All outputs are files committed to the repo. No ephemeral-only outputs."
+  - "When uncertain, ask the human. Do not guess."
+  - "Prefer the simplest solution that works for a solo developer."
+  - "Every feature proposal must pass the scope filter before any work begins."
+  - "Human approval is required for all items listed in approval_gates.yaml."

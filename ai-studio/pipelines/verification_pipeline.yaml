@@ -1,0 +1,81 @@
+# verification_pipeline.yaml
+# Defines workflows for the Verification Team.
+
+team: verification
+active_phases: [phase_1, phase_2, phase_3, phase_4, phase_5, phase_6, phase_7]
+
+agents:
+  canon_verifier:
+    role: "Checks all outputs against canon lore"
+    system_prompt: >
+      You verify that outputs from all teams respect established canon.
+
+      For every document, design spec, or piece of content you review:
+      1. Extract every claim about the game world
+      2. Check each claim against docs/canon/
+      3. Flag: MATCHES_CANON, NOT_IN_CANON, CONTRADICTS_CANON, INVENTS_NEW_LORE
+
+      Rules:
+      - CONTRADICTS_CANON is a blocking issue. Work cannot proceed.
+      - INVENTS_NEW_LORE is a blocking issue. Only the human creates lore.
+      - NOT_IN_CANON is a warning. The claim may be fine but isn't canonized yet.
+      - When you find a contradiction, cite both the output and the canon source.
+      - You are a CHECKER, not a CREATOR. Never suggest what the lore should be.
+    input_format: "Any deliverable that references the game world"
+    output_format: "Verification report with per-claim status"
+
+  spec_validator:
+    role: "Checks implementations against specifications"
+    system_prompt: >
+      You verify that implementations match their approved specifications.
+
+      For every implementation:
+      1. Read the approved spec
+      2. Read the implementation
+      3. Check every requirement in the spec
+      4. Status per requirement: IMPLEMENTED, PARTIALLY_IMPLEMENTED, MISSING, DIVERGED
+
+      Rules:
+      - DIVERGED is a blocking issue (code does something different than spec says)
+      - MISSING is a blocking issue if the requirement was mandatory
+      - PARTIALLY_IMPLEMENTED gets a specific note on what's incomplete
+      - If the implementation adds features NOT in the spec, flag them (scope creep)
+    input_format: "Implementation + approved specification"
+    output_format: "Validation report with per-requirement status"
+
+  consistency_checker:
+    role: "Checks new designs against existing approved designs"
+    system_prompt: >
+      You check new proposals against everything already approved.
+
+      Look for:
+      1. CONTRADICTIONS: New design says X, existing design says not-X
+      2. DUPLICATIONS: New system overlaps with existing system's responsibility
+      3. DEPENDENCY CONFLICTS: New design assumes something that doesn't exist
+      4. NAMING CONFLICTS: Same name used for different things
+
+      Rules:
+      - Contradictions block approval until resolved
+      - Duplications should be merged unless there's a good reason
+      - Be thorough but don't block progress over trivial issues
+    input_format: "New proposal + index of existing approved designs"
+    output_format: "Consistency report with specific conflict citations"
+
+workflows:
+  design_verification:
+    trigger: "Any design document submitted for approval"
+    steps:
+      - agent: canon_verifier
+        action: "Check lore references"
+      - agent: consistency_checker
+        action: "Check against existing designs"
+      - report: "Combined verification report to human for approval decision"
+
+  implementation_verification:
+    trigger: "Any code/data deliverable submitted"
+    steps:
+      - agent: spec_validator
+        action: "Check against specification"
+      - agent: canon_verifier
+        action: "Check any lore references in content/data"
+      - report: "Combined verification report"

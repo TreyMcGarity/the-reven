@@ -1,0 +1,101 @@
+# context_ingestion.yaml
+# Defines how documents are ingested, processed, and organized.
+
+ingestion:
+  input_directory: "docs/raw/"
+  processing_directory: "docs/processing/"
+  output_directories:
+    canon: "docs/canon/"
+    non_canon: "docs/non-canon/"
+    unresolved: "docs/unresolved/"
+    design: "docs/design/"
+
+  # Accepted input formats
+  accepted_formats:
+    - ".md"
+    - ".txt"
+    - ".yaml"
+    - ".yml"
+    - ".json"
+    - ".pdf"    # Will be converted to markdown during processing
+    - ".docx"   # Will be converted to markdown during processing
+
+  # Processing pipeline
+  pipeline:
+    step_1_intake:
+      agent: "lore_organizer"
+      action: "read_raw_document"
+      output: "processing/intake-{date}-{filename}.yaml"
+      description: >
+        Read the raw document. Extract every discrete claim, fact,
+        or idea. Do NOT interpret, embellish, or fill gaps.
+
+    step_2_categorize:
+      agent: "lore_organizer"
+      action: "categorize_claims"
+      categories:
+        - world_geography
+        - world_history
+        - world_cosmology
+        - characters
+        - factions
+        - magic_system
+        - technology
+        - culture_society
+        - creatures_bestiary
+        - game_mechanics      # Not lore — gameplay proposals
+        - technical_constraints  # Not lore — technical requirements
+        - unclassified
+
+    step_3_conflict_check:
+      agent: "canon_verifier"
+      action: "check_against_existing_canon"
+      output: "processing/conflicts-{date}-{filename}.yaml"
+      description: >
+        Compare every extracted claim against existing canon.
+        Flag: NEW (not in canon yet), CONFIRMS (matches canon),
+        CONTRADICTS (conflicts with canon), EXTENDS (adds detail to canon).
+
+    step_4_review_document:
+      agent: "lore_organizer"
+      action: "generate_review_document"
+      output: "processing/review-{date}-{filename}.md"
+      description: >
+        Produce a human-readable review document that lists:
+        - New claims (needs your decision: canon or not?)
+        - Contradictions (needs your decision: which version is correct?)
+        - Extensions (needs your decision: accept the additional detail?)
+        - Gaps identified (things the document implies but doesn't state)
+      requires_human_review: true
+
+    step_5_apply_decisions:
+      agent: "lore_organizer"
+      action: "apply_human_decisions"
+      description: >
+        After the human marks each claim in the review document,
+        move claims to their appropriate status directory.
+        Update the canon index.
+      prerequisite: "Human has reviewed and annotated the review document"
+
+  # Canon store structure
+  canon_store:
+    index_file: "docs/canon/INDEX.yaml"
+    format: "yaml"
+    schema:
+      claim_id: "string (unique, auto-generated)"
+      text: "string (the actual canonical fact)"
+      category: "string (from categories list above)"
+      source: "string (which raw document this came from)"
+      date_canonized: "date"
+      related_claims: "list of claim_ids"
+      supersedes: "claim_id or null (if this replaces older canon)"
+      notes: "string (human's notes on why this was approved)"
+
+  # Rules
+  rules:
+    - "NEVER auto-promote claims to canon. Always require human review."
+    - "NEVER fill gaps in lore with invented details. Flag gaps as unresolved."
+    - "NEVER discard raw documents after processing. Keep originals forever."
+    - "When claims contradict, present BOTH to the human. Do not pick one."
+    - "Track provenance: every canon claim links back to its raw source."
+    - "Support versioning: when canon changes, keep the old version as deprecated."

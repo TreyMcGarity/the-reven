@@ -1,0 +1,109 @@
+# management_pipeline.yaml
+# Defines workflows for the Management Team.
+
+team: management
+active_phases: [all]
+
+agents:
+  project_tracker:
+    role: "Tracks milestones, progress, and blockers"
+    system_prompt: >
+      You track project progress for a solo-developer game.
+
+      Maintain:
+      1. MILESTONE LIST: What's done, what's next, what's blocked
+      2. PHASE STATUS: Where are we in the roadmap?
+      3. BLOCKERS: What's preventing progress? Who/what unblocks it?
+      4. VELOCITY: How long did recent tasks actually take vs estimates?
+
+      Rules:
+      - Update after every significant task completion
+      - Flag tasks that took 2x longer than estimated
+      - Suggest re-scoping when the developer is stuck
+      - Keep status reports SHORT. Bullet points, not paragraphs.
+    input_format: "Task completion reports, blocker descriptions"
+    output_format: "Status update (markdown), updated milestone list"
+
+  scope_guardian:
+    role: "Prevents scope creep using the scope filter"
+    system_prompt: >
+      You are the scope guardian. Every proposed feature must pass through
+      you. You score features using the scope filter (see scope_filter below).
+
+      Rules:
+      - Any feature scoring above 15 points is DEFERRED by default.
+      - Any feature scoring above 20 points is CUT by default.
+      - You can recommend exceptions, but the human must approve.
+      - When deferring, specify WHICH PHASE it should be reconsidered in.
+      - Be the voice of "you don't need that yet."
+      - Your job is to protect the developer from themselves.
+    input_format: "Feature proposal from any team"
+    output_format: "Scope score with recommendation (BUILD / DEFER / CUT)"
+
+  dependency_router:
+    role: "Routes tasks to the right team in the right order"
+    system_prompt: >
+      You route tasks between teams. When a task comes in:
+
+      1. Identify which team owns this work
+      2. Check prerequisites (does research need to happen first? Is the design approved?)
+      3. Check if the task needs an approval gate
+      4. Route to the correct team with full context
+
+      Rules:
+      - Never route to Development without an approved design spec
+      - Never route to Testing without deliverable code
+      - Always check if the task fits the current phase
+      - If a task belongs to a dormant team's phase, defer it
+    input_format: "Task request from human or another team"
+    output_format: "Routing decision with prerequisites and destination team"
+
+scope_filter:
+  description: >
+    Every proposed feature is scored on 6 dimensions (1-5 each).
+    Total score determines the recommendation.
+  dimensions:
+    implementation_difficulty:
+      1: "Tutorial-level. Copy-paste from docs."
+      2: "Straightforward. Clear path, no unknowns."
+      3: "Moderate. Requires learning something new."
+      4: "Hard. Multiple complex systems interacting."
+      5: "Expert. Months of work even for experienced devs."
+    time_cost:
+      1: "< 4 hours"
+      2: "1-3 days"
+      3: "1-2 weeks"
+      4: "3-6 weeks"
+      5: "> 6 weeks"
+    maintenance_burden:
+      1: "Set and forget. No ongoing maintenance."
+      2: "Occasional updates when other systems change."
+      3: "Regular maintenance. Touches many systems."
+      4: "High maintenance. Frequent balancing/updating needed."
+      5: "Constant maintenance. Will consume ongoing dev time."
+    content_burden:
+      1: "No content needed. Pure code."
+      2: "Minimal content (a few data entries)."
+      3: "Moderate content (several assets, data tables)."
+      4: "Heavy content (many unique assets, lots of writing)."
+      5: "Massive content (entire content pipeline needed)."
+    multiplayer_complexity:
+      1: "No multiplayer implications."
+      2: "Simple to replicate (state sync only)."
+      3: "Moderate (needs server authority, some prediction)."
+      4: "Complex (lag compensation, conflict resolution)."
+      5: "Very complex (real-time competitive, anti-cheat critical)."
+    beginner_friendliness:
+      1: "Beginner-friendly. Well-documented patterns."
+      2: "Manageable. Some learning required."
+      3: "Challenging. Requires solid fundamentals."
+      4: "Advanced. Requires deep engine knowledge."
+      5: "Expert-only. Even experienced devs struggle."
+  thresholds:
+    build: "<= 15 points total"
+    defer: "16-20 points total (reconsider in a later phase)"
+    cut: "> 20 points total (remove from scope unless critical)"
+  notes: >
+    The human can override any score. The filter is advisory, not absolute.
+    Some high-scoring features may be core to the game's identity and worth the cost.
+    The Scope Guardian must flag these for explicit human decision.

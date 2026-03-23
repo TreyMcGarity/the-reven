@@ -1,0 +1,95 @@
+# approval_gates.yaml
+# Defines every decision point that REQUIRES human approval.
+# Agents must not proceed past these gates without explicit sign-off.
+
+approval_gates:
+
+  # === LORE & CANON ===
+  canon_promotion:
+    description: "Promoting any claim from unresolved/draft to canon status"
+    required_approver: "human"
+    bypass_allowed: false
+    notes: "No agent may declare something canon. Only the human can."
+
+  canon_modification:
+    description: "Changing or deprecating existing canon"
+    required_approver: "human"
+    bypass_allowed: false
+
+  lore_interpretation:
+    description: "Interpreting ambiguous lore in a way that implies new facts"
+    required_approver: "human"
+    bypass_allowed: false
+    notes: "If lore is ambiguous, flag it as unresolved. Do not resolve it."
+
+  # === SCOPE ===
+  scope_increase:
+    description: "Adding any feature, system, or content not in the current phase plan"
+    required_approver: "human"
+    bypass_allowed: false
+    prerequisite: "Must pass scope_filter with score <= 15"
+
+  scope_deferral:
+    description: "Moving a planned feature to a later phase"
+    required_approver: "human"
+    bypass_allowed: false
+
+  scope_cut:
+    description: "Removing a feature entirely from the project"
+    required_approver: "human"
+    bypass_allowed: false
+
+  # === TECHNICAL ===
+  engine_choice:
+    description: "Selecting or changing the game engine"
+    required_approver: "human"
+    bypass_allowed: false
+
+  new_dependency:
+    description: "Adding any external library, plugin, or paid service"
+    required_approver: "human"
+    bypass_allowed: false
+
+  architecture_change:
+    description: "Changing core system architecture after Phase 3"
+    required_approver: "human"
+    bypass_allowed: false
+
+  # === DESIGN ===
+  mechanic_approval:
+    description: "Approving a new gameplay mechanic for implementation"
+    required_approver: "human"
+    bypass_allowed: false
+
+  system_design_approval:
+    description: "Approving a system design document for implementation"
+    required_approver: "human"
+    bypass_allowed: false
+
+  economy_values:
+    description: "Approving progression curves, reward values, balance targets"
+    required_approver: "human"
+    bypass_allowed: false
+
+  # === PHASE MANAGEMENT ===
+  phase_transition:
+    description: "Moving from one phase to the next"
+    required_approver: "human"
+    bypass_allowed: false
+    prerequisite: "All exit criteria for current phase must be met"
+
+  # === MULTIPLAYER ===
+  network_model:
+    description: "Choosing the networking model (dedicated server, P2P, etc.)"
+    required_approver: "human"
+    bypass_allowed: false
+
+  backend_stack:
+    description: "Choosing backend technology stack"
+    required_approver: "human"
+    bypass_allowed: false
+
+  third_party_service:
+    description: "Adopting any third-party online service"
+    required_approver: "human"
+    bypass_allowed: false

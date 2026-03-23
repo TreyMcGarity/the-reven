@@ -1,0 +1,81 @@
+# vertical-slice-spec.yaml
+# The smallest practical first buildable version of the game.
+# This is a TEMPLATE — fill in lore-specific details after canon is established.
+
+vertical_slice:
+  name: "The First Region"
+  target_playtime: "15-30 minutes"
+  purpose: "Prove the core loop is fun. Everything else comes after."
+
+  region:
+    size: "Small — roughly 500m x 500m explorable area"
+    composition:
+      - "One hub area (safe zone, quest giver, merchant)"
+      - "One combat zone (3-5 encounter points)"
+      - "One point of interest (lore delivery, optional exploration reward)"
+    art_quality: "Prototype. Asset store / free assets. Grey-box where needed."
+    lore_delivery: "Environmental only for now (signs, ruins, objects). No cutscenes."
+
+  player_character:
+    movement: "Walk, run, jump. Third-person camera."
+    combat: "One melee attack. One dodge/block. Health bar."
+    interaction: "Talk to NPCs (simple dialogue UI). Pick up items."
+    progression: "Gain XP from kills. Level up once (feel the power increase)."
+    inventory: "Collect 3-5 item types. Equip one weapon."
+    notes: "No character creation. No skill trees. No crafting. Not yet."
+
+  enemy_faction:
+    name: "[NEEDS_LORE: enemy faction name from canon]"
+    enemy_types:
+      basic_melee:
+        description: "Walks toward player, attacks. Low HP. Dies in 2-3 hits."
+      basic_ranged:
+        description: "Stands at range, throws projectile. Fragile. Dies in 1-2 hits."
+    count_per_encounter: "2-4 enemies"
+    behavior: "Simple state machine: Idle → Detect → Chase → Attack → Die"
+    boss: "None. Not in vertical slice."
+
+  gameplay_loop:
+    description: >
+      Player spawns at hub → talks to NPC who gives simple objective →
+      goes to combat zone → fights enemies → earns XP and loot →
+      returns to hub → talks to NPC → levels up → gets next objective →
+      repeats with slightly harder encounters
+    core_actions:
+      - "Explore the region"
+      - "Fight enemies"
+      - "Complete a simple objective (kill X, find Y, reach Z)"
+      - "Return to hub for reward"
+      - "Level up and feel stronger"
+
+  progression_path:
+    start: "Level 1. Basic weapon. No abilities."
+    end: "Level 3. Slightly better weapon. Noticeably stronger."
+    curve: "3-4 encounters per level. ~10 minutes per level."
+
+  must_have:
+    - "Third-person character controller (move, jump, camera)"
+    - "Basic melee combat (attack, take damage, die, respawn)"
+    - "2 enemy types with simple AI"
+    - "XP and leveling (numbers go up, player gets stronger)"
+    - "Simple inventory (pick up weapon, equip it)"
+    - "One NPC with dialogue (text box, 2-3 lines)"
+    - "Basic HUD (health, XP bar, level)"
+    - "Pause menu (resume, quit)"
+
+  nice_to_have:
+    - "Sound effects for combat"
+    - "Basic particle effects (hit sparks)"
+    - "Minimap or compass"
+
+  explicitly_excluded:
+    - "Character creation or customization"
+    - "Skill trees or ability systems"
+    - "Crafting"
+    - "Multiple regions or fast travel"
+    - "Multiplayer"
+    - "Save/load (just restart on death for now)"
+    - "Cutscenes or voice acting"
+    - "Quest log UI"
+    - "Settings menu (resolution, keybinds, etc.)"
+    - "Any online features"
