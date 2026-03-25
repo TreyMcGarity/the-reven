@@ -1,5 +1,5 @@
 # THE REVEN — Current Consistent State
-**Last Updated: 2026-03-23**
+**Last Updated: 2026-03-24**
 **Status: Working reference compiled from all documents + human decisions**
 
 This file consolidates the most current and consistent information across all source documents and human decisions. Use this as the single source of truth until formal canon is established.
@@ -34,17 +34,20 @@ This file consolidates the most current and consistent information across all so
 
 | # | Name | Domain | Notes |
 |---|---|---|---|
-| 1 | Vaeya | Allmother, Matriarchy | Leader of spirits. Housed in the Sun. Created first mortals. |
-| 2 | Novastra (Nova) | Light, Stars | Star goddess. Created star shield. Led Sentries. Carries a glaive. |
-| 3 | Eyra | Virtue | Silent, mysterious. Wears a cowl. |
-| 4 | Amae | Order | Devoted to balance. Only Divine who wanted Umbra released post-war. |
-| 5 | Mortyn | Intellect | Most intelligent Divine. Designed Mayrn architecture and Mana. |
-| 6 | Kolvari | Elements | Storms, oceans, wind, fire, ice. Childish/joyful. Earthen Divine. |
-| 7 | Platgree | Land | Created Earth and Moon. Shrank after Moon creation. Earthen Divine. |
-| 8 | Tolen | Continuance, Time | Created Time. Controls realm access. |
-| 9 | Stellan | Wildlife | Wild Divine, prefers animal forms. Fights as stag. Earthen Divine. |
-| 10 | Irial | Nature | Silent, adored peaceful spirits. Weeping goddess. Earthen Divine. |
-| 11 | Leawu | Idle | "Let things freely change." Known for sleeping. Poisoned by Empra. |
+| 1 | Vaeya | Allmother, Matriarchy | Astral Divine. Leader of spirits. Housed in the Sun. Created first mortals. |
+| 2 | Novastra (Nova) | Light, Stars | Astral Divine. Star goddess. Created star shield. Leads Sentry defense. Carries a glaive. Was WOUNDED sealing the rift during Shadow's Reach (NOT sacrificed/killed). Remains one of the most powerful Divines. |
+| 3 | Eyra | Virtue | Astral Divine. Silent, mysterious. Wears a cowl. |
+| 4 | Amae | Order | Astral Divine. Devoted to balance. Only Divine who wanted Umbra released post-war. |
+| 5 | Mortyn | Intellect | Astral Divine. Most intelligent Divine. Designed Mayrn architecture and Mana. |
+| 6 | Kolvari | Elements | Earthen Divine. Storms, oceans, wind, fire, ice. Childish/joyful. |
+| 7 | Platgree | Land | Earthen Divine. Created Earth and Moon. Shrank after Moon creation. |
+| 8 | Tolen | Continuance, Time | Astral Divine. Created Time. Controls realm access. |
+| 9 | Stellan | Wildlife | Earthen Divine. Wild nature, prefers animal forms. Fights as stag. |
+| 10 | Irial | Nature | Earthen Divine. Silent, adored peaceful spirits. Weeping goddess. |
+| 11 | Leawu | Idle | Astral Divine. "Let things freely change." Known for sleeping. Poisoned by Empra. |
+
+**7 Astral Divines** (stay in Solthara): Vaeya, Novastra, Eyra, Amae, Mortyn, Tolen, Leawu
+**4 Earthen Divines** (visit/stay in Subthara): Kolvari, Platgree, Stellan, Irial
 
 Earlier references to "nine Divines" in source docs are incorrect. There are **eleven**.
 
@@ -54,37 +57,68 @@ Earlier references to "nine Divines" in source docs are incorrect. There are **e
 
 ### Inil (formerly "Nil")
 - First people, devout and regal. Capital: Inildon (becomes Pearl City in TA).
+- Traditional kingdom in FA, tech-advanced by TA through Dae.
 - Elegant steel armor with celestial engravings. Favor swords, spears, halberds.
 - Gender roles: women own homes/lead government, men own companies/community work.
-- Army: The Inilvar. Commander: Quenla.
+- Army: The **Inilvan** (not "Inilvar"). Commander: Quenla.
+- The original Inilvan fought the Nilvar in the First Age. After defeat at Amanar, it was disbanded. Veterans became the **Old Guard** (relocated south of Inildon). A new Inilvan was formed in Inildon including mages.
+- "Minilta" is **REMOVED** — the legendary army was simply the original Inilvan.
 - Region: Inilgree.
 
 ### Dosram
-- Northern separatists. Capital: Donrid (destroyed during Shadow Conquest).
+- Political separatists FIRST. Also cunning business people.
+- Capital: Donrid (destroyed during Shadow Conquest; attacked at the beginning of the game FA 10840).
 - Democratic republic with elected Tutors. Founded by Rien Highwind.
-- Hardy, honor-bound. Heavy furs and iron armor.
+- Land scarred by the Shadow Conquest, people shaped by surviving it. Classic hardy badasses.
+- Heavy furs and iron armor.
+- Future: currency/business skill tree, possible mini-games, game-level casino.
 - **Deferred to post-launch expansion** for game purposes.
 
 ### Enul
 - Eastern mystics, hunters, druids. Main community: Lonun.
+- Silent rangers, hunters, huntsmen. **NOT pacifists** — quiet, skilled, lethal when needed.
+- Druid magic after the Well of Mana. Love and respect nature.
+- Defend themselves during Dred **Night Raids**.
 - Underground homes in grassy mounds. Natural materials, traps, secrecy.
 - Led by Greysong family ("Young Eld" title).
 
 ### Wend
 - Southern pirates. Capital: Wenyoreck (at Wendo Bay).
 - Chaotic neutral. Black-sailed vessels. "Strongest captain wins."
+- Currency-driven, charismatic salesmen. Commerce backbone of Mayrn.
+- Cities are lawless, chaotic. Strongest captain + crew runs the show.
+- Frequent mutinies. The longest-running head-captain only lasted a few months.
+- Inil aristocrats (business owners) trade heavily with them.
 
 ### Thuun
 - Reclusive eastern lords. Isle of Thuunrow.
-- Most technologically advanced people. Polished steel plate with glowing runes.
+- Think **Warhammer 40K Astartes**. Definition of lawful good. Powerful, skilled.
+- Most successful and uncorruptable race (NOT most tech-advanced — that is Inil in TA).
+- Polished steel plate with glowing runes.
+- Thuunrow is a perfect society. Banishment = Thuunrath.
 - Quadite council (People/Place/Product/Passed).
 - Barely involved in world affairs until recruited by Dae in TA.
 
 ### Dred
-- Shadow-mutated creatures spawned from the Nullith (dark tree planted by Umbra).
+- Coagulated and hardened saps from the Nullith tree. **NOT human** — sap-spawn that evolved to mimic human traits.
 - Bleed black. Originally blind, cannibalistic cave dwellers. Adapted human traits over millennia.
+- Species adapts quickly. Older versions look bugish/creature-esque. Newer ones humanoid with wings.
 - Types: Minions, Soldiers, Tankers, Woldreds, Dregs, Draiths, Dralls, Draids, Draiders.
 - Fortresses: Central (Barrenlands), Western (Donrid), Eastern (hidden until TA).
+
+### Nilvar (Corrupted Inil)
+- Corrupted Inil people from the **Dark Forest** south of Inilgree and Enulgree.
+- Serve Umbra willingly. Intelligent but small population.
+- Operate independently from the Dred army.
+- Domain of dark spirit **Em'Faira**. Corruption from ore deep in a mountain + dark spirit influence.
+- Stronghold: **Nildan**, a city deep within the dark forest.
+- Weakened but still active during game era (FA 10840-10843) after the destruction of Amanar.
+- Sometimes appear in the shared forest between Inil and Enul lands.
+
+### Old Guard (Disbanded Inilvan Veterans)
+- Disbanded Inilvan veterans who refused to serve alongside mages after the defeat at Amanar.
+- Relocated south of Inildon.
+- Represent the original legendary Inilvan before it was reformed with mages.
 
 ---
 
@@ -94,7 +128,7 @@ Earlier references to "nine Divines" in source docs are incorrect. There are **e
 | Name | Role |
 |---|---|
 | Regina Vaena Heavendawn | First Queen of Inil |
-| Quenla | Commander of the Inilvar |
+| Quenla | Commander of the Inilvan. Dies on Mayrn, becomes a named Sentry in Solthara (retains identity, unlike identity-less sentries who were never mortal). |
 | Morhri | Lead strategist, Inil Advisory Council |
 | Madam Caia **Morningsong** | Leader of Amanor |
 | Madam Wilo Lightbane | Leader of River's Bend |
@@ -172,6 +206,10 @@ Earlier references to "nine Divines" in source docs are incorrect. There are **e
 - **Warlocks**: Dark/conjuration focus. Summoner's Sect was the largest faction.
 - **Witches**: Dark/blood focus. Undrea was the first and most powerful.
 
+### Magic Rules
+- **Mana in the blood extends mortal lifespan.** Stronger mages and darker magic users live longer. Normal mortal lifespan is 100+ years; mana extends this significantly. This explains the longevity of Zyrax (3,000+ years), Undrea, Khathrey, the Shades, and other long-lived mages.
+- **The Arcanem** is the canonical name for the premier school of magic. Local schools of magic exist in various cities/towns. "College of Magic" and "Academy of Magical Arts" are informal references to the same institution.
+
 ---
 
 ## GAME DESIGN — CURRENT VISION
@@ -212,6 +250,34 @@ Earlier references to "nine Divines" in source docs are incorrect. There are **e
 - **Dosramgree**: Deferred to first expansion (neutral zone concept).
 - **Guilds/Houses**: Deferred, possibly cut.
 
+### Main Questline Path (Revised 2026-03-24)
+1. **Inildon** (start)
+2. **River's Bend** (frontline against Dred)
+3. **Arcanem** (magic discovery)
+4. **Crossroads** (commerce/crime families)
+5. **Ashpeak** (smithing introduction, Dosram connection)
+6. **Dosram up to Donrid** (northern territory)
+7. **South to tallest point** (speak to Platgree)
+8. **Southeast to Enul**
+9. **Barrenlands** (Summoner's Sect -> Central Dred Fortress = finale)
+
+### Dungeon System (5 confirmed dungeons)
+| # | Name/Location | Level | Theme | Boss |
+|---|---|---|---|---|
+| 1 | Dark Forest (near River's Bend) | 10 | Nilvar cult, corrupted wildlife/bugs | Giant spider + resurrected Nilvar soldier |
+| 2 | Amanar | 20 | Evil spirit, death/drain | Spirit that drains life — kill before drained |
+| 3 | NW Dred Fortress (Dosram) | 30 | Dark, demonic magic/creatures | Dred-themed |
+| 4 | Summoner's Sect | TBD | Warlock, demons, conjuration, dark spirits | Conjuration-themed |
+| 5 | Central Dred Fortress | Final | Concludes main story | Final boss |
+
+Dungeon rules: 30-60 minutes per run. Encounter layout: small -> medium -> big boss. Social areas at dungeon entrances for group forming. Solo-able OR co-op with 2-4 players.
+
+### Dynamic World State
+- NPCs react to world events as the player progresses.
+- Cities change state based on story progression.
+- News of events (Donrid attack, Dred movements, faction responses) spreads through NPC dialogue.
+- Similar to Skyrim's Civil War questline where cities change based on quest progress.
+
 ### Vertical Slice
 - **Location**: River's Bend
 - **Content**: Basic melee combat, one Dred camp dungeon with mini-boss, magic discovery sequence
@@ -249,9 +315,12 @@ Earlier references to "nine Divines" in source docs are incorrect. There are **e
 ## WORLD DETAIL: GEOGRAPHY CLARIFICATIONS
 
 - **Onyet**: City by Lake Oyet (distinct location).
-- **Amanar**: City near Amanor, close to Inildon (different from Onyet).
+- **Amanar**: City near Amanor, close to Inildon (different from Onyet). Destroyed by Nilvar onslaught (recent history before game era).
 - **Inilgree** is the canonical region name (renamed from Nilgree).
 - **Revenant Stone** is the canonical name for the artifact. All references to "oblivion stone" are incorrect.
+- **The Dark Forest**: South of both Inilgree and Enulgree. Domain of dark spirit Em'Faira. Home of the Nilvar.
+- **Nildan**: City deep within the dark forest. Nilvar stronghold.
+- **The southern peninsula**: Tip of the continent south of the dark forest. Equidistant from Inildon and Wenyoreck. Settled by people who revolted against magic.
 
 ---
 
@@ -287,6 +356,23 @@ The game should embody:
 
 1. Cassandra's role in Books 2-3 beyond her death (integration into existing Book 2 outline needed)
 
-## RESOLVED THIS SESSION
+## RESOLVED 2026-03-24
 
-All major contradictions, spellings, and naming decisions have been resolved. See decision files in docs/processing/ for full record.
+- **Inilvar -> Inilvan**: Army rename applied everywhere. "Minilta" removed.
+- **Nilvar**: New faction — corrupted Inil from the dark forest. Independent from Dred.
+- **Old Guard**: Disbanded Inilvan veterans who refused mages. Relocated south of Inildon.
+- **Dark Forest, Nildan, southern peninsula**: New geographic locations added.
+- **Faction enrichments**: Dosram (political separatists + scarred by Shadow Conquest), Enul (NOT pacifists, silent rangers, Night Raids), Wend (lawless cities, frequent mutinies), Thuun (WH40K Astartes, lawful good, most successful/uncorruptable), Dred (NOT human, sap-spawn).
+- **Divine classification**: 7 Astral (Solthara) + 4 Earthen (Subthara).
+- **Novastra**: Wounded not sacrificed. Leads Sentry defense.
+- **Quenla**: Dies on Mayrn, becomes named Sentry in Solthara.
+- **Mana-extends-life rule**: All mages live longer; stronger/darker = longer.
+- **The Arcanem**: Canonical name for premier school of magic.
+- **SA 0 = Linear 10,853**: Timeline math confirmed (Option B).
+- **Amanar destruction**: Recent history. Nilvar onslaught. Triggers Inilvan disbanding.
+- **Donrid attack**: At game start (FA 10840). Player learns through NPC dialogue.
+- **Dynamic world state**: NPCs react to events, cities change with story progression.
+- **Quest path revised**: Inildon -> River's Bend -> Arcanem -> Crossroads -> Ashpeak -> Dosram/Donrid -> Platgree -> Enul -> Barrenlands.
+- **5 dungeons confirmed**: Dark Forest (lv10), Amanar (lv20), NW Dred Fortress (lv30), Summoner's Sect (TBD), Central Dred Fortress (final).
+
+See decision files in docs/processing/ for full record.

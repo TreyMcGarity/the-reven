@@ -1,11 +1,11 @@
 # INDEX.yaml
 # Master index of all canonized lore.
 # Last updated: 2026-03-24
-# Total claims: 247
+# Total claims: 257
 
-version: 2
+version: 3
 last_updated: "2026-03-24"
-total_claims: 247
+total_claims: 257
 
 files:
   - path: "world/cosmology.yaml"
@@ -16,37 +16,40 @@ files:
   - path: "world/divines.yaml"
     claims: 11
     id_range: "CANON-DIV-001 to CANON-DIV-011"
-    covers: "All eleven Divines — names, domains, traits, actions"
+    covers: "All eleven Divines — names, domains, traits, actions. Astral/Earthen classification added 2026-03-24. Novastra wounded not sacrificed."
 
   - path: "world/geography.yaml"
-    claims: 58
-    id_range: "CANON-GEO-001 to CANON-GEO-058"
-    covers: "All continents, cities, landmarks, rivers, lakes, fortresses, navigation"
+    claims: 61
+    id_range: "CANON-GEO-001 to CANON-GEO-061"
+    covers: "All continents, cities, landmarks, rivers, lakes, fortresses, navigation. Dark Forest, Nildan, southern peninsula added 2026-03-24."
 
   - path: "world/history.yaml"
-    claims: 31
-    id_range: "CANON-HIST-001 to CANON-HIST-031"
-    covers: "Full timeline from Before the Ages through Third Age. Linear year math noted as inconsistent."
+    claims: 34
+    id_range: "CANON-HIST-001 to CANON-HIST-034"
+    covers: "Full timeline from Before the Ages through Third Age. SA 0 = Linear 10,853 confirmed. Amanar destruction, new Inilvan formation, Donrid attack added 2026-03-24."
 
   - path: "factions/factions.yaml"
-    claims: 57
-    id_range: "CANON-FAC-001 to CANON-FAC-057"
-    covers: "All 18 factions — Inil, Dosram, Enul, Wend, Thuun, Dred, Ralli'Omai, Mecca-Hein, Ven'Altir, Thuunrath, Hallowed Knights, Sentries, Summoner's Sect, Shades, Chaos Empire, Immorals, ADMIN, Array/Arra"
+    claims: 59
+    id_range: "CANON-FAC-001 to CANON-FAC-059"
+    covers: "All 20 factions — Inil, Dosram, Enul, Wend, Thuun, Dred, Ralli'Omai, Mecca-Hein, Ven'Altir, Thuunrath, Hallowed Knights, Sentries, Summoner's Sect, Shades, Chaos Empire, Immorals, ADMIN, Array/Arra, Nilvar, Old Guard"
 
   - path: "magic/magic_system.yaml"
-    claims: 14
-    id_range: "CANON-MAG-001 to CANON-MAG-014"
-    covers: "Well of Mana, 3 tiers, 10 schools, magic user types, rules"
+    claims: 16
+    id_range: "CANON-MAG-001 to CANON-MAG-016"
+    covers: "Well of Mana, 3 tiers, 10 schools, magic user types, rules. Mana-extends-life rule and Arcanem naming clarified 2026-03-24."
 
   - path: "characters/characters.yaml"
     claims: 44
     id_range: "CANON-CHAR-001 to CANON-CHAR-044"
-    covers: "All named characters across FA, SA, TA eras plus villains. Includes Cassandra's approved arc."
+    covers: "All named characters across FA, SA, TA eras plus villains. Includes Cassandra's approved arc. Quenla fate updated 2026-03-24."
 
 naming_conventions:
-  - "Inil (not Nil), Inildon (not Nildon), Inilgree (not Nilgree), Inilvar (not Nilvar), Inilium (not Nilium), Inilar (not Nilar)"
+  - "Inil (not Nil), Inildon (not Nildon), Inilgree (not Nilgree), Inilvan (not Inilvar, not Nilvar), Inilium (not Nilium), Inilar (not Nilar)"
+  - "Inilvan (the Inil army — not Inilvar, not Minilta). Minilta is REMOVED."
+  - "Nilvar = corrupted Inil from the dark forest (evil faction, NOT the Inil army)"
   - "Revenant Stone (not oblivion stone)"
   - "Eleven Divines (not nine)"
   - "Mortyn (not Mortyki), Quenla (not Qenla), Morhri (not Mohri), Zaixthar (not Zaithar), Wen Lightbane (not Win)"
   - "Wild (not Animal) for the Nature magic school"
   - "Leia = Lea the Primuma (same person)"
+  - "The Arcanem (proper name for the premier school of magic; 'College of Magic' and 'Academy of Magical Arts' are informal)"

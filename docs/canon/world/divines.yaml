@@ -1,6 +1,11 @@
 # THE REVEN — Canonical Divines
 # Source: Characters_Lands.docx via CURRENT_STATE.md
 # All eleven Divines of Solthara (the First Realm)
+# Updated: 2026-03-24 — Added Astral/Earthen classification, updated Novastra (wounded not sacrificed)
+#
+# Classification (confirmed 2026-03-24):
+#   7 Astral Divines (stay in Solthara): Vaeya, Novastra, Eyra, Amae, Mortyn, Tolen, Leawu
+#   4 Earthen Divines (visit/stay in Subthara): Kolvari, Platgree, Stellan, Irial
 
 claims:
 
@@ -12,18 +17,20 @@ claims:
     source: "Characters_Lands.docx"
     date_canonized: "2026-03-23"
     related_claims: []
-    notes: "First and foremost of the eleven Divines. Leader of spirits, housed in the Sun, creator of the first mortals."
+    notes: "Astral Divine. First and foremost of the eleven Divines. Leader of spirits, housed in the Sun, creator of the first mortals."
 
   - claim_id: CANON-DIV-002
     text: >
       Novastra, also known as Nova, is the Divine of Light and Stars.
-      She is the star goddess who created the star shield. She led the Sentries
-      and carries a glaive as her weapon.
+      She is the star goddess who created the star shield. She leads the Sentries
+      and the Sentry defense in Solthara. She carries a glaive as her weapon.
+      She was wounded sealing the rift during Shadow's Reach — NOT sacrificed or
+      killed. She remains one of the most powerful Divines.
     category: characters
     source: "Characters_Lands.docx"
-    date_canonized: "2026-03-23"
+    date_canonized: "2026-03-24"
     related_claims: []
-    notes: "Star goddess. Created the star shield, led the Sentries, wields a glaive."
+    notes: "Astral Divine. Updated 2026-03-24: wounded not sacrificed. The Trilogies.docx claim of sacrifice is INCORRECT. She remains active as leader of Sentry defense. Star goddess, created the star shield, wields a glaive."
 
   - claim_id: CANON-DIV-003
     text: >
@@ -33,7 +40,7 @@ claims:
     source: "Characters_Lands.docx"
     date_canonized: "2026-03-23"
     related_claims: []
-    notes: "Silent, mysterious Divine. Distinguished by her cowl."
+    notes: "Astral Divine. Silent, mysterious Divine. Distinguished by her cowl."
 
   - claim_id: CANON-DIV-004
     text: >
@@ -43,7 +50,7 @@ claims:
     source: "Characters_Lands.docx"
     date_canonized: "2026-03-23"
     related_claims: []
-    notes: "Devoted to balance. Unique among the Divines in advocating for Umbra's release post-war."
+    notes: "Astral Divine. Devoted to balance. Unique among the Divines in advocating for Umbra's release post-war."
 
   - claim_id: CANON-DIV-005
     text: >
@@ -54,7 +61,7 @@ claims:
     source: "Characters_Lands.docx"
     date_canonized: "2026-03-23"
     related_claims: []
-    notes: "Most intelligent Divine. Architect of Mayrn and designer of Mana and the Well of Mana."
+    notes: "Astral Divine. Most intelligent Divine. Architect of Mayrn and designer of Mana and the Well of Mana."
 
   - claim_id: CANON-DIV-006
     text: >
@@ -85,7 +92,7 @@ claims:
     source: "Characters_Lands.docx"
     date_canonized: "2026-03-23"
     related_claims: []
-    notes: "Creator of Time. Gatekeeper who controls realm access between Solthara, Nulthara, and Subthara."
+    notes: "Astral Divine. Creator of Time. Gatekeeper who controls realm access between Solthara, Nulthara, and Subthara."
 
   - claim_id: CANON-DIV-009
     text: >
@@ -116,4 +123,4 @@ claims:
     source: "Characters_Lands.docx"
     date_canonized: "2026-03-23"
     related_claims: []
-    notes: "Philosophy of free change. Known for sleeping. Poisoned by Empra, who stole her staff."
+    notes: "Astral Divine. Philosophy of free change. Known for sleeping. Poisoned by Empra, who stole her staff."

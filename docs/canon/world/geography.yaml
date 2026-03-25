@@ -148,12 +148,12 @@
   notes: "CL claim 41. Zyrax was its first Archmage. Located east of Crossroads per game map."
 
 - claim_id: CANON-GEO-016
-  text: "Inilvar Command is a combat training location with a forge, located in Inildon."
+  text: "Inilvan Command is a combat training location with a forge, located in Inildon."
   category: world_geography
   source: CL, REN
-  date_canonized: "2026-03-23"
+  date_canonized: "2026-03-24"
   related_claims: []
-  notes: "Renamed from Nilvar Command. CL claim 43."
+  notes: "Renamed from Nilvar Command to Inilvar Command (2026-03-23), then to Inilvan Command (2026-03-24). CL claim 43."
 
 - claim_id: CANON-GEO-017
   text: "Inilium is a Magic and Enchantment location in Inildon."
@@ -538,3 +538,31 @@
   date_canonized: "2026-03-23"
   related_claims: []
   notes: "CL claim 140."
+
+# =============================================================================
+# DARK FOREST & SOUTHERN PENINSULA (Added 2026-03-24)
+# =============================================================================
+
+- claim_id: CANON-GEO-059
+  text: "The Dark Forest is located south of both Inilgree and Enulgree. It is the domain of the dark spirit Em'Faira and home of the Nilvar, corrupted Inil people. The forest borders both regions from the south."
+  category: world_geography
+  source: "Human decision 2026-03-24"
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-FAC-058, CANON-GEO-060]
+  notes: "The corruption comes from ore deep in a mountain combined with Em'Faira's dark influence. Inil who separated into the woods became hollow, corrupted people."
+
+- claim_id: CANON-GEO-060
+  text: "Nildan is a city deep within the dark forest, serving as the Nilvar stronghold."
+  category: world_geography
+  source: "Human decision 2026-03-24"
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-GEO-059, CANON-FAC-058]
+  notes: "The primary Nilvar settlement."
+
+- claim_id: CANON-GEO-061
+  text: "The southern peninsula is located at the tip of the continent south of the dark forest. It is equidistant from Inildon and Wenyoreck. It was settled by people who revolted against magic and moved south, where they could trade and fight the Nilvar."
+  category: world_geography
+  source: "Human decision 2026-03-24"
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-GEO-059, CANON-FAC-059]
+  notes: "Anti-magic settlers who chose a strategic location for trade access and defense against Nilvar."

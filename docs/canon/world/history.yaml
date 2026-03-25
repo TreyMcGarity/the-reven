@@ -358,9 +358,52 @@ claims:
       Linear year math has known inconsistencies across source documents.
       The SA-to-Linear offset is listed as 10,843 but computed Linear years
       in CURRENT_STATE.md do not consistently match SA + 10,843. Reconciliation
-      of the linear timeline is deferred to a later phase.
+      of the linear timeline is deferred to a later phase. SA 0 = Linear 10,853
+      (Option B confirmed 2026-03-24). The "+10" was a real entry at SA year 10
+      that was later removed from the docs. All existing linear year calculations
+      in source docs are CORRECT.
     category: world_history
     source: "CURRENT_STATE.md"
-    date_canonized: "2026-03-23"
+    date_canonized: "2026-03-24"
     related_claims: []
-    notes: "Meta-note. Specific discrepancies: SA 2886 listed as Linear 13739 (computed 13729), SA 3579 as 14432 (computed 14422), SA 7443 as 18296 (computed 18286), SA 8147 as 19000 (computed 18990), SA 9963 as 20816 (computed 20806). Consistent +10 offset suggests the SA-to-Linear base may actually be 10853, not 10843, or there is a systematic error in the source."
+    notes: "Updated 2026-03-24: SA 0 = Linear 10,853 confirmed. The +10 offset is real and intentional. All linear year calculations in source docs are correct."
+
+  # -----------------------------------------------
+  # RECENT HISTORY BEFORE GAME ERA (Added 2026-03-24)
+  # -----------------------------------------------
+
+  - claim_id: CANON-HIST-032
+    text: >
+      The destruction of Amanar by Nilvar onslaught occurred in recent history
+      before the game era. This was a devastating defeat for the Inil. After
+      this defeat, the Inilvan army was disbanded. Surviving members refused to
+      serve alongside mages and became the Old Guard, relocating south of Inildon.
+    category: world_history
+    source: "Human decision 2026-03-24"
+    date_canonized: "2026-03-24"
+    related_claims: [CANON-FAC-058, CANON-FAC-059, CANON-HIST-033]
+    notes: "Recent history at game start — not ancient. The destruction of Amanar is what triggers the disbanding of the original Inilvan and formation of the Old Guard."
+
+  - claim_id: CANON-HIST-033
+    text: >
+      After the Old Guard departed south of Inildon, a new Inilvan was formed in
+      Inildon — this time including mages in its ranks. The name Inilvan carries
+      forward from the original legendary army.
+    category: world_history
+    source: "Human decision 2026-03-24"
+    date_canonized: "2026-03-24"
+    related_claims: [CANON-FAC-004, CANON-FAC-059, CANON-HIST-032]
+    notes: "The new Inilvan represents a philosophical shift — accepting mages as part of the military. The Old Guard's refusal to accept this change is what drove the split."
+
+  - claim_id: CANON-HIST-034
+    text: >
+      Donrid is attacked at the beginning of the game (FA 10840). The player
+      learns about Donrid's attack through NPC dialogue naturally. The world
+      state changes with player progression — NPCs are aware of events as they
+      happen, similar to Skyrim's Civil War questline where cities change based
+      on quest progress.
+    category: world_history
+    source: "Human decision 2026-03-24"
+    date_canonized: "2026-03-24"
+    related_claims: [CANON-GEO-021, CANON-HIST-015]
+    notes: "Game-era event. Dynamic world state system: NPCs react to world events as the player progresses. Cities change state based on story progression. News of events spreads through NPC dialogue."

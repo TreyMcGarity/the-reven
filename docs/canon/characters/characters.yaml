@@ -19,12 +19,16 @@
 
 - claim_id: CANON-CHAR-002
   text: >
-    Quenla is the Commander of the Inilvar, the army of Inil.
+    Quenla is the Commander of the Inilvan, the army of Inil. She dies on Mayrn
+    and becomes a named Sentry in Solthara. As a former mortal who became a Sentry,
+    she retains her identity — distinguished from identity-less sentries who were
+    never mortal. Named Sentries who were once mortal are like angels but are not
+    called that.
   category: characters
   source: "CURRENT_STATE.md"
-  date_canonized: "2026-03-23"
-  related_claims: []
-  notes: "First Age. Military commander of the Inil armed forces."
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-FAC-044]
+  notes: "First Age. Military commander of the Inil armed forces. Updated 2026-03-24: Inilvar renamed to Inilvan. Added fate: dies on Mayrn, becomes a named Sentry in Solthara."
 
 - claim_id: CANON-CHAR-003
   text: >

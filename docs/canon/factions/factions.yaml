@@ -1,7 +1,8 @@
 # THE REVEN — Canonical Faction Claims
 # Generated: 2026-03-23
 # Source: CURRENT_STATE.md + approved raw documents
-# Naming convention: Nil → Inil, Nildon → Inildon, Nilgree → Inilgree, Nilvar → Inilvar, Nilar → Inilar, Nilium → Inilium
+# Naming convention: Nil → Inil, Nildon → Inildon, Nilgree → Inilgree, Inilvan (not Inilvar), Nilar → Inilar, Nilium → Inilium
+# Updated: 2026-03-24 — Inilvar renamed to Inilvan, Minilta removed, Nilvar and Old Guard factions added
 
 ---
 
@@ -41,13 +42,15 @@
 
 - claim_id: CANON-FAC-004
   text: >
-    The Inil army is called the Inilvar. Its commander during the Shadow Conquest
-    is Quenla.
+    The Inil army is called the Inilvan. Its commander during the Shadow Conquest
+    is Quenla. The original Inilvan fought the Nilvar in the First Age. After the
+    defeat at Amanar, the Inilvan was disbanded and surviving members became the
+    Old Guard. A new Inilvan was then formed in Inildon, this time including mages.
   category: factions
   source: CURRENT_STATE.md
-  date_canonized: "2026-03-23"
-  related_claims: []
-  notes: Renamed from Nilvar to Inilvar. Quenla is the first woman to lead the army.
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-FAC-058, CANON-FAC-059]
+  notes: "Renamed from Inilvar to Inilvan per 2026-03-24 decision. Quenla is the first woman to lead the army. The name 'Minilta' is removed — the legendary army was the original Inilvan."
 
 - claim_id: CANON-FAC-005
   text: >
@@ -70,15 +73,17 @@
 
 - claim_id: CANON-FAC-007
   text: >
-    Inil soldiers of the First Age were legendary, eventually becoming the ranks
-    of the Old Guard during the Shadow Conquest. They fight with duty in their
-    hearts and mercy in their hands, believing each mortal life is something to
-    be cherished rather than squandered.
+    Inil soldiers of the First Age were legendary as the Inilvan. After the defeat
+    at Amanar, the Inilvan was disbanded. Veterans who refused to serve alongside
+    mages became the Old Guard and relocated south of Inildon. A new Inilvan was
+    then formed in Inildon including mages. They fight with duty in their hearts
+    and mercy in their hands, believing each mortal life is something to be
+    cherished rather than squandered.
   category: factions
   source: Characters_Lands.docx
-  date_canonized: "2026-03-23"
-  related_claims: []
-  notes: The Old Guard were later replaced by a new army that included mages.
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-FAC-059]
+  notes: "Updated 2026-03-24. Old Guard = disbanded Inilvan veterans who refused mages. New Inilvan formed with mages after their departure."
 
 # =============================================================================
 # DOSRAM
@@ -88,12 +93,14 @@
   text: >
     The Dosram are northern separatists who established a democratic republic in
     northwest Mayrn. Their capital is Donrid, which is destroyed during the
-    Shadow Conquest.
+    Shadow Conquest. They are political separatists first, but also cunning
+    business people. Their land was scarred by the Shadow Conquest, and the
+    people were shaped by surviving it — classic hardy badasses.
   category: factions
   source: CURRENT_STATE.md
-  date_canonized: "2026-03-23"
+  date_canonized: "2026-03-24"
   related_claims: []
-  notes: Founded by Rien Highwind, who led the revolution and established the election system.
+  notes: "Founded by Rien Highwind. Updated 2026-03-24: political separatists first + cunning business people + scarred by Shadow Conquest. Future: currency/business skill tree, possible mini-games, game-level casino."
 
 - claim_id: CANON-FAC-009
   text: >
@@ -132,12 +139,15 @@
 - claim_id: CANON-FAC-012
   text: >
     The Enul are eastern mystics, hunters, and druids. Their main community is
-    Lonun, located at Lun Hill.
+    Lonun, located at Lun Hill. They are silent rangers, hunters, and huntsmen.
+    They are NOT pacifists — they are quiet, skilled, and lethal when needed.
+    They gained druid magic after the Well of Mana. They defend themselves during
+    Dred Night Raids.
   category: factions
   source: CURRENT_STATE.md
-  date_canonized: "2026-03-23"
+  date_canonized: "2026-03-24"
   related_claims: []
-  notes: They live south of the Barrenlands and north of the cove, in the true center and largest geographical plains on the continent.
+  notes: "Updated 2026-03-24: NOT pacifists, silent rangers/huntsmen, defend against Dred Night Raids, druid magic after Well of Mana. They live south of the Barrenlands and north of the cove, in the true center and largest geographical plains on the continent."
 
 - claim_id: CANON-FAC-013
   text: >
@@ -187,12 +197,16 @@
 - claim_id: CANON-FAC-017
   text: >
     The Wend are chaotic neutral. They sail black-sailed vessels and follow the
-    principle "strongest captain wins."
+    principle "strongest captain wins." Their cities are lawless and chaotic,
+    with the strongest captain and crew running the show. Frequent mutinies are
+    the norm — the longest-running head-captain only lasted a few months. They
+    are all charismatic salesmen and the commerce backbone of Mayrn. Inil
+    aristocrats (business owners) trade heavily with them.
   category: factions
   source: CURRENT_STATE.md
-  date_canonized: "2026-03-23"
+  date_canonized: "2026-03-24"
   related_claims: []
-  notes: Sea-bound explorers and talented, self-interested pirates who somehow form a society.
+  notes: "Updated 2026-03-24: lawless chaotic cities, frequent mutinies, longest head-captain lasted only a few months, commerce backbone of Mayrn. Sea-bound explorers and talented, self-interested pirates who somehow form a society."
 
 # =============================================================================
 # THUUN
@@ -201,12 +215,14 @@
 - claim_id: CANON-FAC-018
   text: >
     The Thuun are reclusive eastern lords based on the Isle of Thuunrow. They are
-    the most technologically advanced people on Mayrn.
+    the most successful and uncorruptable race on Mayrn. Think Warhammer 40K
+    Astartes — the definition of lawful good. Powerful, skilled. Thuunrow is a
+    perfect society. Banishment from Thuunrow = Thuunrath.
   category: factions
   source: CURRENT_STATE.md
-  date_canonized: "2026-03-23"
+  date_canonized: "2026-03-24"
   related_claims: []
-  notes: Not much is known of their fortress; high stone walls surround the coast of the isle.
+  notes: "Updated 2026-03-24: like WH40K Astartes, lawful good, most successful/uncorruptable (NOT most tech-advanced — that is Inil in TA). Not much is known of their fortress; high stone walls surround the coast of the isle."
 
 - claim_id: CANON-FAC-019
   text: >
@@ -700,3 +716,40 @@
   date_canonized: "2026-03-23"
   related_claims: []
   notes: Their settlement timing is flexible — possibly established during the Second Age.
+
+# =============================================================================
+# NILVAR (Corrupted Inil)
+# =============================================================================
+
+- claim_id: CANON-FAC-058
+  text: >
+    The Nilvar are corrupted Inil people from the dark forest south of Inilgree
+    and Enulgree. They serve Umbra willingly. They are intelligent but have a
+    small population. They operate independently from the Dred army. A dark spirit,
+    Em'Faira, dominates their forest domain and corrupts the people. The corruption
+    comes from ore deep in a mountain combined with the dark spirit's influence.
+    Inil who separated into the woods became hollow, corrupted people — the Nilvar.
+    During the game era (FA 10840-10843), they are weakened after the destruction
+    of Amanar but still active. Their stronghold is the city of Nildan, deep within
+    the dark forest.
+  category: factions
+  source: "Human decision 2026-03-24"
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-GEO-059, CANON-GEO-060, CANON-FAC-004]
+  notes: "The Nilvar are distinct from the Dred. They are corrupted Inil, not sap-spawn from the Nullith. They sometimes appear in the shared forest between Inil and Enul lands."
+
+# =============================================================================
+# OLD GUARD (Disbanded Inilvan Veterans)
+# =============================================================================
+
+- claim_id: CANON-FAC-059
+  text: >
+    The Old Guard are disbanded Inilvan veterans who refused to serve alongside
+    mages after the defeat at Amanar. They relocated south of Inildon. They
+    represent the original Inilvan — the legendary Inil army that fought the
+    Nilvar in the First Age — before it was disbanded and reformed with mages.
+  category: factions
+  source: "Human decision 2026-03-24"
+  date_canonized: "2026-03-24"
+  related_claims: [CANON-FAC-004, CANON-FAC-007, CANON-HIST-032]
+  notes: "The Old Guard refused to accept mages into the army ranks. After their departure, a new Inilvan was formed in Inildon that included mages."

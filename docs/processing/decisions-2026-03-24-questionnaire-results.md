@@ -40,11 +40,12 @@ Status: **HUMAN-APPROVED DECISIONS**
 
 ## ARMY NAMING RESOLUTION
 
-| Old Name | New Name | What It Is |
-|---|---|---|
-| Inilvar (retired) | **Inilvan** | Current Inil army/guard |
-| — (new) | **Minilta** | Legendary ancient Inil army (FA, disbanded) |
-| — (new) | **Nilvar** | Corrupted dark elf army (evil, Umbra's force) |
+| Name | What It Is |
+|---|---|
+| **Inilvan** | The Inil army. Originally the legendary force that fought the Nilvar. After the defeat at Amanar, the Inilvan is disbanded. Surviving members become the **Old Guard** and move south of Inildon. A NEW Inilvan is then formed in Inildon — this time including mages. The name carries forward. |
+| **Old Guard** | Disbanded Inilvan veterans who refused to serve alongside mages. Relocated south of Inildon. |
+| **Nilvar** | Corrupted Inil from the dark forest. Evil army under Umbra. |
+| ~~Minilta~~ | **REMOVED** — replaced by Inilvan continuity. |
 
 ---
 

@@ -116,3 +116,19 @@ claims:
     date_canonized: "2026-03-23"
     related_claims: []
     notes: "Arcanem built at FA 10762 per Lore.docx timeline (review claim 50). The naming relationship between Arcanem, College of Magic, and Academy was flagged as a gap (G20 in Lore review) but they are treated as the same institution in CURRENT_STATE.md. The Well of Mana site connection is established in the source narrative."
+
+  - claim_id: "CANON-MAG-015"
+    text: "Mana in the blood extends mortal lifespan. Stronger mages and darker magic users live longer. Normal mortal lifespan is 100+ years; mana extends this significantly. This explains the longevity of Zyrax (3,000+ years as a temporal mage), Undrea (blood magic), Khathrey (conjuration/dark energy), the Shades, and other long-lived mages."
+    category: magic_system
+    source: "Human decision 2026-03-24"
+    date_canonized: "2026-03-24"
+    related_claims: [CANON-MAG-011]
+    notes: "Canon rule. Zyrax living 3,000+ years as a temporal mage is consistent with this world rule. Blood magic extends life (CANON-MAG-011) but this is a broader rule — ALL mana in blood extends life, with stronger/darker magic extending it more."
+
+  - claim_id: "CANON-MAG-016"
+    text: "The Arcanem is the canonical name for the premier school of magic. Local schools of magic exist in various cities and towns, but the Arcanem is the most prestigious with the strongest mages. 'College of Magic' and 'Academy of Magical Arts' are informal references to the same institution."
+    category: magic_system
+    source: "Human decision 2026-03-24"
+    date_canonized: "2026-03-24"
+    related_claims: [CANON-MAG-014]
+    notes: "Clarifies naming: 'The Arcanem' is the proper name. Other schools of magic exist locally but the Arcanem is the premier institution."
