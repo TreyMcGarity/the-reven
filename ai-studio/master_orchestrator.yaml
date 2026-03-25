@@ -159,6 +159,9 @@ teams:
   multiplayer_security:
     pipeline: "pipelines/multiplayer_security_pipeline.yaml"
     lead_agent: "network_architect"
+  assets:
+    pipeline: "pipelines/asset_pipeline.yaml"
+    lead_agent: "asset_scout"
 
 # Global rules all agents must follow
 global_rules:
