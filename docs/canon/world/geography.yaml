@@ -1,0 +1,540 @@
+# THE REVEN — Canonical Geography Claims
+# Generated: 2026-03-23
+# All "Nil" faction names have been renamed to "Inil" per approved decision.
+# Source abbreviations:
+#   Lore = Lore.docx (review-2026-03-23-Lore.md)
+#   CL   = Characters_Lands.docx (review-2026-03-23-Characters_Lands.md)
+#   MIG  = Make it a Game.docx (review-2026-03-23-Make_it_a_Game.md)
+#   CS   = CURRENT_STATE.md
+#   DEC  = decisions-2026-03-23-remaining-resolutions.md
+#   REN  = decisions-2026-03-23-inil-rename-cassandra.md
+
+---
+
+# =============================================================================
+# REALM STRUCTURE
+# =============================================================================
+
+- claim_id: CANON-GEO-001
+  text: "The Third Realm, Subthara, is the mortal realm containing the continent Mayrn and all other continents."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Subthara is also referred to as Earth. The First Realm is Solthara (Divine), the Second is Nulthara (Umbra's darkness)."
+
+# =============================================================================
+# CONTINENT: MAYRN (Primary)
+# =============================================================================
+
+- claim_id: CANON-GEO-002
+  text: "Mayrn is the primary continent, home to the Inil, Dosram, Enul, Wend, Thuun, and Dred factions."
+  category: world_geography
+  source: CS
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "All game-era events take place on Mayrn."
+
+- claim_id: CANON-GEO-003
+  text: "Emaryn is the land where the first mortals appeared."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 68. Origin site of mortal life on Subthara."
+
+# =============================================================================
+# INILGREE (formerly Nilgree) — Region and Cities
+# =============================================================================
+
+- claim_id: CANON-GEO-004
+  text: "Inilgree is the canonical name for the Inil homeland region, stretching from the western coast to dense forest in the east."
+  category: world_geography
+  source: Lore, REN
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Renamed from Nilgree per approved Inil rename decision. Lore claim 69."
+
+- claim_id: CANON-GEO-005
+  text: "Inildon is the capital city of the Inil, located at the coast."
+  category: world_geography
+  source: Lore, REN
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Renamed from Nildon. Becomes Pearl City in the Third Age (TA 4). Lore claim 70."
+
+- claim_id: CANON-GEO-006
+  text: "Amanor is a city at the mouth of the Thway River, situated on short cliffs. It has the greatest navy and a stone bridge over the Thway."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 71. Destroyed during FA 10840. Opens as co-op dungeon post-main-quest."
+
+- claim_id: CANON-GEO-007
+  text: "River's Bend is a city in the east, located at a hard turn of the Thway River where there are rapids."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 72. Site of Hallowed Knights formation. Vertical slice location for game."
+
+- claim_id: CANON-GEO-008
+  text: "The Crossroads is a settlement at the center of the northern plains, at the intersection of four paths."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 73. Crime families are based here."
+
+- claim_id: CANON-GEO-009
+  text: "Amanar is a city near Amanor, close to Inildon. It is distinct from Onyet."
+  category: world_geography
+  source: DEC, CS
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Resolved contradiction C4. Originally described as southwest of Lake Oyet in Lore, but decision clarifies it is near Amanor/Inildon."
+
+- claim_id: CANON-GEO-010
+  text: "Onyet is a city by Lake Oyet. It is a distinct location from Amanar."
+  category: world_geography
+  source: DEC, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Resolved contradiction C4. CL claim 37."
+
+- claim_id: CANON-GEO-011
+  text: "Conya is a city on a peninsula in the far west, separated by a bay."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 75."
+
+- claim_id: CANON-GEO-012
+  text: "Hende is a city on the western coast in the mountains."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 76."
+
+- claim_id: CANON-GEO-013
+  text: "Takhren is a city south of the mountain wall, east of the Thway River, loyal to Dosram."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 104. CL claim 38/80."
+
+- claim_id: CANON-GEO-014
+  text: "Briskden is a city at the only level path through the mountain wall between Inil and Dosram territory."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 78. Also mentioned as potential PvP area in game design."
+
+# =============================================================================
+# INILGREE — Landmarks
+# =============================================================================
+
+- claim_id: CANON-GEO-015
+  text: "The Arcanem is an advanced Magic and Enchantment location in Inilgree, built in FA 10762."
+  category: world_geography
+  source: CL, Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 41. Zyrax was its first Archmage. Located east of Crossroads per game map."
+
+- claim_id: CANON-GEO-016
+  text: "Inilvar Command is a combat training location with a forge, located in Inildon."
+  category: world_geography
+  source: CL, REN
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Renamed from Nilvar Command. CL claim 43."
+
+- claim_id: CANON-GEO-017
+  text: "Inilium is a Magic and Enchantment location in Inildon."
+  category: world_geography
+  source: CL, REN
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Renamed from Nilium. CL claim 44."
+
+- claim_id: CANON-GEO-018
+  text: "Pearl City is the rebuilt Inildon, declared in TA 4, with walls built around it. Magic is outlawed within."
+  category: world_geography
+  source: Lore, CS
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 101. Third Age name for Inildon."
+
+# =============================================================================
+# MOUNTAIN WALL
+# =============================================================================
+
+- claim_id: CANON-GEO-019
+  text: "A mountain wall stretches from the west ocean to the east, forming a natural barrier between Inil territory and Dosram territory."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 77. Briskden is at the only level passage through it."
+
+# =============================================================================
+# DOSRAMGREE — Region and Cities
+# =============================================================================
+
+- claim_id: CANON-GEO-020
+  text: "Dosramgree is the region north of the mountain wall, characterized by harsh winters."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 79. Deferred to post-launch expansion for game purposes."
+
+- claim_id: CANON-GEO-021
+  text: "Donrid is the Dosram capital, shaped from the northern mountains. It was destroyed during the Shadow Conquest."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 80. Becomes Western Dred Fortress after destruction."
+
+- claim_id: CANON-GEO-022
+  text: "Solkri is a Dosram city in west Dosramgree near the mountain wall."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 85."
+
+- claim_id: CANON-GEO-023
+  text: "Jolhran is a Dosram city on the west side of Lake Dolre."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 82."
+
+- claim_id: CANON-GEO-024
+  text: "Mogh is a Dosram city on the east side of Lake Dolre."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 83."
+
+- claim_id: CANON-GEO-025
+  text: "Vikren is a Dosram city south of Mogh and east of Briskden."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 84."
+
+- claim_id: CANON-GEO-026
+  text: "Nohren is a Dosram city located between Solkri and Briskden."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 86."
+
+- claim_id: CANON-GEO-027
+  text: "Nehren is a Dosram city."
+  category: world_geography
+  source: CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 89. Irys is met in Nehren during TA events (Trilogies)."
+
+# =============================================================================
+# DOSRAMGREE — Landmarks
+# =============================================================================
+
+- claim_id: CANON-GEO-028
+  text: "Ashpeak, also known as the Everflame Forge, is an advanced smithing location."
+  category: world_geography
+  source: CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claims 42/91. Listed under both Inil and Dosram landmarks. West of Crossroads per game map."
+
+# =============================================================================
+# ENULGREE — Region and Cities
+# =============================================================================
+
+- claim_id: CANON-GEO-029
+  text: "Enulgree is the region east of Inilgree, consisting of grasslands and forests, with dark mountains in the far north."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 87. Home of the Enul faction."
+
+- claim_id: CANON-GEO-030
+  text: "Lonun is the first Enul community, located south of Lun Hill."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 90. CL claim 107. Founded in the First Age."
+
+- claim_id: CANON-GEO-031
+  text: "Quietun is an Enul community near Lake Poulne."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 91. CL claim 107. Founded in the Second Age."
+
+- claim_id: CANON-GEO-032
+  text: "Forlun is an Enul tree-city in a dense forest."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 92. CL claim 107. Founded in the Second Age. Giant spiders are a threat nearby."
+
+- claim_id: CANON-GEO-033
+  text: "Lun Hill is a lone hill in a vast Enul meadow."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 89. CL claim 108."
+
+- claim_id: CANON-GEO-034
+  text: "The Barrenlands are in the far north of Enulgree and contain the Central Dred Fortress and Umbra's altar."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 88. CL claim 108/138. Final quest destination in the game."
+
+# =============================================================================
+# WEND — Region and Cities
+# =============================================================================
+
+- claim_id: CANON-GEO-035
+  text: "Wendo Bay is in the south of Mayrn where the Wend faction settled."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 95. CL claim 116."
+
+- claim_id: CANON-GEO-036
+  text: "Wenyoreck is the Wend capital city, located at Wendo Bay."
+  category: world_geography
+  source: CS, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 115. CURRENT_STATE canonical spelling is Wenyoreck."
+
+- claim_id: CANON-GEO-037
+  text: "Outa-way is a Wend city."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 96. CL claim 115."
+
+- claim_id: CANON-GEO-038
+  text: "Havagutim is a Wend city."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 96. CL claim 115."
+
+# =============================================================================
+# THUUN — Region
+# =============================================================================
+
+- claim_id: CANON-GEO-039
+  text: "The Isle of Thuunrow is located off the eastern shore of Mayrn. It is a large fortress with high stone walls."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 94. CL claim 120. Home of the reclusive Thuun faction."
+
+# =============================================================================
+# RIVERS
+# =============================================================================
+
+- claim_id: CANON-GEO-040
+  text: "The Thway River is a major river that starts from the northern Dosram mountains near Donrid and flows south through the mountain wall, past multiple cities including Amanor."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claims 71, 102. CL claim 39/90. Feeds Lake Dolre in Dosramgree."
+
+- claim_id: CANON-GEO-041
+  text: "The River Elu flows north to south to Lake Poulne in Enulgree."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 93. CL claim 108."
+
+- claim_id: CANON-GEO-042
+  text: "The Aan River is a landmark in the Wend region."
+  category: world_geography
+  source: CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 116."
+
+# =============================================================================
+# LAKES
+# =============================================================================
+
+- claim_id: CANON-GEO-043
+  text: "Lake Oyet is a lake in Inilgree. The city of Onyet is located by it."
+  category: world_geography
+  source: Lore, CL, DEC
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 40. East of Crossroads per game map."
+
+- claim_id: CANON-GEO-044
+  text: "Lake Dolre is a lake in Dosramgree, fed by the Thway River. It freezes in winter."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 81. Jolhran is on the west side, Mogh on the east."
+
+- claim_id: CANON-GEO-045
+  text: "Lake Poulne is a lake in Enulgree, fed by the River Elu. Quietun is located near it."
+  category: world_geography
+  source: Lore, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claims 91, 93. CL claim 108."
+
+# =============================================================================
+# LANDMARKS
+# =============================================================================
+
+- claim_id: CANON-GEO-046
+  text: "Mount Plat is the tallest mountain in the far east of Mayrn, named after the Divine Platgree."
+  category: world_geography
+  source: Lore
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 103. Platgree rests on their favorite mountain."
+
+# =============================================================================
+# OTHER CONTINENTS
+# =============================================================================
+
+- claim_id: CANON-GEO-047
+  text: "Dal'lan is a continent to the southwest, home to the Ralli'Omai (humans unified with giant ants) and giant insects."
+  category: world_geography
+  source: Lore, CS, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 97. CL claims 153-158. Contains giant wasps, roaches, bees, and other insects."
+
+- claim_id: CANON-GEO-048
+  text: "Grul'Ukruin is a southern continent. It is home to the Mecca-Hein, an orc-like people. The Witch Queen Undrea fled there and took control."
+  category: world_geography
+  source: Lore, CS, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 99. Undrea arrived SA 8147."
+
+- claim_id: CANON-GEO-049
+  text: "Mor-Tan'Jur is the warrior capital on Grul'Ukruin. Once beautiful, it became a fortress under Undrea's rule."
+  category: world_geography
+  source: CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 164. Built under Nrush-Nag's leadership."
+
+- claim_id: CANON-GEO-050
+  text: "Altir (Ven'Altir) is the largest continent, located in the far east. It is home to three mushroom species: Wei, Ljos, and Dokk."
+  category: world_geography
+  source: Lore, CS, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 100. CL claims 175-183. Also home to the Thuunrath (lost Thuun descendants)."
+
+- claim_id: CANON-GEO-051
+  text: "Array, also known as the Tri-Isles, is located east of Mayrn's coast and north of Dal'lan. It is home to the Arra seafarers."
+  category: world_geography
+  source: Lore, CS, CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Lore claim 98. CL claims 159-163. Governed by Council of Navigators."
+
+# =============================================================================
+# GAME MAP NAVIGATION (from Make it a Game)
+# =============================================================================
+
+- claim_id: CANON-GEO-052
+  text: "From Crossroads, the path west leads to coastal cities and the Everflame Forge. The path east leads to lakeside cities and the Arcanem."
+  category: world_geography
+  source: MIG
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "MIG claims 12-13. Establishes relative positioning of major landmarks."
+
+- claim_id: CANON-GEO-053
+  text: "There are marshes between the Arcanem and River's Bend."
+  category: world_geography
+  source: MIG
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "MIG claim 14."
+
+- claim_id: CANON-GEO-054
+  text: "From Crossroads, the path north leads to the mountain passage into Dosramgree."
+  category: world_geography
+  source: MIG
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "MIG claim 10. Dosramgree deferred to expansion."
+
+- claim_id: CANON-GEO-055
+  text: "Darkness-shrouded regions exist where Umbra's Influence causes reduced visibility and stronger enemies."
+  category: world_geography
+  source: MIG
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "MIG claim 19. Restoring light changes environments (player-driven daylight)."
+
+# =============================================================================
+# DRED FORTRESSES (Geographic locations)
+# =============================================================================
+
+- claim_id: CANON-GEO-056
+  text: "The Central Dred Fortress is located in the Barrenlands of Enulgree."
+  category: world_geography
+  source: CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 138. Contains Umbra's altar. Final game quest destination."
+
+- claim_id: CANON-GEO-057
+  text: "The Western Dred Fortress is the captured city of Donrid."
+  category: world_geography
+  source: CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 139. Donrid becomes the Western Fortress at the start of the Shadow Conquest."
+
+- claim_id: CANON-GEO-058
+  text: "The Eastern Dred Fortress remains hidden until it is destroyed by the Thuun in the Third Age."
+  category: world_geography
+  source: CL
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "CL claim 140."

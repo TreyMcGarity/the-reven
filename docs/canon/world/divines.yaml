@@ -1,0 +1,119 @@
+# THE REVEN — Canonical Divines
+# Source: Characters_Lands.docx via CURRENT_STATE.md
+# All eleven Divines of Solthara (the First Realm)
+
+claims:
+
+  - claim_id: CANON-DIV-001
+    text: >
+      Vaeya is the Allmother, the Divine of Matriarchy and leader of spirits.
+      She is housed in the Sun. She created the first mortals.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "First and foremost of the eleven Divines. Leader of spirits, housed in the Sun, creator of the first mortals."
+
+  - claim_id: CANON-DIV-002
+    text: >
+      Novastra, also known as Nova, is the Divine of Light and Stars.
+      She is the star goddess who created the star shield. She led the Sentries
+      and carries a glaive as her weapon.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Star goddess. Created the star shield, led the Sentries, wields a glaive."
+
+  - claim_id: CANON-DIV-003
+    text: >
+      Eyra is the Divine of Virtue. She is silent and mysterious,
+      and is known to wear a cowl.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Silent, mysterious Divine. Distinguished by her cowl."
+
+  - claim_id: CANON-DIV-004
+    text: >
+      Amae is the Divine of Order. She is devoted to balance and was the only
+      Divine who wanted Umbra released after the war.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Devoted to balance. Unique among the Divines in advocating for Umbra's release post-war."
+
+  - claim_id: CANON-DIV-005
+    text: >
+      Mortyn is the Divine of Intellect. He is the most intelligent of all the
+      Divines. He designed the architecture of Mayrn and designed Mana, leading
+      the creation of the Well of Mana.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Most intelligent Divine. Architect of Mayrn and designer of Mana and the Well of Mana."
+
+  - claim_id: CANON-DIV-006
+    text: >
+      Kolvari is the Divine of Elements, encompassing storms, oceans, wind, fire,
+      and ice. She is an Earthen Divine, characterized by a childish and joyful
+      personality.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Earthen Divine. Domain covers storms, oceans, wind, fire, and ice. Childish and joyful temperament."
+
+  - claim_id: CANON-DIV-007
+    text: >
+      Platgree is the Divine of Land. She is an Earthen Divine who created the
+      Earth and the Moon. She shrank in size after the creation of the Moon.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Earthen Divine. Creator of Earth and Moon. Physically diminished after Moon creation."
+
+  - claim_id: CANON-DIV-008
+    text: >
+      Tolen is the Divine of Continuance and Time. He created Time itself and
+      controls access between the realms.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Creator of Time. Gatekeeper who controls realm access between Solthara, Nulthara, and Subthara."
+
+  - claim_id: CANON-DIV-009
+    text: >
+      Stellan is the Divine of Wildlife. She is an Earthen Divine with a wild
+      nature, preferring to take animal forms. In battle she fights as a stag.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Earthen Divine. Wild nature, shapeshifter favoring animal forms. Fights in stag form."
+
+  - claim_id: CANON-DIV-010
+    text: >
+      Irial is the Divine of Nature. She is an Earthen Divine, known for being
+      silent and adoring peaceful spirits. She is called the weeping goddess.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Earthen Divine. Silent, adored peaceful spirits. Known as the weeping goddess."
+
+  - claim_id: CANON-DIV-011
+    text: >
+      Leawu is the Divine of Idle, whose philosophy is to let things freely
+      change. She is known for sleeping. She was poisoned by Empra, who also
+      took her staff.
+    category: characters
+    source: "Characters_Lands.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Philosophy of free change. Known for sleeping. Poisoned by Empra, who stole her staff."

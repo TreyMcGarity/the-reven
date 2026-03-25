@@ -1,0 +1,277 @@
+# THE REVEN — Canonical Cosmology
+# Auto-generated from CURRENT_STATE.md
+# All claims verified against approved source material
+
+claims:
+
+  # ===========================
+  # THE THREE REALMS
+  # ===========================
+
+  - claim_id: CANON-COSMO-001
+    text: "Solthara is the First Realm, the Divine realm and realm of light. It is home to the eleven Divines, spirits, Sentries, and angel types."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Primary divine plane. Also referred to as the First Realm."
+
+  - claim_id: CANON-COSMO-002
+    text: "Nulthara is the Second Realm, the outer darkness. It is Umbra's domain and home of the Shadow Legion and Chaos Empire."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Realm of shadow and antagonistic forces."
+
+  - claim_id: CANON-COSMO-003
+    text: "Subthara is the Third Realm, the mortal realm (Earth). It contains the continent Mayrn and others."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The physical world where the game takes place."
+
+  # ===========================
+  # THE ELEVEN DIVINES — COSMOLOGICAL ROLES
+  # ===========================
+
+  - claim_id: CANON-COSMO-004
+    text: "There are eleven Divines. Earlier references to nine Divines in source documents are incorrect."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Explicit correction documented in CURRENT_STATE.md."
+
+  - claim_id: CANON-COSMO-005
+    text: "Vaeya is the Allmother and leader of spirits. She is housed in the Sun and created the first mortals."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Vaeya's domain is Matriarchy. She is Divine #1."
+
+  - claim_id: CANON-COSMO-006
+    text: "Novastra (Nova) is the star goddess and Divine of Light and Stars. She created the star shield and led the Sentries. She carries a glaive."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Nova created the star shield (cosmological barrier). Divine #2."
+
+  - claim_id: CANON-COSMO-007
+    text: "Tolen is the Divine of Continuance and Time. He created Time and controls realm access."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Tolen governs temporal flow and inter-realm travel. Divine #8."
+
+  - claim_id: CANON-COSMO-008
+    text: "Platgree is the Divine of Land. He created Earth and the Moon. He shrank after the Moon's creation."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Platgree is an Earthen Divine. Divine #7. The Moon is also associated with Amae."
+
+  - claim_id: CANON-COSMO-009
+    text: "Amae is the Divine of Order, devoted to balance. She is the only Divine who wanted Umbra released after the war."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Divine #4. Her connection to the Moon comes through Platgree's creation."
+
+  - claim_id: CANON-COSMO-010
+    text: "Mortyn is the most intelligent Divine, with domain over Intellect. He designed the architecture of Mayrn and designed Mana."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Divine #5. Mortyn's design of Mana is foundational to the magic system."
+
+  - claim_id: CANON-COSMO-011
+    text: "Kolvari is the Divine of Elements — storms, oceans, wind, fire, and ice. Childish and joyful in temperament. An Earthen Divine."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Divine #6."
+
+  - claim_id: CANON-COSMO-012
+    text: "Stellan is the Divine of Wildlife, a Wild Divine who prefers animal forms and fights as a stag. An Earthen Divine."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Divine #9."
+
+  - claim_id: CANON-COSMO-013
+    text: "Irial is the Divine of Nature. She is silent, adored peaceful spirits, and is known as the weeping goddess. An Earthen Divine."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Divine #10."
+
+  - claim_id: CANON-COSMO-014
+    text: "Eyra is the Divine of Virtue. She is silent and mysterious, and wears a cowl."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Divine #3."
+
+  - claim_id: CANON-COSMO-015
+    text: "Leawu is the Divine of the Idle, known for the philosophy 'Let things freely change' and for sleeping. She was poisoned by Empra."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Divine #11. Empra took Leawu's staff after poisoning her."
+
+  # ===========================
+  # UMBRA — ORIGIN AND IMPRISONMENT
+  # ===========================
+
+  - claim_id: CANON-COSMO-016
+    text: "Umbra is the Master of Shadows and an anti-Divine. He is imprisoned in the Revenant Stone."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The term 'oblivion stone' is explicitly marked as incorrect. 'Revenant Stone' is canonical."
+
+  - claim_id: CANON-COSMO-017
+    text: "Nulthara (the Second Realm / outer darkness) is Umbra's domain."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Umbra rules from the realm of outer darkness."
+
+  - claim_id: CANON-COSMO-018
+    text: "The Revenant Stone is the canonical name for the artifact in which Umbra is imprisoned. All references to 'oblivion stone' are incorrect."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Naming decision explicitly documented in CURRENT_STATE.md."
+
+  # ===========================
+  # COSMOLOGICAL ENTITIES AND FORCES
+  # ===========================
+
+  - claim_id: CANON-COSMO-019
+    text: "Empra is the Mistress of Shadows. She poisoned Leawu and took her staff. She is the dark influence behind the Dokk'Altir."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Empra is a cosmological villain distinct from Umbra."
+
+  - claim_id: CANON-COSMO-020
+    text: "Lux is a traitor Sentry who broke the barrier between realms."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The barrier between realms is a cosmological structure; its breach has major consequences."
+
+  - claim_id: CANON-COSMO-021
+    text: "The Sentries are entities in Solthara, led by Novastra (Nova)."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Sentries serve as guardians under the star goddess."
+
+  - claim_id: CANON-COSMO-022
+    text: "The Well of Mana was created by the Divines, led by Mortyn's design. Sixty-four original mages drank from it. Undrea jumped in last, destroying the well."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The Well of Mana is a cosmological artifact that is the origin of mortal magic."
+
+  - claim_id: CANON-COSMO-023
+    text: "The Nullith is a dark tree planted by Umbra, from which the Dred (shadow-mutated creatures) spawned."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The Nullith is the cosmological origin point of the Dred race."
+
+  - claim_id: CANON-COSMO-024
+    text: "Vaeya created the first mortals."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The Allmother is responsible for mortal creation."
+
+  - claim_id: CANON-COSMO-025
+    text: "Platgree created Earth (the physical world of Subthara) and the Moon."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Platgree physically diminished (shrank) as a consequence of creating the Moon."
+
+  - claim_id: CANON-COSMO-026
+    text: "Novastra (Nova) created the star shield."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The star shield is a cosmological defensive structure in the heavens."
+
+  - claim_id: CANON-COSMO-027
+    text: "Tolen created Time."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Time itself is a Divine creation, not a natural phenomenon."
+
+  - claim_id: CANON-COSMO-028
+    text: "Tolen controls access between the realms."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Inter-realm travel is governed by the Divine of Continuance."
+
+  - claim_id: CANON-COSMO-029
+    text: "Solthara is home to spirits, Sentries, and angel types in addition to the Divines."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Multiple classes of celestial beings inhabit the First Realm."
+
+  - claim_id: CANON-COSMO-030
+    text: "The Shadow Legion and Chaos Empire reside in Nulthara."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Antagonistic factions inhabiting the Second Realm alongside Umbra."
+
+  - claim_id: CANON-COSMO-031
+    text: "There are four Earthen Divines: Kolvari (Elements), Platgree (Land), Stellan (Wildlife), and Irial (Nature)."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The Earthen Divines are a distinct subgroup tied to the physical world."
+
+  - claim_id: CANON-COSMO-032
+    text: "Vaeya is housed in the Sun."
+    category: world_cosmology
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The Sun is both a celestial body and the dwelling place of the Allmother."

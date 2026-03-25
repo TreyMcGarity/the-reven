@@ -1,0 +1,441 @@
+# THE REVEN — Canonical Character Claims
+# Generated: 2026-03-23
+# Sources: CURRENT_STATE.md, decisions-2026-03-23-inil-rename-cassandra.md
+
+---
+
+# =============================================================================
+# FIRST AGE / SHADOW CONQUEST
+# =============================================================================
+
+- claim_id: CANON-CHAR-001
+  text: >
+    Regina Vaena Heavendawn is the First Queen of Inil.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Leader of the Inil people. Capital: Inildon."
+
+- claim_id: CANON-CHAR-002
+  text: >
+    Quenla is the Commander of the Inilvar, the army of Inil.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Military commander of the Inil armed forces."
+
+- claim_id: CANON-CHAR-003
+  text: >
+    Morhri is the lead strategist on the Inil Advisory Council.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Strategic advisor to Inil leadership."
+
+- claim_id: CANON-CHAR-004
+  text: >
+    Madam Caia Morningsong is the leader of Amanor.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Leads the settlement of Amanor."
+
+- claim_id: CANON-CHAR-005
+  text: >
+    Madam Wilo Lightbane is the leader of River's Bend.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Leads the settlement of River's Bend. Lightbane family."
+
+- claim_id: CANON-CHAR-006
+  text: >
+    Wen Lightbane is the first leader of the Hallowed Knights.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Founder/first leader of the Hallowed Knights order. Lightbane family."
+
+- claim_id: CANON-CHAR-007
+  text: >
+    Akrin is a pivotal character in the First Age. Akrin is NOT the Thuun captain
+    Bek — they are separate people.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Distinct from Thuun captain Bek."
+
+- claim_id: CANON-CHAR-008
+  text: >
+    Leia and Lea the Primuma are the same person. She is the first mage, a master
+    restorationist, who expelled Umbra and wounded the Witch Queen Undrea.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Also known as Lea the Primuma. First mage. Restoration magic."
+
+- claim_id: CANON-CHAR-009
+  text: >
+    Zyrax is the First Archmage of the Arcanem and a temporal mage.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. Founded or first led the Arcanem. Temporal magic school."
+
+- claim_id: CANON-CHAR-010
+  text: >
+    Undrea is the Witch Queen and a blood mage. She was the last to drink from the
+    Well of Mana, destroying it by jumping in.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "First Age. First and most powerful witch. Blood magic. Later relocates to Grul'Ukruin in SA."
+
+# =============================================================================
+# SECOND AGE
+# =============================================================================
+
+- claim_id: CANON-CHAR-011
+  text: >
+    Hixara is a warlock who served as the vessel for Zaixthar and led the
+    Summoner's Sect.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Second Age. Mother of Zaixthar. Leader of the Summoner's Sect."
+
+- claim_id: CANON-CHAR-012
+  text: >
+    Zaixthar is the First Shade, a half-demon, and the son of Hixara.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Second Age. First of the Shades. Half-demon heritage."
+
+- claim_id: CANON-CHAR-013
+  text: >
+    Ryelth, Murthrar, Shayrin, and Dedjex are the four Shades.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Second Age. The four Shades following Zaixthar."
+
+- claim_id: CANON-CHAR-014
+  text: >
+    Ullenrey is a warlock specializing in conjuration magic who is morally good.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Second Age. Good-aligned warlock. Father of Lanarey."
+
+- claim_id: CANON-CHAR-015
+  text: >
+    Lanarey is Ullenrey's daughter and a spy for the Summoner's Sect.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Second Age. Spy. Mother of Khathrey."
+
+- claim_id: CANON-CHAR-016
+  text: >
+    Khathrey is Lanarey's daughter, a pacifist warlock specializing in conjuration.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Second Age. Pacifist. Conjuration powers later inherited by Valnarey in TA."
+
+- claim_id: CANON-CHAR-017
+  text: >
+    Frenlya is the most powerful astral mage in history.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Second Age. Astral magic school."
+
+# =============================================================================
+# THIRD AGE (MAIN TRILOGY)
+# =============================================================================
+
+- claim_id: CANON-CHAR-018
+  text: >
+    Jay Caster is an alteration mage who dies at the end of Book 1.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Book 1 protagonist. Alteration magic. Dies end of Book 1."
+
+- claim_id: CANON-CHAR-019
+  text: >
+    Dae is a technomancer who interfaces with digital systems. He is long-lived
+    due to a combination of a world trait and Tech Age technology.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Technomancy. Survives across multiple books. Long-lived."
+
+- claim_id: CANON-CHAR-020
+  text: >
+    Cassandra is a clairvoyant temporal mage. She escapes through the portal with
+    Dae at the end of Book 1. Between Books 1 and 2 (TA 1999-2053), she becomes
+    the resistance's most critical strategist, using her clairvoyance to stay ahead
+    of ADMIN raids and protect hidden mage communities. Temporal magic takes a toll
+    on her — by TA 2053 she experiences multiple timelines simultaneously and is
+    quietly unraveling. She calls Dae "the fixed point" because his technomancy
+    exists outside the natural order, making him unpredictable to her sight.
+    In Book 2, during the final assault on ADMIN, she sacrifices herself by locking
+    R inside a temporal loop with herself, trapping R in an eternal instant. The
+    loop holds long enough for Valnarey to destroy R's physical anchor. Cassandra
+    dies from the strain. Her last words are: "I saw every version of this. This
+    was the only one where you both live."
+  category: characters
+  source: "Human decision 2026-03-23"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Clairvoyant temporal mage. Resistance strategist between Books 1-2. Sacrifices herself in Book 2 to trap R. Arc approved in decisions-2026-03-23-inil-rename-cassandra.md."
+
+- claim_id: CANON-CHAR-021
+  text: >
+    Krisa is a former Arcanem curator and a portal mage.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Former Arcanem curator. Portal magic."
+
+- claim_id: CANON-CHAR-022
+  text: >
+    Nenhira is an outlaw operator in Pearl City.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Outlaw. Operates in Pearl City (formerly Inildon)."
+
+- claim_id: CANON-CHAR-023
+  text: >
+    Valnarey, born Valna, inherits Khathrey's conjuring powers.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Conjuration magic inherited from SA warlock Khathrey. Awakened by Dae using Khathrey's soul gem."
+
+- claim_id: CANON-CHAR-024
+  text: >
+    Armenia is a fighter with a prosthetic arm who wields a shield and broadsword.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Physical combatant. Prosthetic arm."
+
+- claim_id: CANON-CHAR-025
+  text: >
+    Tyn is a rocket-armored warrior who wields a huge hammer.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Tech-enhanced warrior. Rocket armor and oversized hammer."
+
+- claim_id: CANON-CHAR-026
+  text: >
+    Irys is a healing and fire mage.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Dual-school mage: restoration (healing) and fire."
+
+- claim_id: CANON-CHAR-027
+  text: >
+    Curse, designated C.U.R.-S3, is a sentient robot equipped with a cannon arm
+    and a blade hand.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Sentient robot. Combat-equipped."
+
+- claim_id: CANON-CHAR-028
+  text: >
+    Tenebris is the son of Domin and the half-brother of Haeres. He is a villain
+    who turns hero.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Demon heritage. Villain turned hero. Son of Domin, half-brother of Haeres."
+
+- claim_id: CANON-CHAR-029
+  text: >
+    Weinfra Lightbane is the last Hallowed Knight.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Last of the Hallowed Knights order founded by Wen Lightbane in FA. Lightbane family."
+
+- claim_id: CANON-CHAR-030
+  text: >
+    Em'Faira is a villain turned hero. She is a reformed Immortal who wields
+    corrupt nature magic and aids the heroes.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Reformed Immortal. Corrupt nature magic. Villain turned hero."
+
+- claim_id: CANON-CHAR-031
+  text: >
+    Notan is the leader of the Thunra on the Isle of Thuunrow.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Third Age. Thuun faction leadership. Isle of Thuunrow."
+
+# =============================================================================
+# VILLAINS
+# =============================================================================
+
+- claim_id: CANON-CHAR-032
+  text: >
+    Umbra is the Master of Shadows and the anti-Divine. He is imprisoned in the
+    Revenant Stone.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Spans all ages. 'Oblivion stone' is an incorrect name — canonical name is Revenant Stone."
+
+- claim_id: CANON-CHAR-033
+  text: >
+    Domin is a demon and a Clad of Umbra. He is killed by Umbra for energy.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Demon. Father of Tenebris. Killed by Umbra."
+
+- claim_id: CANON-CHAR-034
+  text: >
+    Carnifex is a demon who serves as a torturer.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Demon. Torturer role."
+
+- claim_id: CANON-CHAR-035
+  text: >
+    Haeres is a demon with powers of portal creation, telepathy, and hell magic.
+    He is Tenebris' half-brother.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Demon. Half-brother of Tenebris."
+
+- claim_id: CANON-CHAR-036
+  text: >
+    Exsecratus is a demon with powers of mind control and blood magic.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Demon. Mind control and blood magic."
+
+- claim_id: CANON-CHAR-037
+  text: >
+    Vlho is a monster with shape-shifting abilities, including a dragon form.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Monster type. Shape shifter."
+
+- claim_id: CANON-CHAR-038
+  text: >
+    V is a Dark Spirit with life siphon abilities.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Dark Spirit type."
+
+- claim_id: CANON-CHAR-039
+  text: >
+    Zohlr is a monster whose rage increases his size and strength.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Monster type. Rage-scaling mechanic."
+
+- claim_id: CANON-CHAR-040
+  text: >
+    Jit'al is a monster with endless stamina who can climb anything.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Monster type."
+
+- claim_id: CANON-CHAR-041
+  text: >
+    R is a Dark Spirit who manipulates ADMIN and serves as the primary villain
+    of Book 2.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Dark Spirit type. TA Book 2 antagonist. Trapped by Cassandra in temporal loop, anchor destroyed by Valnarey."
+
+- claim_id: CANON-CHAR-042
+  text: >
+    Hexrad is a demon who takes the form of an enhanced Draid and commands the
+    Eastern fortress.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Demon. Enhanced Draid form. Eastern Dred fortress."
+
+- claim_id: CANON-CHAR-043
+  text: >
+    Empra is the Mistress of Shadows. She poisoned the Divine Leawu and took her
+    staff. She exerts dark influence over Dokk'Altir.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Poisoned the Divine Leawu. Took Leawu's staff. Influence over Dokk'Altir on continent Altir."
+
+- claim_id: CANON-CHAR-044
+  text: >
+    Lux is a traitor Sentry who broke the barrier between realms.
+  category: characters
+  source: "CURRENT_STATE.md"
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: "Villain. Former Sentry (divine warrior). Traitor who compromised the barrier between Solthara/Nulthara/Subthara."

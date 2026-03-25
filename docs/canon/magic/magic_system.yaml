@@ -1,0 +1,118 @@
+# THE REVEN — Canonical Magic System Claims
+# Generated: 2026-03-23
+# Source of truth: docs/processing/CURRENT_STATE.md + approved decision files
+# Category: magic_system
+
+claims:
+
+  - claim_id: "CANON-MAG-001"
+    text: "The Well of Mana was created by the Divines, led by Mortyn's design, as a new energy source contained on Earth (Subthara)."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Mortyn is the Divine of Intellect who devised Mana. Reviewed in review-2026-03-23-Lore.md claims 29 and 128."
+
+  - claim_id: "CANON-MAG-002"
+    text: "64 original mages drank from the Well of Mana, becoming the first humans infused with magic."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The 64 names are enumerated in the source document. Reviewed in review-2026-03-23-Lore.md claim 137."
+
+  - claim_id: "CANON-MAG-003"
+    text: "Undrea jumped into the Well of Mana last, destroying it — the well was swallowed by the ground."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Undrea became the Witch Queen and the first/most powerful witch. Reviewed in review-2026-03-23-Lore.md claim 129."
+
+  - claim_id: "CANON-MAG-004"
+    text: "Magic is organized into three tiers: Terrestrial, Astral, and Baleful."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Tier names confirmed in CURRENT_STATE.md. Original Lore.docx used labels Elemental/Nature, Astral, and Corrupt/Dark — tiers were consolidated and renamed during review."
+
+  - claim_id: "CANON-MAG-005"
+    text: "The Terrestrial tier contains five schools: Flora, Earth, Fire, Water, and Wild."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Flora corresponds to Plant/Floral from source; Wild corresponds to Animal/Wild. Consolidated from Elemental and Nature sub-categories in Lore.docx (claims 132-134)."
+
+  - claim_id: "CANON-MAG-006"
+    text: "The Astral tier contains three schools: Restoration, Temporal, and Soul."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Reviewed in review-2026-03-23-Lore.md claim 135."
+
+  - claim_id: "CANON-MAG-007"
+    text: "The Baleful tier contains three schools: Necromancy, Conjuration, and Blood."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Originally labeled Corrupt/Dark in Lore.docx. Reviewed in review-2026-03-23-Lore.md claim 136."
+
+  - claim_id: "CANON-MAG-008"
+    text: "Wind is NOT a formal school of magic. There are exactly 10 confirmed schools across three tiers."
+    category: magic_system
+    source: "docs/processing/decisions-2026-03-23-remaining-resolutions.md"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Lore.docx listed Wind under Elemental; Characters_Lands.docx listed 11 schools. Decision resolved that Wind is not a formal school. See review-2026-03-23-Characters_Lands.md contradiction C3."
+
+  - claim_id: "CANON-MAG-009"
+    text: "Arcane/Ward is deferred as a formal tier or school — it may become inherent abilities rather than a distinct magic school."
+    category: magic_system
+    source: "docs/processing/CURRENT_STATE.md"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Noted in CURRENT_STATE.md magic system section. Not yet resolved — flagged for future design decisions."
+
+  - claim_id: "CANON-MAG-010"
+    text: "Enchanted humans who drank from the Well of Mana divided into three types of magic users: Mages, Warlocks, and Witches."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Mages blend with non-magical communities and are generally good-aligned. Warlocks focus on dark/conjuration magic. Witches focus on dark/blood magic. Reviewed in review-2026-03-23-Lore.md claims 130-132."
+
+  - claim_id: "CANON-MAG-011"
+    text: "Blood magic can extend life."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Reviewed in review-2026-03-23-Lore.md claim 138. Undrea (Witch Queen, blood mage) is the most notable practitioner."
+
+  - claim_id: "CANON-MAG-012"
+    text: "Conjuration involves summoning from the Second Realm (Nulthara)."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "The Summoner's Sect was the largest warlock faction, focused on conjuring from the Second Realm. Reviewed in review-2026-03-23-Lore.md claims 116 and 139."
+
+  - claim_id: "CANON-MAG-013"
+    text: "Olrean is canonically a Nature/Floral mage. Narrative claims of Wind/Water/Rune for Olrean are incorrect and deleted."
+    category: magic_system
+    source: "docs/processing/decisions-2026-03-23-remaining-resolutions.md"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Decision #12 in remaining-resolutions. Floral is correct per the character roster. Also confirmed in review-2026-03-23-Characters_Lands.md claim 63 and review-2026-03-23-Lore.md contradiction C3."
+
+  - claim_id: "CANON-MAG-014"
+    text: "The Arcanem (also referred to as the College of Magic) was built at the Dawn of Magic in FA 10762. It was constructed over the former site of the Well of Mana."
+    category: magic_system
+    source: "docs/raw/Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Arcanem built at FA 10762 per Lore.docx timeline (review claim 50). The naming relationship between Arcanem, College of Magic, and Academy was flagged as a gap (G20 in Lore review) but they are treated as the same institution in CURRENT_STATE.md. The Well of Mana site connection is established in the source narrative."

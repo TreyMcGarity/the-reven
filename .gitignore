@@ -1,0 +1,8 @@
+# Raw source documents (too large for GitHub, kept locally)
+docs/raw/*.docx
+docs/raw/*.pdf
+
+# Node modules (used for docx extraction tooling)
+node_modules/
+package-lock.json
+package.json

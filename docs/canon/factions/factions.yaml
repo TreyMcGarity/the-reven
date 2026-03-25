@@ -1,0 +1,702 @@
+# THE REVEN — Canonical Faction Claims
+# Generated: 2026-03-23
+# Source: CURRENT_STATE.md + approved raw documents
+# Naming convention: Nil → Inil, Nildon → Inildon, Nilgree → Inilgree, Nilvar → Inilvar, Nilar → Inilar, Nilium → Inilium
+
+---
+
+# =============================================================================
+# INIL (formerly Nil)
+# =============================================================================
+
+- claim_id: CANON-FAC-001
+  text: >
+    The Inil are the first people of Mayrn, devout and regal. Their capital is
+    Inildon, which becomes Pearl City in the Third Age.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Renamed from Nil to Inil per project decision.
+
+- claim_id: CANON-FAC-002
+  text: >
+    The Inil wear elegant steel armor with celestial engravings. They favor
+    swords, spears, and halberds as weapons.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Armor is often etched with flowing patterns resembling dawn light, symbolic of the queen's surname and Vaeya's nurturing presence.
+
+- claim_id: CANON-FAC-003
+  text: >
+    Inil gender roles are defined: women own homes and lead government, men own
+    companies and perform community work.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Reflects the matriarchal structure under Divine Vaeya's influence.
+
+- claim_id: CANON-FAC-004
+  text: >
+    The Inil army is called the Inilvar. Its commander during the Shadow Conquest
+    is Quenla.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Renamed from Nilvar to Inilvar. Quenla is the first woman to lead the army.
+
+- claim_id: CANON-FAC-005
+  text: >
+    The Inil region is called Inilgree. Cities include Inildon (capital), Amanor,
+    River's Bend, Crossroads, Amanar, Conya, Hende, Onyet, and Takhren.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Renamed from Nilgree to Inilgree. Takhren is loyal to Dosram in FA.
+
+- claim_id: CANON-FAC-006
+  text: >
+    The Inilium in Inildon is an infamous magic and enchantment location.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Renamed from Nilium to Inilium. Separate from the Arcanem.
+
+- claim_id: CANON-FAC-007
+  text: >
+    Inil soldiers of the First Age were legendary, eventually becoming the ranks
+    of the Old Guard during the Shadow Conquest. They fight with duty in their
+    hearts and mercy in their hands, believing each mortal life is something to
+    be cherished rather than squandered.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: The Old Guard were later replaced by a new army that included mages.
+
+# =============================================================================
+# DOSRAM
+# =============================================================================
+
+- claim_id: CANON-FAC-008
+  text: >
+    The Dosram are northern separatists who established a democratic republic in
+    northwest Mayrn. Their capital is Donrid, which is destroyed during the
+    Shadow Conquest.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Founded by Rien Highwind, who led the revolution and established the election system.
+
+- claim_id: CANON-FAC-009
+  text: >
+    The Dosram republic is governed by elected officials called Tutors. There is
+    always a public jury of the people who dictate final actions on legal issues.
+    Rights to leadership are based on land ownership and public social
+    representation.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Democratic yet still oligarchal. Taxes go to roads and postal services.
+
+- claim_id: CANON-FAC-010
+  text: >
+    The Dosram are hardy and honor-bound. They wear heavy furs and iron armor.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Northern climate reflects their rugged style.
+
+- claim_id: CANON-FAC-011
+  text: >
+    Dosram is deferred to post-launch expansion for game purposes.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Dosramgree is planned as a neutral zone concept for expansion content.
+
+# =============================================================================
+# ENUL
+# =============================================================================
+
+- claim_id: CANON-FAC-012
+  text: >
+    The Enul are eastern mystics, hunters, and druids. Their main community is
+    Lonun, located at Lun Hill.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: They live south of the Barrenlands and north of the cove, in the true center and largest geographical plains on the continent.
+
+- claim_id: CANON-FAC-013
+  text: >
+    The Enul live in underground homes built into grassy mounds. They favor
+    natural materials, traps, and secrecy.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Avid hunters and gatherers with druidic traditions.
+
+- claim_id: CANON-FAC-014
+  text: >
+    The Enul are led by the Greysong family, who hold the title "Young Eld."
+    Known leaders include Vinya Greysong (FA), Enyl Greysong (SA), and Skye
+    Greysong (TA).
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Spiritual leadership passed through the Greysong bloodline.
+
+- claim_id: CANON-FAC-015
+  text: >
+    Enul communities include Lonun (FA, main community), Quietun (SA, lakeside
+    community), and Forlun (SA, forest dwelling community).
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Landmarks include Lun Hill, Elu River, Lake Poulne, and the Barrenlands to the north.
+
+# =============================================================================
+# WEND
+# =============================================================================
+
+- claim_id: CANON-FAC-016
+  text: >
+    The Wend are southern pirates based at Wendo Bay. Their capital is
+    Wenyoreck.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Other coastal cities include Outa-way and Havagutim.
+
+- claim_id: CANON-FAC-017
+  text: >
+    The Wend are chaotic neutral. They sail black-sailed vessels and follow the
+    principle "strongest captain wins."
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Sea-bound explorers and talented, self-interested pirates who somehow form a society.
+
+# =============================================================================
+# THUUN
+# =============================================================================
+
+- claim_id: CANON-FAC-018
+  text: >
+    The Thuun are reclusive eastern lords based on the Isle of Thuunrow. They are
+    the most technologically advanced people on Mayrn.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Not much is known of their fortress; high stone walls surround the coast of the isle.
+
+- claim_id: CANON-FAC-019
+  text: >
+    The Thuun wear polished steel plate armor with glowing runes.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Impressively armored, incredibly skilled paladins and scouts.
+
+- claim_id: CANON-FAC-020
+  text: >
+    The Thuun are governed by a Quadite council with four pillars: People (the
+    people of Thuunrow), Place (structural stability), Product (agriculture and
+    sustainability), and Passed (history and memory of Thuunrow). The Passed
+    pillar is noted as nearly greater than the others.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: The four-person council represents each pillar of Thuun society.
+
+- claim_id: CANON-FAC-021
+  text: >
+    The Thuun are barely involved in world affairs until recruited by Dae in the
+    Third Age. They are large, hearty people with strong traditions, and many
+    claim they are blessed with long life due to their unwavering commitment to
+    the Divines.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: They are devout acolytes and protectors of Eastern Mayrn, including the Elden Grove.
+
+# =============================================================================
+# DRED
+# =============================================================================
+
+- claim_id: CANON-FAC-022
+  text: >
+    The Dred are shadow-mutated creatures spawned from the Nullith, a dark tree
+    planted by Umbra deep in the northern mountains of Mayrn. They bleed black.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: At most 8-limbed creatures that spawn from the dripping sap of the Nullith.
+
+- claim_id: CANON-FAC-023
+  text: >
+    The Dred were originally blind, cannibalistic cave dwellers. They adapted
+    human traits over millennia after encountering humans, learning to stand
+    upright and wield weapons and armor.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: They dug into cave systems, gained eyesight, and learned to hunt surface creatures but stayed heavily cannibalistic.
+
+- claim_id: CANON-FAC-024
+  text: >
+    Dred types include: Minions (insect-like), Soldiers, Tankers (slightly
+    larger), Woldreds (smaller agile dreds, much like wolves or armored
+    hellhounds), Dregs (insect-like winged dreds, like small Draiths), Draiths
+    (bat-like dreds, imps), Dralls (rare, clever, shadow magic wielding dreds),
+    Draids (exceptional blend of the Dred army, some have wings, trained in the
+    Eastern Fortress), and Draiders (much larger than Tankers and Draids,
+    unhinged with hardened skin, kept caged between battles).
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Nine distinct types covering ground, aerial, and elite categories.
+
+- claim_id: CANON-FAC-025
+  text: >
+    The Dred maintain three fortresses: Central Fortress (in the Barrenlands of
+    Enulgree, FA primarily), Western Fortress (Donrid, taken at the beginning of
+    the Shadow Conquest, recovered by Dosram in SA), and Eastern Fortress
+    (remains hidden until destroyed by Thuun in TA).
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: The Eastern Fortress is where Draids are trained and Hexrad leads construction.
+
+- claim_id: CANON-FAC-026
+  text: >
+    Among the elder and larger Dred, some became harvesters — a sub-species that
+    selects which new spawn to be used as food, workers, or enforcers. Favored
+    traits include wing-like limbs; deformed creatures have limbs removed and are
+    placed in roles.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Describes the Dred internal hierarchy and selective breeding.
+
+# =============================================================================
+# RALLI'OMAI
+# =============================================================================
+
+- claim_id: CANON-FAC-027
+  text: >
+    The Ralli'Omai are the combined civilization of humans (the Ralli) and a
+    giant ant colony (the Omai) on the continent of Dal'lan, southwest of Mayrn.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: The humans settled on the southeastern coast and intertwined their culture with the ant colony.
+
+- claim_id: CANON-FAC-028
+  text: >
+    The Ralli'Omai practice co-rulership between humans and ants. Human rulers
+    use the prefix Ja (king) and Jal (queen), while ant counterparts use Te/Tel
+    (ant man/woman) and Ta/Tal (human man/woman). Known rulers include King
+    Ja'Hull and Queen Jal'Kiara (FA).
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Their language includes Da (father), Dal (mother), Ne (son), Na (daughter), Jok (warrior).
+
+- claim_id: CANON-FAC-029
+  text: >
+    Dal'lan is home to giant insects including ant colonies, bee hives, lawless
+    wasps, termites, roaches, and other giant bugs. The Ralli'Omai's land is
+    called Ralheg.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: The land was sparse of resources, and a mighty evil rested among the giant insects.
+
+# =============================================================================
+# MECCA-HEIN
+# =============================================================================
+
+- claim_id: CANON-FAC-030
+  text: >
+    The Mecca-Hein are an orc-like people who inhabit the southern continent of
+    Grul'Ukruin, currently under the rule of Undrea, the Blood Imperium.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Before Undrea, they lived tough lives in the great mountains under the teachings of Nrush-Nag.
+
+- claim_id: CANON-FAC-031
+  text: >
+    The Mecca-Hein capital is Mor-Tan'Jur, once a beautiful dwelling with
+    political structure, markets, and a deep culture of music and libraries. It
+    was transformed into a large stone stronghold along a tall mountain under
+    Undrea's rule, where every Mecca-Hein within the walls is trained for battle.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Guuthug-Nag serves as Warchief under Undrea, Blood Imperium.
+
+- claim_id: CANON-FAC-032
+  text: >
+    The seven Western Clans of the Mecca-Hein are: Ironpalm, Rockgripper,
+    Snowclaw, Embereyes, Makathar, Heavyfoot, and Tonakoaths. They are brutal,
+    war-like clans who live in grand halls and deep caves, are well-trained
+    fighters and the greatest metalworkers on Grul'Ukruin. They refuse to
+    acknowledge Undrea or Guuthug-Nag.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: They train by fighting each other and fight together against Mor-Tan'Jur.
+
+- claim_id: CANON-FAC-033
+  text: >
+    The five Eastern Tribes of the Mecca-Hein are: Xadba, Azgul, Gashrak,
+    Draxkhan, and Tonak. They are hunter-gatherer societies with wooden or
+    leather hide huts, nomadic along the eastern plains of Grul'Ukruin.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Xadba was created by Nrush-Nag after he fled Mor-Tan'Jur. They stay true to the old ways.
+
+- claim_id: CANON-FAC-034
+  text: >
+    Nrush-Nag is the eldest living Mecca-Hein, Gran Elder to Warchieftain
+    Guuthug-Nag. He taught skills of swordsmanship, politics, hunting,
+    blacksmithing, art, writing, shelter, and common language, and led the
+    construction of Mor-Tan'Jur. He later fled and created the Eastern Tribe
+    Xadba.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Rulership passed through the Oro-Gro, a traditional test of might for right of rule.
+
+# =============================================================================
+# VEN'ALTIR
+# =============================================================================
+
+- claim_id: CANON-FAC-035
+  text: >
+    The Ven'Altir are three mushroom-humanoid species inhabiting the continent of
+    Altir, the largest and most eastern continent. The three species are the
+    Wei'Altir (woods, Amanita mushroom), Ljos'Altir (light, Lion's Mane
+    mushroom), and Dokk'Altir (dark, Coprinopsis atramentaria mushroom).
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: They refer to non-Altir humans as Nu'Altir.
+
+- claim_id: CANON-FAC-036
+  text: >
+    The three Ven'Altir species traditionally meet in the center of the continent
+    where their lands intersect and freely share all combined information each
+    has gathered.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: This cooperative tradition was disrupted by the arrival of the Thuunrath.
+
+- claim_id: CANON-FAC-037
+  text: >
+    The Wei'Altir are peaceful and kind-hearted, nearly human-like in form but
+    speaking a strange language. They have a great power and connection with
+    their homeland to protect it, which they demonstrated when the Thuunrath
+    began deforesting their territory.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Initially disregarded as non-threatening by the Thuunrath, they later fought back fiercely.
+
+- claim_id: CANON-FAC-038
+  text: >
+    The Dokk'Altir are secretly under the dark influence of Empra, Mistress of
+    Shadows. In the future, they force the Wei and Ljos out of the Ven'Altir,
+    use the Ven'Altir Pyramid (the source of all their power), and invade the
+    Divine Realm to free Umbra.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: This is noted as possible future events, mapped but not yet finalized.
+
+# =============================================================================
+# THUUNRATH
+# =============================================================================
+
+- claim_id: CANON-FAC-039
+  text: >
+    The Thuunrath are the lost Thuun who were shipwrecked on Altir. Led by
+    Captain Bek, they were separated from the main Thuun during a great storm
+    of Kolvari while searching for a new home.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: They landed unknowingly on the furthest east and largest continent.
+
+- claim_id: CANON-FAC-040
+  text: >
+    The Thuunrath burned their idols and abandoned worship of the Divines,
+    hating Kolvari the most. Their hatred fueled their advances and disregard
+    for nature.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Their deforestation of Wei'Altir territory led to conflict with the Ven'Altir.
+
+- claim_id: CANON-FAC-041
+  text: >
+    Thuunrath fortresses and settlements include Rathmel, Bekken, Isle of
+    Thuunrath, and the Tower of Rath. Their ruler is Bek of Rathmel (FA).
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Captain Bek is confirmed as a separate person from Akrin.
+
+# =============================================================================
+# HALLOWED KNIGHTS
+# =============================================================================
+
+- claim_id: CANON-FAC-042
+  text: >
+    The Hallowed Knights were formed during the Shadow Conquest at River's Bend.
+    Leadership follows the Lightbane bloodline, starting with Wen Lightbane as
+    the first Hallowed Knight leader.
+  category: factions
+  source: Lore.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Formed at FA 8873 when the Shadow Conquest begins.
+
+- claim_id: CANON-FAC-043
+  text: >
+    By the Third Age, the Hallowed Knights have nearly empty halls at River's
+    Bend. Weinfra Lightbane is the last Hallowed Knight.
+  category: factions
+  source: Trilogies.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: The order's decline between ages is noted as a world-building gap to explore.
+
+# =============================================================================
+# SENTRIES
+# =============================================================================
+
+- claim_id: CANON-FAC-044
+  text: >
+    The Sentries are a spirit army built by Novastra (Nova). They are both
+    angels and mortals who died and returned to the Divine Realm (Solthara) to
+    defend both the Divine and Mortal Realms.
+  category: factions
+  source: Lore.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Some spirits do not become Sentries and instead dwell in the heavens as different kinds of angels.
+
+- claim_id: CANON-FAC-045
+  text: >
+    Lux is a defector Sentry who broke the barrier between Solthara and the
+    Outer Darkness, allowing the realms to be breached after Umbra's
+    imprisonment.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Lux's betrayal is a pivotal event enabling the Chaos Empire's actions.
+
+# =============================================================================
+# SUMMONER'S SECT
+# =============================================================================
+
+- claim_id: CANON-FAC-046
+  text: >
+    The Summoner's Sect is the largest faction of warlocks, focused on
+    conjuration magic — summoning from the Second Realm (Nulthara). Led by
+    Hixara, who became the vessel for Zaixthar.
+  category: factions
+  source: Lore.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Warlocks are dark/conjuration focused magic users, distinct from mages and witches.
+
+# =============================================================================
+# SHADES
+# =============================================================================
+
+- claim_id: CANON-FAC-047
+  text: >
+    The Shades are five half-demons led by Zaixthar, Hixara's son and the first
+    Shade. The other four Shades are Ryelth, Murthrar, Shayrin, and Dedjex.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Zaixthar was born full-grown and requires no sleep. He is the Master Shade (SA).
+
+# =============================================================================
+# CHAOS EMPIRE
+# =============================================================================
+
+- claim_id: CANON-FAC-048
+  text: >
+    The Chaos Empire is Umbra's Third Age forces operating from Nulthara (the
+    Second Realm). Its members include demons, dark spirits, and monsters, aided
+    by the traitor Sentry Lux.
+  category: factions
+  source: Lore.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Creatures in the Chaos Empire are originally from the Null Realm and possessed with dark power.
+
+- claim_id: CANON-FAC-049
+  text: >
+    Key Chaos Empire members include Domin (Clad of Umbra, demon), Carnifex
+    (demon, torturer), V (dark spirit, life siphon), Vlho (monster, shape
+    shifter with dragon form), Hexrad (demon, enhanced Draid), and Tenebris
+    (demon, who later defects and joins the heroes).
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Domin is killed by Umbra for energy within the Revenant Stone after they are sealed at end of Book 3.
+
+# =============================================================================
+# IMMORALS
+# =============================================================================
+
+- claim_id: CANON-FAC-050
+  text: >
+    The Immorals are agents of the Chaos Empire who are originally from the
+    Mortal Realm and enhanced by the Null Realm, as distinct from Chaos Empire
+    creatures who originate from the Null Realm. They are responsible for
+    defeating the Earthen Divines.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Key distinction — Chaos Empire creatures are from Nulthara; Immorals are corrupted mortals.
+
+- claim_id: CANON-FAC-051
+  text: >
+    The Immorals include Haeres (demon, portal creation, telepathy, hell magic),
+    Exsecratus (demon, mind control, blood magic), Em'Faira (dark spirit,
+    corrupt nature magic — later reforms and aids heroes), Zohlr (monster,
+    rage increases size and strength), and Jit'al (monster, endless stamina,
+    climbs any surface).
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Em'Faira is noted as a villain turned hero who aids the protagonists.
+
+# =============================================================================
+# ADMIN
+# =============================================================================
+
+- claim_id: CANON-FAC-052
+  text: >
+    ADMIN (Anti-magic Divisional MINistry) is Pearl City's anti-magic governing
+    body in the Third Age. They wear grey uniforms with a triangle symbol and
+    use blood-prick detection to identify mages.
+  category: factions
+  source: Trilogies.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Evolved from the Technocratic Assembly that banned magic after the Magic Wars.
+
+- claim_id: CANON-FAC-053
+  text: >
+    ADMIN is secretly manipulated by R, an ancient dark spirit. R is the Book 2
+    villain, ultimately trapped by Cassandra in a temporal loop and destroyed
+    when Valnarey shatters R's physical anchor threaded through ADMIN's
+    infrastructure.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: ADMIN possesses a ray gun that drains magic from mages, leaving them defenseless but alive.
+
+- claim_id: CANON-FAC-054
+  text: >
+    After R's destruction and Cassandra's sacrifice, ADMIN's leadership fractures
+    — some surrender, some flee, some realize they were puppets. The prohibition
+    of magic ends not with conquest but with the removal of the lie that
+    sustained it.
+  category: factions
+  source: decisions-2026-03-23-inil-rename-cassandra.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Lynn Harnor is ADMIN's general.
+
+# =============================================================================
+# ARRAY / ARRA
+# =============================================================================
+
+- claim_id: CANON-FAC-055
+  text: >
+    The Arra are seafarers who settled the Array (Tri-Isles), located east of
+    the Mayrn coast and north of Dal'lan.
+  category: factions
+  source: CURRENT_STATE.md
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Allied with the Thuun. Operate trading posts.
+
+- claim_id: CANON-FAC-056
+  text: >
+    The Arra are governed by a Council of Navigators — elders and experienced
+    sailors who make decisions based on consensus, guided by wisdom.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Organized around guilds for shipbuilding, navigation, crafting, and fishing.
+
+- claim_id: CANON-FAC-057
+  text: >
+    The Arra celebrate seasonal festivals honoring their connection to the sea,
+    featuring boat races, music, and offerings to ensure safe voyages.
+  category: factions
+  source: Characters_Lands.docx
+  date_canonized: "2026-03-23"
+  related_claims: []
+  notes: Their settlement timing is flexible — possibly established during the Second Age.

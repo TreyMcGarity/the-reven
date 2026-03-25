@@ -15,11 +15,18 @@ system:
 
 # Current project state — updated as phases progress
 project_state:
-  current_phase: "phase_0_studio_setup"
-  engine: "undecided"  # Set after Phase 1 research
+  current_phase: "phase_1_research"
+  engine: "unreal_engine_5"  # Approved 2026-03-23
+  engine_details:
+    name: "Unreal Engine 5"
+    language_primary: "Blueprints"
+    language_secondary: "C++"
+    approach: "Blueprint-first, C++ for performance-critical systems later"
   active_teams:
     - research
     - management
+    - verification
+    - design
   dormant_teams:
     - development
     - testing

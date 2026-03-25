@@ -1,0 +1,366 @@
+# THE REVEN — Canonical World History
+# Generated: 2026-03-23
+# Source: CURRENT_STATE.md (compiled from all approved documents)
+#
+# Naming conventions applied:
+#   Nil -> Inil, Nildon -> Inildon, Nilgree -> Inilgree
+#
+# Age system:
+#   FA = First Age (Linear year = FA year)
+#   SA = Second Age (Linear year = SA year + 10843)
+#   TA = Third Age (Linear year = TA year + 20816)
+#   * Linear year math has inconsistencies in source docs — noted where applicable.
+
+claims:
+
+  # -----------------------------------------------
+  # BEFORE THE AGES — Creation Period
+  # -----------------------------------------------
+
+  - claim_id: CANON-HIST-001
+    text: >
+      Before the Ages, the Divines existed in Solthara (the First Realm).
+      Vaeya, the Allmother, led the spirits and was housed in the Sun.
+      The Divines created the three realms: Solthara (First Realm, divine realm of light),
+      Nulthara (Second Realm, outer darkness, Umbra's domain), and
+      Subthara (Third Realm, the mortal realm).
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Pre-FA. Creation period before mortal history begins."
+
+  - claim_id: CANON-HIST-002
+    text: >
+      Platgree created the Earth and Moon, shrinking in stature after Moon creation.
+      Kolvari shaped storms, oceans, wind, fire, and ice. Tolen created Time.
+      Mortyn designed the architecture of Mayrn and the concept of Mana.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Pre-FA. World-shaping acts by the Divines."
+
+  - claim_id: CANON-HIST-003
+    text: >
+      Vaeya created the first mortals. These became the Inil, the first people
+      of the mortal realm, devout and regal.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Pre-FA / Initial Age. Transition into the 'Old World' period before formal FA dating."
+
+  # -----------------------------------------------
+  # INITIAL AGE / "THE OLD WORLD"
+  # -----------------------------------------------
+
+  - claim_id: CANON-HIST-004
+    text: >
+      The Initial Age, known as "The Old World," was the period of the first mortals
+      before formal calendrical reckoning began with the crowning of the First Queen.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Pre-FA. No specific dates; precedes FA 0."
+
+  # -----------------------------------------------
+  # FIRST AGE (FA)
+  # -----------------------------------------------
+
+  - claim_id: CANON-HIST-005
+    text: >
+      FA 0: Regina Vaena Heavendawn (Queen Enima) is crowned as the First Queen
+      of Inildon, marking the start of the First Age. Inildon becomes the capital
+      of the Inil people in the region of Inilgree.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 0 / Linear 0. 'Enima' is the title or name of the first queen; full name is Regina Vaena Heavendawn."
+
+  - claim_id: CANON-HIST-006
+    text: >
+      FA 1000: Exploration of the continent of Mayrn begins in earnest.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 1000 / Linear 1000."
+
+  - claim_id: CANON-HIST-007
+    text: >
+      FA 5023: Dosram declares independence from Inil. Founded by Rien Highwind,
+      Dosram establishes itself as a democratic republic with elected Tutors.
+      Capital: Donrid, in the northern region.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 5023 / Linear 5023."
+
+  - claim_id: CANON-HIST-008
+    text: >
+      FA 5033: The First Mayrn War occurs, ten years after Dosram's independence.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 5033 / Linear 5033."
+
+  - claim_id: CANON-HIST-009
+    text: >
+      FA 5120: World exploration expands. The Enul claim their lands in the
+      eastern part of Mayrn. Main Enul community: Lonun. The Enul are eastern
+      mystics, hunters, and druids who build underground homes in grassy mounds.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 5120 / Linear 5120."
+
+  - claim_id: CANON-HIST-010
+    text: >
+      FA 5121: The Thuun set sail and establish themselves on the Isle of Thuunrow
+      in the east. They become the most technologically advanced people of Mayrn,
+      governed by a Quadite council (People/Place/Product/Passed).
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 5121 / Linear 5121."
+
+  - claim_id: CANON-HIST-011
+    text: >
+      FA 5121–5125: The Wend set sail and establish themselves in the south
+      at Wendo Bay. Capital: Wenyoreck. Conflicts arise during this period
+      of expansion. The Wend become southern pirates with a 'strongest captain wins'
+      philosophy.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 5121-5125 / Linear 5121-5125."
+
+  - claim_id: CANON-HIST-012
+    text: >
+      FA 6151: The First Mortal War ends.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 6151 / Linear 6151."
+
+  - claim_id: CANON-HIST-013
+    text: >
+      FA 8873: The Shadow Conquest begins. The Dred — shadow-mutated creatures
+      spawned from the Nullith (a dark tree planted by Umbra) — emerge as a
+      major threat. The Hallowed Knights are formed in response, with Wen Lightbane
+      as the first leader.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 8873 / Linear 8873."
+
+  - claim_id: CANON-HIST-014
+    text: >
+      FA 10762: The Dawn of Magic. The Well of Mana, designed by Mortyn and
+      created by the Divines, is used. Sixty-four original mages drink from it.
+      Undrea jumps in last, destroying the well. The Arcanem is built. Zyrax
+      becomes the First Archmage of the Arcanem, specializing in temporal magic.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 10762 / Linear 10762."
+
+  - claim_id: CANON-HIST-015
+    text: >
+      FA 10840: THE REVEN game setting begins. Donrid (Dosram capital) and
+      Amanor are destroyed during the Shadow Conquest. This year marks the
+      start of the game's narrative.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 10840 / Linear 10840. Game setting spans FA 10840-10843."
+
+  - claim_id: CANON-HIST-016
+    text: >
+      FA 10842: The First Mayrn alliance is formed against the Dred. The
+      peoples of Mayrn unite to confront the Shadow Conquest.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 10842 / Linear 10842."
+
+  - claim_id: CANON-HIST-017
+    text: >
+      FA 10843: The Shadow Conquest ends. Leia (also known as Lea the Primuma),
+      the first mage and master restorationist, expels Umbra. Umbra is imprisoned
+      in the Revenant Stone (canonical name; 'oblivion stone' is incorrect).
+      This marks the end of the First Age.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "FA 10843 / Linear 10843. End of First Age, start of Second Age."
+
+  # -----------------------------------------------
+  # SECOND AGE (SA)
+  # -----------------------------------------------
+
+  - claim_id: CANON-HIST-018
+    text: >
+      SA 0: The Second Age begins at the conclusion of the Shadow Conquest.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 0 / Linear 10843."
+
+  - claim_id: CANON-HIST-019
+    text: >
+      SA 147: Undrea, the Witch Queen, declares herself. She is a blood mage
+      and was the last to drink from the Well of Mana (by jumping in, destroying it).
+      Leia wounded the Witch Queen during or after the Shadow Conquest.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 147 / Linear 10990."
+
+  - claim_id: CANON-HIST-020
+    text: >
+      SA 2886: The Magic Wars begin. Conflict erupts between mages, warlocks,
+      and witches over the use and control of magic.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 2886 / Linear 13729. Note: CURRENT_STATE.md lists Linear as 13,739 — possible inconsistency (10843 + 2886 = 13729, not 13739)."
+
+  - claim_id: CANON-HIST-021
+    text: >
+      SA 3579: The Wicked War begins. The 29th Queen of Inil is murdered,
+      triggering this conflict within the broader Magic Wars.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 3579 / Linear 14422. Note: CURRENT_STATE.md lists Linear as 14,432 — possible inconsistency (10843 + 3579 = 14422, not 14432)."
+
+  - claim_id: CANON-HIST-022
+    text: >
+      SA 3631: A truce is reached between the mages and warlocks.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 3631 / Linear 14474."
+
+  - claim_id: CANON-HIST-023
+    text: >
+      SA 7443: The Wicked War ends.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 7443 / Linear 18286. Note: CURRENT_STATE.md lists Linear as 18,296 — possible inconsistency (10843 + 7443 = 18286, not 18296)."
+
+  - claim_id: CANON-HIST-024
+    text: >
+      SA 8147: The Witch Queen Undrea departs for Grul'Ukruin, the southern
+      continent, where she rules over the Mecca-Hein (orc-like people).
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 8147 / Linear 18990. Note: CURRENT_STATE.md lists Linear as 19,000 — possible inconsistency (10843 + 8147 = 18990, not 19000)."
+
+  - claim_id: CANON-HIST-025
+    text: >
+      SA 9963: The Magic Wars end, concluding the long conflict between
+      magic-using factions. This effectively ends the Second Age.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "SA 9963 / Linear 20806. Note: CURRENT_STATE.md lists Linear as 20,816 — possible inconsistency (10843 + 9963 = 20806, not 20816). The SA-to-Linear offset may not be exactly 10843, or the source doc dates have rounding."
+
+  # -----------------------------------------------
+  # THIRD AGE (TA)
+  # -----------------------------------------------
+
+  - claim_id: CANON-HIST-026
+    text: >
+      TA 4: Pearl City is declared. Inildon is renamed Pearl City and becomes
+      the capital of the new era. Magic is outlawed.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "TA 4 / Linear 20820 (per CURRENT_STATE.md). Implies TA 0 = Linear 20816, giving SA-to-TA offset of 9973 or a gap between SA end and TA start. Linear math inconsistencies noted."
+
+  - claim_id: CANON-HIST-027
+    text: >
+      TA 200: The Technological Revolution begins. With magic outlawed, societies
+      turn to technology. The Thuun, already the most technologically advanced
+      people, become increasingly relevant.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "TA 200. Linear year approximate due to offset inconsistencies."
+
+  - claim_id: CANON-HIST-028
+    text: >
+      TA 1999: Book 1 of the trilogy takes place. Jay Caster, an alteration
+      mage, dies at the end of Book 1. Dae (a technomancer) and Cassandra
+      (a clairvoyant temporal mage) escape together.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "TA 1999 / Linear ~22,815 (per CURRENT_STATE.md, marked approximate)."
+
+  - claim_id: CANON-HIST-029
+    text: >
+      TA 2053: Book 2 of the trilogy takes place. R, a Dark Spirit, manipulates
+      ADMIN and serves as the primary villain. Cassandra sacrifices herself to
+      trap R in a temporal loop. Her final words: 'I saw every version of this.
+      This was the only one where you both live.'
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "TA 2053 / Linear ~22,869 (per CURRENT_STATE.md, marked approximate)."
+
+  - claim_id: CANON-HIST-030
+    text: >
+      Book 3 date is NOT FINALIZED. A tentative date of TA 2104 has been
+      discussed but is not confirmed. This remains unresolved.
+    category: world_history
+    source: "Lore.docx"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "UNRESOLVED. TA 2104 is tentative only. Listed in CURRENT_STATE.md with ** indicating not fully determined. Deferred to narrative development phase."
+
+  # -----------------------------------------------
+  # META: TIMELINE NOTES
+  # -----------------------------------------------
+
+  - claim_id: CANON-HIST-031
+    text: >
+      Linear year math has known inconsistencies across source documents.
+      The SA-to-Linear offset is listed as 10,843 but computed Linear years
+      in CURRENT_STATE.md do not consistently match SA + 10,843. Reconciliation
+      of the linear timeline is deferred to a later phase.
+    category: world_history
+    source: "CURRENT_STATE.md"
+    date_canonized: "2026-03-23"
+    related_claims: []
+    notes: "Meta-note. Specific discrepancies: SA 2886 listed as Linear 13739 (computed 13729), SA 3579 as 14432 (computed 14422), SA 7443 as 18296 (computed 18286), SA 8147 as 19000 (computed 18990), SA 9963 as 20816 (computed 20806). Consistent +10 offset suggests the SA-to-Linear base may actually be 10853, not 10843, or there is a systematic error in the source."
