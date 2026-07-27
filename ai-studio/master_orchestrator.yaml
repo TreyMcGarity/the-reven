@@ -17,6 +17,11 @@ system:
 project_state:
   current_phase: "phase_0_studio_setup"
   engine: "undecided"  # Set after Phase 1 research
+  playable_timeline:
+    era: "Shadow Conquest"
+    start_linear_year: 10840
+    end_linear_year: 10843
+    note: "Current game scope is constrained to this timeline window."
   active_teams:
     - research
     - management

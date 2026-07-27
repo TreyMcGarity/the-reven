@@ -56,6 +56,23 @@ ingestion:
         Flag: NEW (not in canon yet), CONFIRMS (matches canon),
         CONTRADICTS (conflicts with canon), EXTENDS (adds detail to canon).
 
+    step_3b_timeline_classification:
+      agent: "lore_organizer"
+      action: "classify_claims_by_timeline"
+      output: "processing/timeline-{date}-{filename}.yaml"
+      playable_window:
+        start_linear_year: 10840
+        end_linear_year: 10843
+      buckets:
+        - in_window
+        - pre_window_backstory
+        - post_window_future
+        - needs_date_confirmation
+      description: >
+        For each claim, assign a timeline bucket using explicit dates from source text.
+        If no reliable date is present, classify as needs_date_confirmation.
+        Only in_window claims are gameplay-eligible for the current project scope.
+
     step_4_review_document:
       agent: "lore_organizer"
       action: "generate_review_document"
@@ -99,3 +116,6 @@ ingestion:
     - "When claims contradict, present BOTH to the human. Do not pick one."
     - "Track provenance: every canon claim links back to its raw source."
     - "Support versioning: when canon changes, keep the old version as deprecated."
+    - "Classify all claims by timeline bucket before review."
+    - "For current project scope, only claims in linear years 10840-10843 are gameplay-eligible."
+    - "Claims outside 10840-10843 may be canonized as context, but cannot drive mandatory gameplay content without human scope approval."

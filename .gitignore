@@ -1,0 +1,2 @@
+# Raw source documents should stay local and not be versioned
+/docs/raw/*.docx

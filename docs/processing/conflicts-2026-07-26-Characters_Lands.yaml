@@ -1,0 +1,68 @@
+document:
+  source: docs/raw/Characters_Lands.docx
+  compared_against: docs/canon/INDEX.yaml
+  processed_on: 2026-07-26
+  canon_index_state:
+    version: 1
+    total_claims: 0
+
+summary:
+  total_claims_reviewed: 14
+  new: 14
+  confirms: 0
+  contradicts: 0
+  extends: 0
+
+results:
+  - claim_id: RAW-CHAR-001
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-002
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-003
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-004
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-005
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-006
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-007
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-008
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-009
+    status: NEW
+    notes: Date range not fixed for all referenced appearances.
+  - claim_id: RAW-CHAR-010
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-011
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-012
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-CHAR-013
+    status: NEW
+    notes: Future-era arc references.
+  - claim_id: RAW-CHAR-014
+    status: NEW
+    notes: Project-level timeline directive from human input.
+
+timeline_gate_recommendation:
+  playable_window_years:
+    start: 10840
+    end: 10843
+  action:
+    - include only in_window claims in gameplay-critical specs
+    - keep pre_window_backstory claims available for codex/lore text only
+    - keep post_window_future claims blocked from active quest/system scope
+    - escalate needs_date_confirmation claims to docs/unresolved before canonization

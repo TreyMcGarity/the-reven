@@ -2,6 +2,17 @@
 # These rules override all agent behavior when lore is involved.
 
 rules:
+  rule_0_playable_timeline_gate:
+    text: "Gameplay-critical outputs must stay inside the approved playable timeline window."
+    applies_to: "all agents"
+    enforcement: >
+      Approved playable timeline window is linear years 10840 through 10843
+      (inclusive), during the Shadow Conquest period for this game.
+      Any lore claim outside this window must be marked as one of:
+      PRE_WINDOW_BACKSTORY or POST_WINDOW_FUTURE and treated as context only.
+      It must not be used as required gameplay state, quest-critical dependency,
+      or progression unlock logic unless the human explicitly approves a scope change.
+
   rule_1_no_invention:
     text: "No agent may invent, fabricate, or assume lore details."
     applies_to: "all agents"

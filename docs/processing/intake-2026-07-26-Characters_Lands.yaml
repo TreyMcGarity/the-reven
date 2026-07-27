@@ -1,0 +1,121 @@
+document:
+  source: docs/raw/Characters_Lands.docx
+  extracted_from: docs/processing/Characters_Lands.extracted.txt
+  processed_on: 2026-07-26
+  processor: lore_organizer
+
+timeline_policy:
+  playable_window:
+    start_linear_year: 10840
+    end_linear_year: 10843
+    label: shadow_conquest_playable_window
+
+claims:
+  - claim_id: RAW-CHAR-001
+    category: world_cosmology
+    text: Divine roster includes Vaeya, Amae, Novastra, Eyra, Tolen, Mortyn, Platgree, Irial, Stellan, Kolvari, and Laewu.
+    source_location: docs/processing/Characters_Lands.extracted.txt:4
+    timeline_bucket: pre_window_backstory
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-002
+    category: factions
+    text: Umbra is identified as the anti-divine central antagonist aligned with shadow, evil, and chaos.
+    source_location: docs/processing/Characters_Lands.extracted.txt:47
+    timeline_bucket: pre_window_backstory
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-003
+    category: world_history
+    text: During Shadow Conquest, demons enter the mortal realm and later become part of Chaos Empire structure.
+    source_location: docs/processing/Characters_Lands.extracted.txt:66
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-004
+    category: factions
+    text: Chaos Empire named members and abilities are documented with references to later book outcomes.
+    source_location: docs/processing/Characters_Lands.extracted.txt:71
+    timeline_bucket: post_window_future
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-005
+    category: factions
+    text: Nil military line evolves into Old Guard during the Shadow Conquest period.
+    source_location: docs/processing/Characters_Lands.extracted.txt:146
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-006
+    category: world_geography
+    text: Amanor is listed as lost during Shadow Conquest.
+    source_location: docs/processing/Characters_Lands.extracted.txt:165
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-007
+    category: characters
+    text: Named first mages are tied to Shadow Conquest defense and post-war developments.
+    source_location: docs/processing/Characters_Lands.extracted.txt:196
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-008
+    category: world_geography
+    text: Donrid is listed as capital lost during Shadow Conquest.
+    source_location: docs/processing/Characters_Lands.extracted.txt:236
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-009
+    category: characters
+    text: Akrin is described as a hero active during Shadow Conquest and later Wicked War.
+    source_location: docs/processing/Characters_Lands.extracted.txt:345
+    timeline_bucket: needs_date_confirmation
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-010
+    category: creatures_bestiary
+    text: Draith first appearance is described at Shadow Conquest onset.
+    source_location: docs/processing/Characters_Lands.extracted.txt:367
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-011
+    category: creatures_bestiary
+    text: Dralls are described as appearing before Shadow Conquest.
+    source_location: docs/processing/Characters_Lands.extracted.txt:369
+    timeline_bucket: pre_window_backstory
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-012
+    category: world_history
+    text: Shadow Conquest is noted to end at linear year 10843.
+    source_location: docs/processing/Characters_Lands.extracted.txt:465
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-013
+    category: world_history
+    text: Multiple references describe post-Chaos-Empire and transcendence arcs after the main book saga.
+    source_location: docs/processing/Characters_Lands.extracted.txt:497
+    timeline_bucket: post_window_future
+    confidence: explicit
+
+  - claim_id: RAW-CHAR-014
+    category: technical_constraints
+    text: Future-era records should remain as background and excluded from direct playable critical path for this game.
+    source_location: user_directive_2026-07-26
+    timeline_bucket: in_window
+    confidence: explicit
+
+gaps:
+  - gap_id: GAP-CHAR-001
+    description: Some entities have rich later-era arcs but unclear in-window status (alive, active, absent, or legendary only).
+    impact: Encounter rosters and quest cast could accidentally include future-only actors.
+    decision_needed: Approve an in-window roster lock for hero, ally, and antagonist NPCs.
+
+  - gap_id: GAP-CHAR-002
+    description: Regional control snapshots by year (10840, 10841, 10842, 10843) are not normalized into one source.
+    impact: Mission routing and warfront state changes can conflict across quest chains.
+    decision_needed: Approve a year-by-year territory matrix for Nil, Dosram, Enul, and Barrenlands.

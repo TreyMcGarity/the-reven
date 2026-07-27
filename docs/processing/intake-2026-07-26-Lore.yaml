@@ -1,0 +1,128 @@
+document:
+  source: docs/raw/Lore.docx
+  extracted_from: docs/processing/Lore.extracted.txt
+  processed_on: 2026-07-26
+  processor: lore_organizer
+
+timeline_policy:
+  playable_window:
+    start_linear_year: 10840
+    end_linear_year: 10843
+    label: shadow_conquest_playable_window
+
+claims:
+  - claim_id: RAW-LORE-001
+    category: world_cosmology
+    text: The setting describes three realms: Solthara (divine), Subthara (mortal), and Nulthara (outer darkness).
+    source_location: docs/processing/Lore.extracted.txt:20
+    timeline_bucket: pre_window_backstory
+    confidence: explicit
+
+  - claim_id: RAW-LORE-002
+    category: world_history
+    text: Shadow Conquest is a major war between Umbra-aligned forces and defenders of Mayrn.
+    source_location: docs/processing/Lore.extracted.txt:24
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-003
+    category: world_history
+    text: Shadow Conquest begins earlier at 8873 FA.
+    source_location: docs/processing/Lore.extracted.txt:91
+    timeline_bucket: pre_window_backstory
+    confidence: explicit
+
+  - claim_id: RAW-LORE-004
+    category: world_history
+    text: The year 10840 is marked as THE REVEN period.
+    source_location: docs/processing/Lore.extracted.txt:101
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-005
+    category: world_history
+    text: Donrid is destroyed during the Shadow Conquest period.
+    source_location: docs/processing/Lore.extracted.txt:106
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-006
+    category: world_history
+    text: Amanor is destroyed during the Shadow Conquest period.
+    source_location: docs/processing/Lore.extracted.txt:107
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-007
+    category: world_history
+    text: The first Mayrn alliance against the Dred occurs in 10842.
+    source_location: docs/processing/Lore.extracted.txt:108
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-008
+    category: world_history
+    text: 10843 marks the end of Shadow Conquest and Umbra's legion is forced out of Subthara.
+    source_location: docs/processing/Lore.extracted.txt:110
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-009
+    category: magic_system
+    text: A Well of Mana is created and selected mortals gain magical abilities.
+    source_location: docs/processing/Lore.extracted.txt:236
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-010
+    category: factions
+    text: Hallowed Knights organize resistance and coordinate cross-city defense during the conquest.
+    source_location: docs/processing/Lore.extracted.txt:232
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-011
+    category: creatures_bestiary
+    text: Dred variants include Draith (winged), Draid (larger elite), and Draider (large controlled monsters).
+    source_location: docs/processing/Lore.extracted.txt:230
+    timeline_bucket: in_window
+    confidence: explicit
+
+  - claim_id: RAW-LORE-012
+    category: world_history
+    text: The Enchanted Age follows after Shadow Conquest with Mages, Warlocks, and Witches diverging.
+    source_location: docs/processing/Lore.extracted.txt:239
+    timeline_bucket: post_window_future
+    confidence: explicit
+
+  - claim_id: RAW-LORE-013
+    category: world_history
+    text: Third Age entries reference First Book, Second Book, and Third Book arcs.
+    source_location: docs/processing/Lore.extracted.txt:158
+    timeline_bucket: post_window_future
+    confidence: explicit
+
+  - claim_id: RAW-LORE-014
+    category: factions
+    text: Chaos Empire and Immorals are major later-era antagonists.
+    source_location: docs/processing/Lore.extracted.txt:35
+    timeline_bucket: post_window_future
+    confidence: explicit
+
+  - claim_id: RAW-LORE-015
+    category: technical_constraints
+    text: Playable timeline should be constrained to 10840 to 10843 while preserving other eras as non-playable context.
+    source_location: user_directive_2026-07-26
+    timeline_bucket: in_window
+    confidence: explicit
+
+gaps:
+  - gap_id: GAP-LORE-001
+    description: Exact in-window month/season sequencing of 10840 to 10843 events is not yet standardized.
+    impact: Quest chronology, mission progression, and region-state transitions may conflict.
+    decision_needed: Approve a canonical event order for the playable years.
+
+  - gap_id: GAP-LORE-002
+    description: Named protagonist focus for the playable game slice is not fixed.
+    impact: Character progression and narrative mission framing remain ambiguous.
+    decision_needed: Choose a player identity model (single fixed lead, role archetype, or custom anonymous fighter).

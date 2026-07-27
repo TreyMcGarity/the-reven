@@ -1,0 +1,71 @@
+document:
+  source: docs/raw/Lore.docx
+  compared_against: docs/canon/INDEX.yaml
+  processed_on: 2026-07-26
+  canon_index_state:
+    version: 1
+    total_claims: 0
+
+summary:
+  total_claims_reviewed: 15
+  new: 15
+  confirms: 0
+  contradicts: 0
+  extends: 0
+
+results:
+  - claim_id: RAW-LORE-001
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-002
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-003
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-004
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-005
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-006
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-007
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-008
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-009
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-010
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-011
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-012
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-013
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-014
+    status: NEW
+    notes: No existing canon claims in index.
+  - claim_id: RAW-LORE-015
+    status: NEW
+    notes: Project-level timeline directive from human input.
+
+timeline_gate_recommendation:
+  playable_window_years:
+    start: 10840
+    end: 10843
+  action:
+    - mark claims with timeline_bucket in_window as gameplay_eligible
+    - mark claims with timeline_bucket pre_window_backstory as lore_context_only
+    - mark claims with timeline_bucket post_window_future as future_locked
+    - mark claims with timeline_bucket needs_date_confirmation as unresolved_pending_date
