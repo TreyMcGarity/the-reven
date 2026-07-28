@@ -5,7 +5,7 @@ Multi-agent AI orchestration system for solo-developing a 3D fantasy game.
 ## Status
 
 **Current Phase: 0 — Studio Setup**
-**Engine: Undecided**
+**Engine: Unreal Engine**
 
 ## Repository Structure
 

@@ -16,7 +16,7 @@ system:
 # Current project state — updated as phases progress
 project_state:
   current_phase: "phase_0_studio_setup"
-  engine: "undecided"  # Set after Phase 1 research
+  engine: "unreal_engine"
   playable_timeline:
     era: "Shadow Conquest"
     start_linear_year: 10840
