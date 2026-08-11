@@ -1,20 +1,38 @@
 # vertical-slice-spec.yaml
 # The smallest practical first buildable version of the game.
-# This is a TEMPLATE — fill in lore-specific details after canon is established.
+# This file now reflects the new lore intake for the Shadow Conquest timeline.
 
 vertical_slice:
-  name: "The First Region"
+  name: "The Thway Frontier"
   target_playtime: "15-30 minutes"
-  purpose: "Prove the core loop is fun. Everything else comes after."
+  purpose: "Prove the core loop by placing the player in a desperate frontier fight during the closing years of the Shadow Conquest."
+
+  game_context:
+    era: "Playable window: 10840-10843, the final years of the Shadow Conquest."
+    setting_summary: >
+      Mayrn is under assault by Umbra's Dred armies as the mortal realm fractures. The old cities of Amanor and Donrid have fallen or are under siege,
+      and the peoples of Mayrn are beginning to unite against the shadow. The slice should feel like a small but meaningful stand before the larger
+      alliance that will eventually turn the tide.
+    tonal_pillars:
+      - "Desperate survival"
+      - "Ancient war against shadow"
+      - "Small victories before a larger apocalypse"
+    playable_scope: >
+      The player helps defend a river outpost near the Thway, clears a ruined road of Dred forces, and gathers evidence of the greater war.
+      The story is intentionally narrow so the first build can focus on combat, progression, and atmosphere rather than full-scale war simulation.
+    canon_constraints:
+      - "Keep the story inside the 10840-10843 window."
+      - "Use Umbra, the Dred, and the first Mayrn resistance as the core fiction."
+      - "Treat later-era factions such as the Chaos Empire and post-war transcendence arcs as background only."
 
   region:
     size: "Small — roughly 500m x 500m explorable area"
     composition:
-      - "One hub area (safe zone, quest giver, merchant)"
-      - "One combat zone (3-5 encounter points)"
-      - "One point of interest (lore delivery, optional exploration reward)"
+      - "One hub area: a battered frontier watchpost beside the Thway river"
+      - "One combat zone: a ruined road and old watchtower overrun by Dred forces"
+      - "One point of interest: a shrine or relic cache tied to the first mages and the old defenses of Mayrn"
     art_quality: "Prototype. Asset store / free assets. Grey-box where needed."
-    lore_delivery: "Environmental only for now (signs, ruins, objects). No cutscenes."
+    lore_delivery: "Environmental only for now (signs, ruins, objects, scattered journals). No cutscenes."
 
   player_character:
     movement: "Walk, run, jump. Third-person camera."
@@ -22,25 +40,25 @@ vertical_slice:
     interaction: "Talk to NPCs (simple dialogue UI). Pick up items."
     progression: "Gain XP from kills. Level up once (feel the power increase)."
     inventory: "Collect 3-5 item types. Equip one weapon."
-    notes: "No character creation. No skill trees. No crafting. Not yet."
+    notes: "No character creation. The player is an anonymous mortal recruit, not a legendary hero yet."
 
   enemy_faction:
-    name: "[NEEDS_LORE: enemy faction name from canon]"
+    name: "The Dred Host of Umbra"
     enemy_types:
       basic_melee:
-        description: "Walks toward player, attacks. Low HP. Dies in 2-3 hits."
+        description: "A Dred skirmisher that rushes the player in close quarters and dies quickly."
       basic_ranged:
-        description: "Stands at range, throws projectile. Fragile. Dies in 1-2 hits."
+        description: "A winged Draith raider that attacks from range and pressures the player with hit-and-run movement."
     count_per_encounter: "2-4 enemies"
     behavior: "Simple state machine: Idle → Detect → Chase → Attack → Die"
     boss: "None. Not in vertical slice."
 
   gameplay_loop:
     description: >
-      Player spawns at hub → talks to NPC who gives simple objective →
-      goes to combat zone → fights enemies → earns XP and loot →
-      returns to hub → talks to NPC → levels up → gets next objective →
-      repeats with slightly harder encounters
+      Player spawns at the frontier outpost → talks to a surviving defender who gives a simple objective →
+      crosses the ruined road → fights Dred and Draith raiders → earns XP and salvage →
+      returns to the outpost → speaks with the quartermaster or commander → levels up and receives the next objective →
+      repeats with slightly harder encounters.
     core_actions:
       - "Explore the region"
       - "Fight enemies"

@@ -7,6 +7,10 @@ Multi-agent AI orchestration system for solo-developing a 3D fantasy game.
 **Current Phase: 0 — Studio Setup**
 **Engine: Unreal Engine**
 
+## Current Narrative Direction
+
+The game is being framed around the closing years of the Shadow Conquest, with the playable window set to 10840-10843. The core fiction centers on Mayrn under pressure from Umbra's Dred forces, the fall of old cities such as Amanor and Donrid, and the first stirrings of a united resistance. The vertical slice is being designed around a small frontier defense story on the Thway route rather than a large-scale war campaign.
+
 ## Repository Structure
 
 ```
