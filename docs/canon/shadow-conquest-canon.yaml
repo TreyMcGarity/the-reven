@@ -1,0 +1,112 @@
+version: 1
+name: "Reven Canon: Shadow Conquest"
+status: "approved"
+last_updated: "2026-08-12"
+
+scope:
+  playable_window:
+    start_year: 10840
+    end_year: 10843
+    label: "Shadow Conquest playable window"
+    purpose: "The current vertical slice and all active design work occur within this narrow window."
+  constraints:
+    - "Keep the narrative and mechanics focused on 10840-10843."
+    - "Use the fall of Amanor and Donrid as key memory anchors for the world state."
+    - "Treat the Enchanted Age, Chaos Empire, and later post-war conflicts as background context only."
+    - "The game should feel like a frontier defense story, not a full-scale war campaign."
+
+world:
+  name: "Mayrn"
+  realm_structure:
+    solthara:
+      type: "divine realm"
+      description: "The divine sphere, associated with order, light, and the elder powers who once shaped the world."
+    subthara:
+      type: "mortal realm"
+      description: "The mortal world of Mayrn, where the war against Umbra is waged and where the playable story takes place."
+    nulthara:
+      type: "outer darkness"
+      description: "The hostile expanse beyond the mortal world, associated with corruption, shadow, and the source of Umbra's influence."
+  central_conflict:
+    title: "Shadow Conquest"
+    summary: "A sustained war between Umbra-aligned Dred forces and the defenders of Mayrn."
+    start_year: 8873
+    end_year: 10843
+    outcome: "Umbra's legion is forced out of Subthara in 10843."
+
+timeline:
+  10840:
+    title: "The REVEN period begins"
+    summary: "The years of the Shadow Conquest become the active frame for the world state. Mayrn is under siege and its old order is failing."
+  10842:
+    title: "First alliance forms"
+    summary: "The first united Mayrn resistance is forged against the Dred, signaling the beginnings of a broader defense."
+  10843:
+    title: "End of the Shadow Conquest"
+    summary: "Umbra's forces are pushed out of Subthara, ending the active conquest but leaving the world scarred and unsettled."
+
+locations:
+  mayrn:
+    summary: "The mortal continent where the story unfolds."
+  amanor:
+    status: "fallen"
+    summary: "A once-significant city destroyed during the Shadow Conquest; its loss symbolizes the collapse of older order in Mayrn."
+  donrid:
+    status: "fallen"
+    summary: "A major northern stronghold lost during the conquest; central to the collapse of the north and the pressure on the frontier."
+  thway:
+    type: "river route"
+    summary: "The frontier route that links the vulnerable borderlands and the defensive line of the remaining human settlements."
+    use_in_game: "A small defense outpost, ruined road, and contested river approach provide the playable slice's dramatic space."
+
+factions:
+  umbra:
+    alignment: "shadow / chaos / anti-divine"
+    summary: "The ultimate source of the shadow threat, operating through the Dred and corrupted forces."
+  dred:
+    summary: "Umbra's army of shadow-corrupted monsters and soldiers, with multiple variants in the field."
+    variants:
+      - name: "Draith"
+        role: "winged raider"
+      - name: "Draid"
+        role: "larger elite combatant"
+      - name: "Draider"
+        role: "large controlled monster used for destruction and terror"
+  hallowed_knights:
+    summary: "The organized resistance and frontier defenders who coordinate cross-city defense and the first united response to the Dred."
+    role: "guardian force and symbol of the united resistance"
+  defenders_of_mayrn:
+    summary: "The general population and military structures of Mayrn, fighting to maintain their cities and families under siege."
+  mages:
+    summary: "The magical tradition that rises in the aftermath of the war, eventually diverging from other magical orders."
+    status: "future framing"
+
+magic:
+  origin: "A Well of Mana was created during the war, and selected mortals gained magical abilities."
+  tone: "Magic is a precious, rare, and dangerous source of power emerging from wartime necessity."
+  role_in_story: "Magic is a key signifier of resistance and survival, but it should not overwhelm the grounded frontier-conflict tone of the vertical slice."
+
+narrative_voice:
+  tone:
+    - "desperate survival"
+    - "ancient shadow war"
+    - "small victories before a larger apocalypse"
+  theme: "The slice should show the world on the brink of turning; the player protects a fragile frontier stand before a larger united resistance forms."
+
+canon_anchors:
+  - "Mayrn is the mortal realm under siege."
+  - "Umbra is the driving shadow force behind the conquest."
+  - "The Dred are the frontline enemy force of the Shadow Conquest."
+  - "Amanor and Donrid are fallen cities, not functioning safe havens."
+  - "The Hallowed Knights represent the first organized resistance."
+  - "The Well of Mana is the origin point of the war-era magical tradition."
+  - "The playable story belongs in the 10840-10843 window, not in later post-war eras."
+
+open_questions:
+  - "The exact month-by-month order inside 10840-10843 remains to be standardized for quest chronology."
+  - "The player identity model for the vertical slice is still intentionally anonymous, as a recruit rather than a legendary hero."
+
+production_notes:
+  - "Use the Thway route as the central playable geography."
+  - "Keep enemy types readable and low-complexity for a first vertical slice."
+  - "The world should feel larger than the slice without requiring large-scale campaign content."

@@ -1,0 +1,85 @@
+version: 1
+name: "Reven Faction Canon"
+status: "approved"
+last_updated: "2026-08-12"
+
+factions:
+  - id: "umbra"
+    name: "Umbra"
+    category: "cosmic_antagonist"
+    alignment: "shadow / chaos / anti-divine"
+    summary: "The primordial shadow force that corrupts worlds and works through the Dred."
+    role_in_story: "Umbra is the ultimate threat behind the Shadow Conquest and the reason the frontier is collapsing."
+    canonical_traits:
+      - "exists beyond the divine order"
+      - "manipulates corruption through the Dred"
+      - "is the dominant enemy force of the playable window"
+
+  - id: "dred"
+    name: "The Dred"
+    category: "enemy_force"
+    alignment: "umbra-aligned"
+    summary: "Umbra's army of corrupted monsters, raiders, and battlefield horrors."
+    canonical_traits:
+      - "the primary enemy faction in the playable years"
+      - "include Draith, Draid, and Draider variants"
+      - "operate as a siege and terror force against Mayrn"
+    variants:
+      - name: "Draith"
+        role: "winged raider"
+      - name: "Draid"
+        role: "elite armored brute"
+      - name: "Draider"
+        role: "large controlled war beast"
+
+  - id: "hallowed_knights"
+    name: "The Hallowed Knights"
+    category: "defender_order"
+    alignment: "defensive / honorable"
+    summary: "The first organized military resistance against the Dred, tasked with cross-city defense and leadership in the late war years."
+    role_in_story: "Symbolize the human response to the conquest and the shift from scattered survivors to coordinated defense."
+    canonical_traits:
+      - "coordinate resistance across cities"
+      - "serve as a visible force of order against the Dred"
+      - "represent the emergence of the Mayrn alliance"
+
+  - id: "defenders_of_mayrn"
+    name: "Defenders of Mayrn"
+    category: "civilian_and_military"
+    alignment: "defensive"
+    summary: "The fragmented communities, militias, and remnants of old civilization trying to hold their homes through the war."
+    role_in_story: "They are the human face of the conquest: exhausted, scattered, and increasingly united."
+    canonical_traits:
+      - "not a single kingdom but a collection of threatened peoples"
+      - "experience the collapse of Amanor and Donrid"
+      - "provide the emotional stakes of the frontier conflict"
+
+  - id: "mages"
+    name: "The Mages"
+    category: "arcane_order"
+    alignment: "dawn_of_magic"
+    summary: "The magical tradition born from the Well of Mana and the war-torn age that follows the conquest."
+    role_in_story: "Their rise frames the transition to later magical eras, but they remain background lore for the current slice."
+    canonical_traits:
+      - "originates from the aftermath of the Shadow Conquest"
+      - "separate from the later witches and warlocks"
+      - "should not dominate the current vertical-slice narrative"
+
+  - id: "witches"
+    name: "Witches"
+    category: "arcane_order"
+    alignment: "later_divergence"
+    summary: "A magical tradition that diverges after the war and becomes distinct from the Mages."
+    role_in_story: "Important to long-form lore, but not a major player in the current playable window."
+
+  - id: "warlocks"
+    name: "Warlocks"
+    category: "arcane_order"
+    alignment: "later_divergence"
+    summary: "A competing magical tradition that emerges in the post-conquest era."
+    role_in_story: "Part of the wider historical evolution of the setting beyond the playable slice."
+
+canon_notes:
+  - "The strongest player-facing factions for the vertical slice are the Dred and the Hallowed Knights."
+  - "Umbra is the meta-threat, while the Hallowed Knights offer the hopeful resistance angle."
+  - "Later magical orders should remain historical context unless a future project expands beyond the 10840-10843 window."

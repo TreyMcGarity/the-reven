@@ -1,0 +1,51 @@
+version: 1
+name: "Reven Timeline: 10840-10843"
+status: "approved"
+last_updated: "2026-08-12"
+
+playable_window:
+  start_year: 10840
+  end_year: 10843
+  label: "Shadow Conquest playable window"
+
+entries:
+  - year: 10840
+    title: "The REVEN period begins"
+    type: "opening_state"
+    summary: "Mayrn enters a desperate period of invasion and collapse. The old order is failing, and the frontier is under sustained pressure."
+    narrative_pressure:
+      - "cities are falling or under siege"
+      - "the Dred are no longer fringe threats"
+      - "the human world is beginning to unite against the shadow"
+
+  - year: 10841
+    title: "The frontier is pushed back"
+    type: "escalation"
+    summary: "The Dred continue to strike key settlements and routes. Small communities and watchposts endure repeated pressure while the broader resistance forms."
+    narrative_pressure:
+      - "Dred raids intensify"
+      - "panic spreads through frontier settlements"
+      - "The Hallowed Knights become more visible as defenders"
+
+  - year: 10842
+    title: "The first alliance forms"
+    type: "turning_point"
+    summary: "The first united Mayrn resistance against the Dred begins to take shape. This is the first true sign of organized retaliation."
+    narrative_pressure:
+      - "allied resistance emerges"
+      - "the war shifts from survival to coordinated defense"
+      - "the player story can feel like the beginning of the coming turnaround"
+
+  - year: 10843
+    title: "End of the Shadow Conquest"
+    type: "victory_state"
+    summary: "Umbra's legion is forced out of Subthara, ending the active conquest and creating the conditions for the next age."
+    narrative_pressure:
+      - "the world is saved but changed forever"
+      - "the old world has been broken"
+      - "the story can end with a hard-earned victory and a scarred world"
+
+canon_notes:
+  - "This timeline should be treated as the playable story spine."
+  - "Quest order inside the window can be tuned without violating the outer historical facts."
+  - "The 10843 end-state is not the final story of Mayrn, only the end of the conquest arc."

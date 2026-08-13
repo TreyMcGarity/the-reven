@@ -1,0 +1,82 @@
+version: 1
+name: "Reven Regional Canon"
+status: "approved"
+last_updated: "2026-08-12"
+
+regions:
+  - id: "mayrn"
+    name: "Mayrn"
+    type: "mortal_continent"
+    summary: "The primary mortal world of the setting, fractured by the Shadow Conquest."
+    canonical_traits:
+      - "the lived stage of the current story"
+      - "under pressure from the Dred and Umbra"
+      - "contains the frontier conflict zones"
+
+  - id: "solthara"
+    name: "Solthara"
+    type: "divine_realm"
+    summary: "The divine realm above the mortal world, associated with morality, order, and the elder powers."
+    canonical_traits:
+      - "exists beyond the earthly scope of the game"
+      - "influences the cosmology of Mayrn"
+      - "is the spiritual counterweight to Umbra"
+
+  - id: "subthara"
+    name: "Subthara"
+    type: "mortal_realm"
+    summary: "The world of mortals in which Mayrn exists and where the war is fought."
+    canonical_traits:
+      - "the main setting for the playable game"
+      - "the battlefront for the Shadow Conquest"
+      - "is attacked by Umbra's legion"
+
+  - id: "nulthara"
+    name: "Nulthara"
+    type: "outer_darkness"
+    summary: "The realm of outer darkness, the borderland of corruption and shadow."
+    canonical_traits:
+      - "source of Umbra's influence"
+      - "exists outside mortal limit and divine protection"
+      - "should remain atmospheric and threatening rather than a direct map area"
+
+  - id: "thway"
+    name: "The Thway"
+    type: "frontier_route"
+    summary: "A river route and contested road corridor linking the last defensive positions of Mayrn."
+    canonical_traits:
+      - "the primary in-game geography of the vertical slice"
+      - "the site of desperate frontier defense"
+      - "represents the final stand before larger resistance coalesces"
+
+  - id: "amanor"
+    name: "Amanor"
+    type: "fallen_city"
+    summary: "A major city lost during the Shadow Conquest."
+    canonical_traits:
+      - "its fall proves the scale of the war"
+      - "serves as a cultural memory of an older world"
+      - "its ruins or references should feel haunted rather than safe"
+
+  - id: "donrid"
+    name: "Donrid"
+    type: "fallen_city"
+    summary: "A northern stronghold destroyed during the conquest and a sign of the war's deep reach."
+    canonical_traits:
+      - "stands as one of the core markers of collapse"
+      - "connects the harsh northern frontier to the wider battle"
+      - "anchors the world-state before the alliance forms"
+
+  - id: "barrenlands"
+    name: "The Barrenlands"
+    type: "shadow_frontier"
+    summary: "A bleak region where Dred forces gather and spread Umbra's influence."
+    canonical_traits:
+      - "acts as the deeper war zone beyond the frontier"
+      - "signal of the world's decay under conquest"
+      - "useful for enemy spawning, lore, and dread atmosphere"
+
+canon_notes:
+  - "The game should keep its playable geography tight and readable."
+  - "The Thway is the best anchor for the first slice because it feels both intimate and world-significant."
+  - "City losses such as Amanor and Donrid should be reflected as memory, ruin, and narrative weight rather than active settlement hubs."
