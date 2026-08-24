@@ -1,0 +1,110 @@
+version: 1
+name: "Reven First Trilogy Framework"
+status: "draft_for_author_review"
+date: "2026-08-23"
+
+rules:
+  - "Shadow Conquest book must remain inside 10840-10843 factual anchors unless explicitly marked [OPTION]."
+  - "Use claim_id citations for all fixed lore statements."
+  - "Mark unresolved mechanics/politics as [NEEDS_LORE]."
+
+books:
+  - title: "Shadow Conquest"
+    slug: "shadow-conquest"
+    objective: "Deliver the terminal war arc from desperate survival to forced retreat of Umbra's legion."
+    canon_anchors:
+      - "CANON-002"
+      - "CANON-004"
+      - "CANON-005"
+      - "CANON-006"
+      - "CANON-007"
+      - "CANON-008"
+      - "CANON-010"
+      - "CANON-011"
+    timeline_spine:
+      - year: 10840
+        beats:
+          - "REVEN period begins under collapse pressure (CANON-004)."
+      - year: 10841
+        beats:
+          - "Escalating frontier attrition and Dred pressure."
+      - year: 10842
+        beats:
+          - "First alliance forms (CANON-007)."
+      - year: 10843
+        beats:
+          - "Conquest ends; Umbra legion forced out (CANON-008)."
+    chapter_architecture:
+      - id: "SC-01"
+        purpose: "Set lived world-state: fallen cities, narrowing options."
+      - id: "SC-02"
+        purpose: "Pressure test frontier defenders and Hallowed Knights role."
+        requires:
+          - "CANON-010"
+      - id: "SC-03"
+        purpose: "Escalate with variant threats and strategic losses."
+        requires:
+          - "CANON-011"
+      - id: "SC-04"
+        purpose: "Converge toward first alliance threshold in 10842."
+        requires:
+          - "CANON-007"
+      - id: "SC-05"
+        purpose: "End-state resolution in 10843; costly victory."
+        requires:
+          - "CANON-008"
+
+  - title: "The Magic Wars"
+    slug: "the-magic-wars"
+    objective: "Bridge from post-conquest recovery into organized magical conflict during the dawn of magic."
+    canon_anchors:
+      - "CANON-009"
+      - "CANON-012"
+    chapter_architecture:
+      - id: "MW-01"
+        purpose: "Immediate aftermath: consequences of wartime mana emergence."
+        requires:
+          - "CANON-009"
+      - id: "MW-02"
+        purpose: "Divergence of magical orders into competing traditions."
+        requires:
+          - "CANON-012"
+      - id: "MW-03"
+        purpose: "Escalation from doctrinal split to open conflict."
+        dependencies:
+          - "[NEEDS_LORE] trigger incident that starts war"
+          - "[NEEDS_LORE] institutions adjudicating magical authority"
+      - id: "MW-04"
+        purpose: "Close with political shock that enables Wicked War conditions."
+        dependencies:
+          - "[NEEDS_LORE] policy response to magical devastation"
+
+  - title: "Wicked War"
+    slug: "wicked-war"
+    objective: "Conclude the first trilogy with systemic fallout and setup for the next age."
+    canon_anchors:
+      - "CANON-012"
+      - "CANON-014"
+      - "CANON-013"
+    chapter_architecture:
+      - id: "WW-01"
+        purpose: "Fragmented powers capitalize on post-Magic-Wars instability."
+        dependencies:
+          - "[NEEDS_LORE] named belligerents and theaters"
+      - id: "WW-02"
+        purpose: "Introduce later-era antagonist pressure in precursor form."
+        requires:
+          - "CANON-014"
+      - id: "WW-03"
+        purpose: "Define world decision that leads toward anti-magic order."
+        dependencies:
+          - "[NEEDS_LORE] legal mechanism for outlawing magic"
+      - id: "WW-04"
+        purpose: "End with explicit transition marker into next age and trilogy chain."
+        requires:
+          - "CANON-013"
+
+cross_book_continuity_checks:
+  - "Check continuity of Well of Mana implications across all three books (CANON-009)."
+  - "Ensure no contradiction with fixed 10840-10843 outcomes in Shadow Conquest."
+  - "Track unresolved legal/political structure for magic governance as blocker before full prose."

@@ -54,21 +54,29 @@ series:
 
   third_age_trilogy:
     description: "Post-magic-outlawed era trilogy; first known anchor is TechnoMagic."
+    source_outlines:
+      - "docs/raw/The Reven_ TechnoMagic Outline.docx"
+      - "docs/raw/The Reven_ Evil Within Outline.docx"
+      - "docs/raw/The Reven_ Chaos Outline.docx"
+    extracted_references:
+      - "docs/processing/technomagic-outline.extracted.txt"
+      - "docs/processing/evil-within-outline.extracted.txt"
+      - "docs/processing/chaos-outline.extracted.txt"
     books:
       - order: 1
         title: "TechnoMagic"
         slug: "technomagic"
-        state: "planning"
+        state: "outline_available"
         era_focus: "third_age_after_magic_outlaw"
       - order: 2
         title: "TBD"
         slug: "third-age-book-2"
-        state: "idea"
+        state: "outline_available"
         era_focus: "tbd"
       - order: 3
         title: "TBD"
         slug: "third-age-book-3"
-        state: "idea"
+        state: "outline_available"
         era_focus: "tbd"
 
 authoring_protocol:

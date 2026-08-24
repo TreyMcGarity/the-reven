@@ -1,0 +1,126 @@
+version: 1
+name: "Reven Compendium Framework"
+status: "draft_for_author_review"
+date: "2026-08-23"
+
+rules:
+  - "Use only canon claims for factual statements."
+  - "Mark unknowns with [NEEDS_LORE]."
+  - "Mark alternatives with [OPTION]."
+  - "Do not treat this framework as canon by itself."
+
+books:
+  - title: "Before the Ages"
+    slug: "before-the-ages"
+    objective: "Establish cosmology and foundational world-state before mortal era conflicts."
+    canon_anchors:
+      - "CANON-001"
+    chapter_architecture:
+      - id: "BA-01"
+        purpose: "Define realm triad and existential boundaries."
+        requires:
+          - "CANON-001"
+        dependencies:
+          - "[NEEDS_LORE] creation-order events"
+          - "[NEEDS_LORE] divine governance and limits"
+      - id: "BA-02"
+        purpose: "Establish how Subthara inherits risk from Nulthara influence."
+        requires:
+          - "CANON-001"
+        dependencies:
+          - "[NEEDS_LORE] first corruption incidents"
+      - id: "BA-03"
+        purpose: "Set the ideological divide that later fuels mortal conflicts."
+        dependencies:
+          - "[NEEDS_LORE] early doctrines/factions"
+      - id: "BA-04"
+        purpose: "Close with preconditions for Dawn of Mortals."
+        dependencies:
+          - "[NEEDS_LORE] transition event into Book 2"
+
+  - title: "Dawn of Mortals"
+    slug: "dawn-of-mortals"
+    objective: "Define the rise of mortal societies and early power structures in Mayrn."
+    canon_anchors:
+      - "CANON-001"
+      - "CANON-002"
+    chapter_architecture:
+      - id: "DM-01"
+        purpose: "Introduce early mortal settlement logic in Subthara."
+        requires:
+          - "CANON-001"
+        dependencies:
+          - "[NEEDS_LORE] first settlement regions"
+      - id: "DM-02"
+        purpose: "Establish proto-faction tensions that prefigure later wars."
+        dependencies:
+          - "[NEEDS_LORE] names and motives of early powers"
+      - id: "DM-03"
+        purpose: "Trace the conditions that make a long war possible."
+        requires:
+          - "CANON-002"
+          - "CANON-003"
+        dependencies:
+          - "[NEEDS_LORE] escalation ladder toward 8873 FA"
+      - id: "DM-04"
+        purpose: "Hand off to The First Mayrn War with clear geopolitical fractures."
+        dependencies:
+          - "[NEEDS_LORE] pre-war alliances and betrayals"
+
+  - title: "The First Mayrn War"
+    slug: "the-first-mayrn-war"
+    objective: "Depict the first major war that shapes long-term Mayrn identity."
+    canon_anchors:
+      - "CANON-002"
+      - "CANON-003"
+    chapter_architecture:
+      - id: "FMW-01"
+        purpose: "Open at war ignition context."
+        requires:
+          - "CANON-003"
+      - id: "FMW-02"
+        purpose: "Show early operational patterns of Umbra-aligned warfare."
+        requires:
+          - "CANON-002"
+        dependencies:
+          - "[NEEDS_LORE] early Dred doctrine before late variants"
+      - id: "FMW-03"
+        purpose: "Capture social and political consequences across Mayrn."
+        dependencies:
+          - "[NEEDS_LORE] key cities and governance status"
+      - id: "FMW-04"
+        purpose: "Define unresolved war legacies for Diaspora."
+        dependencies:
+          - "[NEEDS_LORE] migration triggers and survivor blocs"
+
+  - title: "Mayrn Diaspora"
+    slug: "mayrn-diaspora"
+    objective: "Map displacements and the civilizational reconfiguration that precedes REVEN-era convergence."
+    canon_anchors:
+      - "CANON-005"
+      - "CANON-006"
+      - "CANON-004"
+    chapter_architecture:
+      - id: "MD-01"
+        purpose: "Establish displacement and loss after city collapses."
+        requires:
+          - "CANON-005"
+          - "CANON-006"
+      - id: "MD-02"
+        purpose: "Track regional regrouping around frontier and routes."
+        requires:
+          - "CANON-004"
+        dependencies:
+          - "[NEEDS_LORE] migration corridors and strongholds"
+      - id: "MD-03"
+        purpose: "Seed institutions and factions that can plausibly lead into 10840-10843."
+        dependencies:
+          - "[NEEDS_LORE] named leaders and proto-orders"
+      - id: "MD-04"
+        purpose: "Close on pre-10840 conditions and narrative pressure."
+        requires:
+          - "CANON-004"
+
+review_targets:
+  - "Validate chronology from 8873 FA to 10840 continuity without contradiction."
+  - "Resolve all [NEEDS_LORE] items with author decisions before prose drafting."
