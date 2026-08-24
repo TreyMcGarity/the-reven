@@ -1,41 +1,46 @@
-# Game Development Roadmap
+# Reven Lore and Books Roadmap
 
-## Current Phase: Phase 0 — Studio Setup
+## Current Phase: Lore Phase 1 - Canon Foundation and Series Architecture
 
 ---
 
-## Phase 0: Studio Setup (Current)
-- **Goal**: Build the AI management system. No game work yet.
-- **Exit Criteria**: All orchestration files reviewed. Ingestion pipeline tested.
+## Lore Phase 0: Studio Pivot and Governance
+- **Goal**: Shift orchestration from game-first to lore-first.
+- **Exit Criteria**: Orchestrator updated. Lore books pipeline added. Approval gates extended for manuscripts.
 
-## Phase 1: Research & Decisions
-- **Goal**: Lock engine, scope, and technical constraints.
-- **Exit Criteria**: Engine decision approved. Scope boundaries approved. Vertical slice spec drafted.
+## Lore Phase 1: Canon Foundation and Series Architecture (Current)
+- **Goal**: Build a coherent age/timeline framework and lock the series backbone.
+- **Exit Criteria**: Era map approved. Book sequence approved. Canon contradiction process active.
 
-## Phase 2: Core Design
-- **Goal**: Define core gameplay loop. Organize initial lore into canon.
-- **Exit Criteria**: Core loop approved. Vertical slice design approved. Initial canon established.
+## Lore Phase 2: Compendium Development
+- **Goal**: Draft and refine the four-book Reven Compendium.
+- **Target Books**:
+	- Before the Ages
+	- Dawn of Mortals
+	- The First Mayrn War
+	- Mayrn Diaspora
+- **Exit Criteria**: Each book has approved outline, chapter architecture, and continuity pass.
 
-## Phase 3: Vertical Slice
-- **Goal**: Build one playable area with one loop.
-- **Exit Criteria**: Player can move, fight, and progress in one region. Playtested and approved.
+## Lore Phase 3: First Trilogy Development
+- **Goal**: Draft and refine the first trilogy that carries the end of one age into the dawn of magic and the start of the second age.
+- **Target Books**:
+	- Shadow Conquest
+	- The Magic Wars
+	- Wicked War
+- **Exit Criteria**: Trilogy continuity and era-transition constraints approved.
 
-## Phase 4: Core Systems
-- **Goal**: Build all core gameplay systems to functional state.
-- **Exit Criteria**: All core systems functional. Save/load working. UI framework in place.
+## Lore Phase 4: Third Age Trilogy Planning
+- **Goal**: Define the next trilogy beginning with TechnoMagic and establish a clear post-magic-outlawed world state.
+- **Exit Criteria**: Third-age bible approved. Book 1 outline approved. Remaining trilogy high-level arcs approved.
 
-## Phase 5: Content Expansion
-- **Goal**: Build out the world using established systems.
-- **Exit Criteria**: Target content volume reached. Lore delivered through gameplay. Balance pass complete.
+## Lore Phase 5: Manuscript System and Revision Loops
+- **Goal**: Run iterative manuscript drafting, revision, and canon verification loops for all active books.
+- **Exit Criteria**: Every active manuscript has scene-level continuity checks and unresolved lore gaps tracked.
 
-## Phase 6: Multiplayer & Backend
-- **Goal**: Add networking and backend services.
-- **Exit Criteria**: Multiplayer functional. Backend deployed. Security audit passed.
+## Lore Phase 6: Publish-Ready Lore Canon
+- **Goal**: Consolidate all approved lore from book work into a stable canon reference.
+- **Exit Criteria**: Canon index expanded, contradiction ledger closed or triaged, series-level timeline approved.
 
-## Phase 7: Testing & Polish
-- **Goal**: Systematic QA, performance, balance, UX polish.
-- **Exit Criteria**: All critical bugs resolved. Performance targets met. Release candidate exists.
-
-## Phase 8: Release & Post-Launch
-- **Goal**: Ship and support.
-- **Exit Criteria**: Game released. Analytics active. Post-launch plan exists.
+## Game Creation Status
+- **State**: Paused by author directive.
+- **Resume Condition**: Author confirms lore-through-books direction is stable enough to drive game scope.

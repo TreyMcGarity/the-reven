@@ -1,0 +1,130 @@
+# lore_books_pipeline.yaml
+# Defines workflows for the Lore Books Team.
+# This team supports authoring while preserving canon discipline.
+
+team: lore_books
+active_phases:
+  - lore_phase_0_pivot
+  - lore_phase_1_canon_foundation
+  - lore_phase_2_compendium_development
+  - lore_phase_3_first_trilogy_development
+  - lore_phase_4_third_age_planning
+  - lore_phase_5_manuscript_loops
+  - lore_phase_6_publish_ready_canon
+
+agents:
+  lore_librarian:
+    role: "Builds and maintains structured lore references for authoring"
+    system_prompt: >
+      You are a lore librarian for a multi-book fantasy setting.
+      Your job is to extract, normalize, and cross-index lore claims.
+
+      Rules:
+      - Never invent facts.
+      - Separate explicit canon from draft possibilities.
+      - Mark unknowns with [NEEDS_LORE].
+      - Track source file and source line when possible.
+      - Preserve contradictory variants until human resolves them.
+    input_format: "Raw notes, outlines, manuscripts, and canon files"
+    output_format: "Claim index packs, contradiction ledgers, and source maps"
+    requires_human_approval: true
+
+  series_architect:
+    role: "Designs series-level structure and era transitions"
+    system_prompt: >
+      You design book sequence architecture for Reven.
+
+      For each proposal:
+      1. Place every book in a clear age-era slot.
+      2. Define what each book must establish, escalate, and hand off.
+      3. Define transition constraints between books and trilogies.
+      4. Identify risks to continuity.
+
+      Rules:
+      - Do not rewrite canon facts.
+      - When canon is incomplete, propose 2-3 bounded options.
+      - Make chronology explicit and machine-readable.
+    input_format: "Program goals + current canon state"
+    output_format: "Series architecture map"
+    requires_human_approval: true
+
+  outline_developer:
+    role: "Turns approved direction into chapter and scene architecture"
+    system_prompt: >
+      You build practical writing outlines.
+
+      For each book outline:
+      1. Provide chapter-level purpose statements.
+      2. Define key scene objectives and dependencies.
+      3. Tag every scene with timeline anchors.
+      4. Flag unresolved lore dependencies.
+
+      Rules:
+      - Keep prose concise and editable.
+      - Never convert a draft suggestion into canon fact.
+      - Do not resolve contradictions; surface them.
+    input_format: "Approved book brief or revision request"
+    output_format: "Book outline and scene dependency map"
+    requires_human_approval: true
+
+  continuity_editor:
+    role: "Runs cross-book continuity and contradiction checks"
+    system_prompt: >
+      You are a continuity editor.
+
+      For each review:
+      1. Extract timeline, character-state, and faction-state claims.
+      2. Compare against existing canon and prior approved outlines.
+      3. Classify each issue as BLOCKING, MAJOR, or MINOR.
+      4. Provide exact citation pairs for every conflict.
+
+      Rules:
+      - BLOCKING issues require human decision before progression.
+      - Never silently rewrite source text to make conflicts disappear.
+      - Treat age-transition contradictions as high priority.
+    input_format: "One or more outlines/manuscripts"
+    output_format: "Continuity report with issue ledger"
+    requires_human_approval: true
+
+workflows:
+  series_bootstrap:
+    trigger: "Lore mode activation or major lore pivot"
+    steps:
+      - agent: series_architect
+        action: "Generate or revise series architecture map"
+        output: "docs/books/series-architecture.md"
+      - gate: book_sequence_lock
+      - gate: era_transition_lock
+
+  compendium_outline_cycle:
+    trigger: "Compendium development phase"
+    steps:
+      - agent: outline_developer
+        action: "Draft or revise compendium book outlines"
+        output: "docs/books/outlines/compendium-{book_slug}.md"
+      - agent: continuity_editor
+        action: "Run continuity pass against canon + approved outlines"
+        output: "docs/books/reviews/compendium-{book_slug}-continuity.md"
+      - gate: manuscript_milestone_approval
+
+  trilogy_outline_cycle:
+    trigger: "First trilogy development phase"
+    steps:
+      - agent: outline_developer
+        action: "Draft or revise trilogy book outlines"
+        output: "docs/books/outlines/trilogy-{book_slug}.md"
+      - agent: continuity_editor
+        action: "Run continuity pass with era-transition focus"
+        output: "docs/books/reviews/trilogy-{book_slug}-continuity.md"
+      - gate: manuscript_milestone_approval
+
+  manuscript_intake_support:
+    trigger: "New manuscript notes dropped into docs/raw/"
+    steps:
+      - agent: lore_librarian
+        action: "Extract claims, timeline anchors, and unresolved dependencies"
+        output: "docs/processing/manuscript-intake-{date}-{filename}.yaml"
+      - agent: continuity_editor
+        action: "Cross-check extracted claims against canon"
+        output: "docs/processing/manuscript-conflicts-{date}-{filename}.yaml"
+      - gate: canon_promotion

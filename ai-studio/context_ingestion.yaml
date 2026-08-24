@@ -60,18 +60,28 @@ ingestion:
       agent: "lore_organizer"
       action: "classify_claims_by_timeline"
       output: "processing/timeline-{date}-{filename}.yaml"
-      playable_window:
-        start_linear_year: 10840
-        end_linear_year: 10843
+      mode_policy:
+        lore_authoring:
+          behavior: "classify_across_all_ages"
+        game_production:
+          playable_window:
+            start_linear_year: 10840
+            end_linear_year: 10843
       buckets:
+        - pre_age_foundations
+        - first_age
+        - second_age
+        - third_age
+        - cross_age
         - in_window
         - pre_window_backstory
         - post_window_future
         - needs_date_confirmation
       description: >
-        For each claim, assign a timeline bucket using explicit dates from source text.
+        For each claim, assign timeline buckets using explicit dates and era markers
+        from source text. In lore_authoring mode, classify across all ages.
+        In game_production mode, maintain in_window/pre_window/post_window gating.
         If no reliable date is present, classify as needs_date_confirmation.
-        Only in_window claims are gameplay-eligible for the current project scope.
 
     step_4_review_document:
       agent: "lore_organizer"
@@ -117,5 +127,5 @@ ingestion:
     - "Track provenance: every canon claim links back to its raw source."
     - "Support versioning: when canon changes, keep the old version as deprecated."
     - "Classify all claims by timeline bucket before review."
-    - "For current project scope, only claims in linear years 10840-10843 are gameplay-eligible."
-    - "Claims outside 10840-10843 may be canonized as context, but cannot drive mandatory gameplay content without human scope approval."
+    - "In lore_authoring mode, all ages may be canonized with explicit chronology tags."
+    - "In game_production mode, only claims in linear years 10840-10843 are gameplay-eligible unless human scope approval is recorded."

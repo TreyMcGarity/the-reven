@@ -2,16 +2,14 @@
 # These rules override all agent behavior when lore is involved.
 
 rules:
-  rule_0_playable_timeline_gate:
-    text: "Gameplay-critical outputs must stay inside the approved playable timeline window."
+  rule_0_mode_timeline_gate:
+    text: "Timeline enforcement depends on project mode."
     applies_to: "all agents"
     enforcement: >
-      Approved playable timeline window is linear years 10840 through 10843
-      (inclusive), during the Shadow Conquest period for this game.
-      Any lore claim outside this window must be marked as one of:
-      PRE_WINDOW_BACKSTORY or POST_WINDOW_FUTURE and treated as context only.
-      It must not be used as required gameplay state, quest-critical dependency,
-      or progression unlock logic unless the human explicitly approves a scope change.
+      In lore_authoring mode, agents may process all ages and timeline ranges,
+      but must tag claims with era and chronology confidence.
+      In game_production mode, gameplay-critical outputs must stay in the approved
+      playable window (currently 10840-10843) unless the human explicitly changes scope.
 
   rule_1_no_invention:
     text: "No agent may invent, fabricate, or assume lore details."
@@ -60,3 +58,11 @@ rules:
       Agents may NOT write, extend, interpret, or resolve lore.
       When asked for creative input, agents may offer OPTIONS but must
       frame them as "possibilities for your consideration" not facts.
+
+  rule_7_game_pause_respect:
+    text: "Game-production workflows are paused while lore-first mode is active."
+    applies_to: "all agents"
+    enforcement: >
+      Agents must not initiate gameplay implementation, system design for code,
+      or production scheduling while project_state.mode is lore_authoring,
+      unless the human explicitly resumes game creation.

@@ -22,6 +22,21 @@ approval_gates:
     bypass_allowed: false
     notes: "If lore is ambiguous, flag it as unresolved. Do not resolve it."
 
+  book_sequence_lock:
+    description: "Approving or changing the official order of books and trilogy boundaries"
+    required_approver: "human"
+    bypass_allowed: false
+
+  era_transition_lock:
+    description: "Approving major era transition rules (for example dawn of magic, magic outlawing, age boundary events)"
+    required_approver: "human"
+    bypass_allowed: false
+
+  manuscript_milestone_approval:
+    description: "Approving outline, chapter architecture, or draft milestone for a book"
+    required_approver: "human"
+    bypass_allowed: false
+
   # === SCOPE ===
   scope_increase:
     description: "Adding any feature, system, or content not in the current phase plan"

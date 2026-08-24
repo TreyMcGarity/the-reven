@@ -1,141 +1,144 @@
 # master_orchestrator.yaml
-# Root orchestration file for the AI Game Development Studio.
+# Root orchestration file for the Reven Lore Studio.
 # This file defines the overall system, team registry, and phase management.
 # Agents read this file to understand their place in the system.
 
 system:
-  name: "AI Game Dev Studio"
-  version: "0.1.0"
+  name: "Reven Lore Studio"
+  version: "0.2.0"
   owner: "solo-developer"
   workflow: "repo-first"
   description: >
-    Multi-agent orchestration system for a solo developer building a
-    3D fantasy game with AI assistance. All outputs are file-based
-    and reviewed through GitHub.
+    Multi-agent orchestration system for a solo creator building a
+    coherent multi-age Reven canon and book series with AI assistance.
+    Game development workflows remain available but are currently paused.
 
 # Current project state — updated as phases progress
 project_state:
-  current_phase: "phase_0_studio_setup"
-  engine: "unreal_engine"
-  playable_timeline:
-    era: "Shadow Conquest"
-    start_linear_year: 10840
-    end_linear_year: 10843
-    note: "Current game scope is constrained to this timeline window."
+  mode: "lore_authoring"
+  current_phase: "lore_phase_1_canon_foundation"
+  game_creation_status: "paused"
+  canon_scope:
+    model: "multi_age"
+    note: "Books may span pre-age, first age, second age, and third age transitions."
+  program_focus:
+    compendium:
+      - "Before the Ages"
+      - "Dawn of Mortals"
+      - "The First Mayrn War"
+      - "Mayrn Diaspora"
+    first_trilogy:
+      - "Shadow Conquest"
+      - "The Magic Wars"
+      - "Wicked War"
+    third_age_trilogy:
+      - "TechnoMagic (working title)"
   active_teams:
-    - research
+    - lore_books
     - management
+    - verification
   dormant_teams:
+    - research
+    - design
     - development
     - testing
     - multiplayer_security
-  paused_teams: []
+  paused_teams:
+    - game_production
 
 # Phase definitions with entry/exit criteria
 phases:
-  phase_0_studio_setup:
-    name: "Studio Setup"
-    description: "Build the AI management system. No game work."
+  lore_phase_0_pivot:
+    name: "Studio Pivot"
+    description: "Transition from game-first to lore-first authoring workflows."
     entry_criteria: "None — starting point"
     exit_criteria:
-      - "All orchestration files created and reviewed"
-      - "Document ingestion pipeline tested with one sample doc"
-      - "Agent definitions reviewed and approved"
-    active_teams: [research, management]
+      - "Lore authoring mode enabled in orchestrator"
+      - "Lore books pipeline created and reviewed"
+      - "Approval gates updated for manuscript governance"
+    active_teams: [lore_books, management, verification]
     human_approval_to_exit: true
 
-  phase_1_research:
-    name: "Research & Decisions"
-    description: "Lock engine, scope, and technical constraints."
-    entry_criteria: "Phase 0 approved"
+  lore_phase_1_canon_foundation:
+    name: "Canon Foundation and Series Architecture"
+    description: "Define era structure and lock core sequence for compendium and trilogies."
+    entry_criteria: "Lore pivot approved"
     exit_criteria:
-      - "Engine decision document approved"
-      - "Scope boundary document approved"
-      - "Vertical slice specification drafted"
-    active_teams: [research, management, verification]
+      - "Era structure approved"
+      - "Book sequence approved"
+      - "Core contradiction and gap ledger established"
+    active_teams: [lore_books, management, verification]
     human_approval_to_exit: true
 
-  phase_2_core_design:
-    name: "Core Design"
-    description: "Define the core gameplay loop and organize lore."
-    entry_criteria: "Engine decided. Phase 1 approved."
+  lore_phase_2_compendium_development:
+    name: "Compendium Development"
+    description: "Develop the four books of the Reven Compendium."
+    entry_criteria: "Lore Phase 1 approved"
     exit_criteria:
-      - "Core loop specification approved"
-      - "Vertical slice design document approved"
-      - "Initial lore canon established (at least world + 1 faction)"
-    active_teams: [research, management, verification, design]
+      - "Each compendium book has approved outline"
+      - "Chapter architecture and continuity checks completed"
+      - "Open lore gaps tracked with explicit author decisions"
+    active_teams: [lore_books, management, verification]
     human_approval_to_exit: true
 
-  phase_3_vertical_slice:
-    name: "Vertical Slice"
-    description: "Build one playable area with one loop."
-    entry_criteria: "Core design approved. Phase 2 approved."
+  lore_phase_3_first_trilogy_development:
+    name: "First Trilogy Development"
+    description: "Develop Shadow Conquest, The Magic Wars, and Wicked War with age-transition continuity."
+    entry_criteria: "Lore Phase 2 approved"
     exit_criteria:
-      - "Player can move in one region"
-      - "One combat encounter works"
-      - "One progression step works"
-      - "Human has playtested and approved the feel"
-    active_teams: [research, management, verification, design, development, testing]
+      - "All three trilogy books have approved outlines"
+      - "Dawn-of-magic and second-age transition documented"
+      - "Cross-book contradiction count at zero unresolved blockers"
+    active_teams: [lore_books, management, verification]
     human_approval_to_exit: true
 
-  phase_4_core_systems:
-    name: "Core Systems"
-    description: "Build all core gameplay systems."
-    entry_criteria: "Vertical slice approved. Phase 3 approved."
+  lore_phase_4_third_age_planning:
+    name: "Third Age Trilogy Planning"
+    description: "Define the post-magic-outlawed world and plan the third-age trilogy beginning with TechnoMagic."
+    entry_criteria: "Lore Phase 3 approved"
     exit_criteria:
-      - "All core systems functional and tested"
-      - "Save/load working"
-      - "UI framework in place"
-    active_teams: [management, verification, design, development, testing]
+      - "Third-age world bible approved"
+      - "TechnoMagic book-one outline approved"
+      - "Trilogy-level arc map approved"
+    active_teams: [lore_books, management, verification]
     human_approval_to_exit: true
 
-  phase_5_content:
-    name: "Content Expansion"
-    description: "Build out the world."
-    entry_criteria: "Core systems approved. Phase 4 approved."
+  lore_phase_5_manuscript_loops:
+    name: "Manuscript Iteration and Continuity Loops"
+    description: "Run repeatable drafting, revision, and canon-verification cycles."
+    entry_criteria: "Lore Phase 4 approved"
     exit_criteria:
-      - "Target content volume reached"
-      - "All lore delivered through gameplay"
-      - "Balance pass complete"
-    active_teams: [management, verification, design, development, testing]
+      - "Active manuscripts pass continuity review"
+      - "Scene-level unresolved items reduced to approved backlog"
+      - "Series timeline remains internally consistent"
+    active_teams: [lore_books, management, verification]
     human_approval_to_exit: true
 
-  phase_6_multiplayer:
-    name: "Multiplayer & Backend"
-    description: "Add networking and backend services."
-    entry_criteria: "Single-player content stable. Phase 5 approved."
+  lore_phase_6_publish_ready_canon:
+    name: "Publish-Ready Canon"
+    description: "Consolidate all approved lore into a stable canon reference for publication and future game scope."
+    entry_criteria: "Lore Phase 5 approved"
     exit_criteria:
-      - "Multiplayer functional at target player count"
-      - "Backend services deployed and tested"
-      - "Security audit passed"
-    active_teams: [all]
+      - "Canon index fully updated"
+      - "Contradiction ledger has no unresolved blockers"
+      - "Series age-transition timeline approved"
+    active_teams: [lore_books, management, verification]
     human_approval_to_exit: true
 
-  phase_7_polish:
-    name: "Testing & Polish"
-    description: "QA, performance, balance, UX polish."
-    entry_criteria: "Multiplayer stable. Phase 6 approved."
+  game_backlog_paused:
+    name: "Game Production Backlog"
+    description: "Legacy game phases retained for future resumption after lore stabilization."
+    entry_criteria: "Author explicitly resumes game development"
     exit_criteria:
-      - "All critical bugs resolved"
-      - "Performance targets met"
-      - "Balance approved"
-      - "Release candidate build exists"
-    active_teams: [management, verification, development, testing]
-    human_approval_to_exit: true
-
-  phase_8_release:
-    name: "Release"
-    description: "Ship and support."
-    entry_criteria: "Release candidate approved. Phase 7 approved."
-    exit_criteria:
-      - "Game released"
-      - "Analytics active"
-      - "Post-launch plan exists"
-    active_teams: [all]
+      - "Not active while in lore_authoring mode"
+    active_teams: [research, design, development, testing, multiplayer_security, management, verification]
     human_approval_to_exit: true
 
 # Team registry — points to team-specific pipeline files
 teams:
+  lore_books:
+    pipeline: "pipelines/lore_books_pipeline.yaml"
+    lead_agent: "lore_librarian"
   research:
     pipeline: "pipelines/research_pipeline.yaml"
     lead_agent: "engine_evaluator"
@@ -160,10 +163,11 @@ teams:
 
 # Global rules all agents must follow
 global_rules:
-  - "Never invent or assume lore details. Use only canon-status documents."
+  - "Never invent or assume lore details. Use only canon-status documents unless writing explicit, human-approved draft options."
   - "Never increase project scope without Scope Guardian approval AND human approval."
   - "All outputs are files committed to the repo. No ephemeral-only outputs."
   - "When uncertain, ask the human. Do not guess."
   - "Prefer the simplest solution that works for a solo developer."
   - "Every feature proposal must pass the scope filter before any work begins."
   - "Human approval is required for all items listed in approval_gates.yaml."
+  - "Game production work remains paused unless the human explicitly reactivates it."

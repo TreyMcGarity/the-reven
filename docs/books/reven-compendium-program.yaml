@@ -1,0 +1,106 @@
+# reven-compendium-program.yaml
+# Master writing program for the Reven books.
+# This file is planning guidance and does not itself canonize lore.
+
+program:
+  status: active
+  priority: "lore_first"
+  game_creation: "paused_until_author_resume"
+  owner: "human_author"
+
+series:
+  compendium:
+    description: "Foundational four-book arc establishing early eras and Mayrn history."
+    books:
+      - order: 1
+        title: "Before the Ages"
+        slug: "before-the-ages"
+        state: "planning"
+        era_focus: "pre_age_foundations"
+      - order: 2
+        title: "Dawn of Mortals"
+        slug: "dawn-of-mortals"
+        state: "planning"
+        era_focus: "early_mortal_rise"
+      - order: 3
+        title: "The First Mayrn War"
+        slug: "the-first-mayrn-war"
+        state: "planning"
+        era_focus: "first_major_mayrn_conflict"
+      - order: 4
+        title: "Mayrn Diaspora"
+        slug: "mayrn-diaspora"
+        state: "planning"
+        era_focus: "post_war_dispersal"
+
+  first_trilogy:
+    description: "Primary trilogy bridging late Shadow Conquest and the dawn of magic into the second age."
+    books:
+      - order: 1
+        title: "Shadow Conquest"
+        slug: "shadow-conquest"
+        state: "planning"
+        era_focus: "late_shadow_conquest"
+      - order: 2
+        title: "The Magic Wars"
+        slug: "the-magic-wars"
+        state: "planning"
+        era_focus: "dawn_of_magic"
+      - order: 3
+        title: "Wicked War"
+        slug: "wicked-war"
+        state: "planning"
+        era_focus: "second_age_conflicts"
+
+  third_age_trilogy:
+    description: "Post-magic-outlawed era trilogy; first known anchor is TechnoMagic."
+    books:
+      - order: 1
+        title: "TechnoMagic"
+        slug: "technomagic"
+        state: "planning"
+        era_focus: "third_age_after_magic_outlaw"
+      - order: 2
+        title: "TBD"
+        slug: "third-age-book-2"
+        state: "idea"
+        era_focus: "tbd"
+      - order: 3
+        title: "TBD"
+        slug: "third-age-book-3"
+        state: "idea"
+        era_focus: "tbd"
+
+authoring_protocol:
+  intake:
+    source_directory: "docs/raw/"
+    naming_hint: "{book-slug}-outline-v{n}.md"
+    accepted_formats: [".md", ".txt", ".docx", ".pdf", ".yaml"]
+  workflow:
+    - "Ingest notes and extract claims"
+    - "Attach timeline anchors"
+    - "Run continuity/canon check"
+    - "Generate outline pack"
+    - "Human review and milestone approval"
+  required_markers:
+    unresolved_lore: "[NEEDS_LORE]"
+    optional_branch: "[OPTION]"
+    canon_reference: "claim_id"
+
+milestones:
+  - id: "M1"
+    name: "Series architecture lock"
+    gate: "book_sequence_lock"
+  - id: "M2"
+    name: "Era transitions lock"
+    gate: "era_transition_lock"
+  - id: "M3"
+    name: "Compendium outline approval"
+    gate: "manuscript_milestone_approval"
+  - id: "M4"
+    name: "First trilogy outline approval"
+    gate: "manuscript_milestone_approval"
+
+notes:
+  - "Only human approval promotes draft material to canon."
+  - "Game-production scope remains paused while this program is active."
