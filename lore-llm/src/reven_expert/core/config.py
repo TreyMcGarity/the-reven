@@ -2,8 +2,9 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Literal
+from urllib.parse import urlparse
 
-from pydantic import Field, field_validator
+from pydantic import Field, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -25,6 +26,7 @@ class Settings(BaseSettings):
     ollama_model: str = "qwen2.5:3b-instruct-q4_K_M"
     ollama_api_url: str = "http://127.0.0.1:11434/api/generate"
     ollama_keep_alive: str = "20m"
+    allow_remote_ollama: bool = False
 
     canon_prompt_file: Path = Path("prompts/system_canon_mode.txt")
     draft_prompt_file: Path = Path("prompts/system_draft_mode.txt")
@@ -35,6 +37,28 @@ class Settings(BaseSettings):
         if not value.strip():
             raise ValueError("canon_files cannot be empty")
         return value
+
+    @model_validator(mode="after")
+    def validate_provider_urls(self) -> "Settings":
+        if self.llm_provider == "claude":
+            parsed = urlparse(self.anthropic_api_url)
+            if parsed.scheme not in {"https"}:
+                raise ValueError("anthropic_api_url must use https")
+
+        if self.llm_provider == "ollama":
+            parsed = urlparse(self.ollama_api_url)
+            if parsed.scheme not in {"http", "https"}:
+                raise ValueError("ollama_api_url must use http or https")
+
+            host = (parsed.hostname or "").lower()
+            local_hosts = {"127.0.0.1", "localhost", "::1"}
+            if not self.allow_remote_ollama and host not in local_hosts:
+                raise ValueError(
+                    "Remote Ollama endpoints are blocked by default. "
+                    "Set REVEN_ALLOW_REMOTE_OLLAMA=true only if you trust the remote host."
+                )
+
+        return self
 
     @property
     def canon_paths(self) -> list[Path]:

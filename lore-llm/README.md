@@ -69,6 +69,7 @@ REVEN_OLLAMA_MODEL=qwen2.5:3b-instruct-q4_K_M
 REVEN_OLLAMA_API_URL=http://127.0.0.1:11434/api/generate
 REVEN_OLLAMA_KEEP_ALIVE=20m
 REVEN_LLM_TIMEOUT_SECONDS=90
+REVEN_ALLOW_REMOTE_OLLAMA=false
 ```
 
 Recommended starter model for older machines:
@@ -88,6 +89,18 @@ curl http://127.0.0.1:8010/health
 ```
 
 Expected health field: `"provider": "ollama"`.
+
+Security note:
+- Remote Ollama URLs are blocked by default.
+- To allow a non-localhost endpoint, set `REVEN_ALLOW_REMOTE_OLLAMA=true` intentionally.
+
+## Sandbox Checklist
+- Keep API bound to localhost only (do not expose port 8010 publicly).
+- Run with a non-admin user account.
+- Keep `REVEN_ALLOW_REMOTE_OLLAMA=false` for local-only trust boundary.
+- Use Windows Firewall to block inbound access to `8010` and `11434` from non-local networks.
+- Store secrets only in `.env` and never commit `.env`.
+- Review model files pulled by Ollama and avoid unknown model names/sources.
 
 Use helper script to prep quickly:
 

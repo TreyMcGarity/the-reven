@@ -1,2 +1,30 @@
 # Raw source documents should stay local and not be versioned
 /docs/raw/*.docx
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual envs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+.venv/
+venv/
+
+# LLM local runtime artifacts
+*.log
+*.tmp
+
+# Lore LLM local-only state
+/lore-llm/.env
+/lore-llm/.venv/
+/lore-llm/.pytest_cache/
+/lore-llm/__pycache__/
