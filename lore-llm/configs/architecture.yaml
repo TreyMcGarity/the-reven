@@ -1,0 +1,27 @@
+version: 1
+name: reven-expert-architecture
+runtime: python
+mode_defaults:
+  default_mode: canon
+  allowed_modes: [canon, draft]
+
+pipelines:
+  ingest:
+    sources:
+      - ../docs/canon/INDEX.yaml
+      - ../docs/canon/shadow-conquest-canon.yaml
+      - ../docs/canon/factions.yaml
+      - ../docs/canon/regions.yaml
+      - ../docs/canon/timeline-10840-10843.yaml
+    outputs:
+      - in_memory_claim_index
+  retrieve:
+    strategy: lexical_baseline
+    top_k: 10
+  guardrails:
+    require_claim_citations: true
+    block_if_no_grounding: true
+  generate:
+    provider: stub
+    available_providers: [stub, claude, ollama]
+    notes: Use ollama for local/no-api-key operation.
