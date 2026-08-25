@@ -1,0 +1,32 @@
+base_model: "Qwen/Qwen2.5-3B-Instruct"
+output_dir: "finetune/artifacts/reven-lora"
+dataset_path: "finetune/data/reven_sft.jsonl"
+
+training:
+  epochs: 2
+  learning_rate: 0.0002
+  batch_size: 1
+  gradient_accumulation_steps: 16
+  max_seq_length: 2048
+  logging_steps: 10
+  save_steps: 100
+  eval_steps: 100
+  warmup_ratio: 0.05
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+runtime:
+  use_4bit: true
+  bf16_if_available: true
+  fp16_fallback: true

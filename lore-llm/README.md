@@ -120,3 +120,27 @@ The default config points to:
 - Replace `StubLLMClient` with your preferred model provider.
 - Add embeddings + vector store in `storage`.
 - Add eval fixtures under `tests` for canon faithfulness.
+
+## Documentation Map
+- `docs/DOCUMENTATION_INDEX.md`
+- `docs/LEARNING_GUIDE.md`
+- `docs/API_REFERENCE.md`
+- `docs/TROUBLESHOOTING.md`
+- `docs/OPERATIONS_RUNBOOK.md`
+- `SECURITY.md`
+
+## Fine-Tuning (Optional)
+A LoRA fine-tuning scaffold is included under:
+- `finetune/README.md`
+- `finetune/scripts/build_sft_dataset.py`
+- `finetune/scripts/train_lora.py`
+
+Quick start:
+
+```powershell
+pip install -r finetune\requirements-finetune.txt
+python finetune\scripts\build_sft_dataset.py
+python finetune\scripts\train_lora.py
+```
+
+If your machine is older/no-GPU, prefer local Ollama + RAG instead of training.

@@ -28,3 +28,9 @@ venv/
 /lore-llm/.venv/
 /lore-llm/.pytest_cache/
 /lore-llm/__pycache__/
+
+# Fine-tuning outputs and caches
+/lore-llm/finetune/artifacts/
+/lore-llm/finetune/data/*.tmp
+/lore-llm/finetune/data/*.cache
+/lore-llm/finetune/data/*.bak
