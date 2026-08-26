@@ -1,5 +1,6 @@
 # Raw source documents should stay local and not be versioned
-/docs/raw/*.docx
+/docs/raw/*
+!/docs/raw/.gitkeep
 
 # Local environment secrets
 .env
